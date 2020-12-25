@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 13:51+0000\n"
-"PO-Revision-Date: 2020-06-15 23:12+0200\n"
+"POT-Creation-Date: 2020-09-24 15:07+0000\n"
+"PO-Revision-Date: 2020-12-24 21:59+0100\n"
 "Last-Translator: Charles Monzat <charles.monzat@free.fr>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 3.36.0\n"
+"X-Generator: Gtranslator 3.38.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -43,12 +43,10 @@ msgid "Toggle Bookmark"
 msgstr "Activer/désactiver le signet"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-#| msgid "Goto Next Bookmark"
 msgid "Go to Next Bookmark"
 msgstr "Aller au signet suivant"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-#| msgid "Goto Previous Bookmark"
 msgid "Go to Previous Bookmark"
 msgstr "Aller au signet précédent"
 
@@ -223,7 +221,8 @@ msgid "_Foreground"
 msgstr "_Premier plan"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
+#| msgid "_Clear "
+msgid "_Clear"
 msgstr "Effa_cer"
 
 #: plugins/colorschemer/schemer.ui:383
@@ -272,7 +271,6 @@ msgid "Draw spaces and tabs"
 msgstr "Indiquer les espaces et les tabulations."
 
 #: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Afficher les _espaces vides"
 
@@ -309,6 +307,11 @@ msgstr "Indiquer les espaces de fin"
 msgid "Draw Spaces and Tabs"
 msgstr "Indique les espaces et les tabulations"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#| msgid "Show _White Space"
+msgid "Show White Space"
+msgstr "Afficher les espaces vides"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Si VRAI (TRUE), l’affichage est activé."
@@ -334,13 +337,15 @@ msgid "_Find"
 msgstr "_Chercher"
 
 #: plugins/findinfiles/dialog.ui:72
+#| msgctxt "label on the left of the GtkEntry containing text to search"
+#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "C_hercher "
+msgid "F_ind:"
+msgstr "_Chercher :"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_Dans "
+msgid "_In:"
+msgstr "_Dans :"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -815,28 +820,29 @@ msgstr ""
 "document, sinon dans la fenêtre des résultats de traduction."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'eng|fra'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Paire de langues utilisée"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Paire de langues utilisée pour traduire d’une langue à une autre"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "Clé API pour le service Web distant"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Service Web distant à utiliser"
 
@@ -933,6 +939,9 @@ msgstr "Complétion de mots"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Complétion de mots, utilise la structure de complétion."
+
+#~ msgid "_In "
+#~ msgstr "_Dans "
 
 #~ msgid "Whether to allow bold text"
 #~ msgstr "Indique si un texte gras est autorisé"
