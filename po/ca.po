@@ -38,11 +38,11 @@ msgstr "Commuta les adreces d'interès"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
 msgid "Go to Next Bookmark"
-msgstr "Vés a l'adreça d'interès següent"
+msgstr "Ves a l'adreça d'interès següent"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
 msgid "Go to Previous Bookmark"
-msgstr "Vés a l'adreça d'interès anterior"
+msgstr "Ves a l'adreça d'interès anterior"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 #: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
@@ -162,7 +162,7 @@ msgid ""
 "\n"
 "Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
-"No teniu permís per sobreescriure l'esquema que heu escollit.\n"
+"No teniu permís per a sobreescriure l'esquema que heu escollit.\n"
 "Es crearà una còpia.\n"
 "\n"
 "Assegureu-vos que el nom i l'identificador no estan ja en ús.\n"
@@ -346,7 +346,7 @@ msgid ""
 "Use git information to display which lines and files changed since last "
 "commit"
 msgstr ""
-"Usa la informació del git per mostrar quines línies han canviat des de la "
+"Usa la informació del git per a mostrar quines línies han canviat des de la "
 "darrera entrega"
 
 #: plugins/git/git.plugin.desktop.in.in:7
@@ -491,8 +491,7 @@ msgid "Smart Spaces"
 msgstr "Espais intel·ligents"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
-msgid ""
-"Allow to unindent like if you were using tabs while you’re using spaces"
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr ""
 "Permet desfer el sagnat com si estiguéssiu usant tabuladors quan useu espais"
 
@@ -545,8 +544,8 @@ msgstr "Nombre de línies a mantenir en l'historial"
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don’t fit in the scrollback are"
-" discarded. If scrollback-unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
 "El nombre de línies de l'historial que cal mantenir. Podeu desplaçar-vos "
 "enrere al terminal aquest nombre de línies. Es descarten les línies que no "
@@ -559,12 +558,12 @@ msgstr "Si s'ha de mantenir un nombre il·limitat de línies a l'historial"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
-"Si és «true» (cert), mai es descartarà cap línia de l'historial. L'historial"
-" s'emmagatzema al disc temporalment, la qual cosa pot fer que el sistema es "
+"Si és «true» (cert), mai es descartarà cap línia de l'historial. L'historial "
+"s'emmagatzema al disc temporalment, la qual cosa pot fer que el sistema es "
 "quedi sense espai de disc si el terminal ha produït una gran quantitat de "
 "sortida."
 
@@ -595,8 +594,8 @@ msgstr "Color per defecte del text al terminal"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as “red”)."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
 msgstr ""
 "El color per defecte del text al terminal, en format de color (poden ser "
 "dígits en hexadecimal a l'estil HTML, o bé un nom de color com ara «red» - "
@@ -625,8 +624,8 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. “#FF00FF”"
 msgstr ""
-"Els terminals tenen una paleta de 16 colors que les aplicacions del terminal"
-" poden utilitzar. Aquí podeu definir aquesta paleta, en forma de llista de "
+"Els terminals tenen una paleta de 16 colors que les aplicacions del terminal "
+"poden utilitzar. Aquí podeu definir aquesta paleta, en forma de llista de "
 "noms de colors separats per dos punts. Els noms de color haurien d'estar en "
 "format hexadecimal, per exemple, «#FF00FF»"
 
@@ -649,11 +648,11 @@ msgstr "Si s'ha de fer que el cursor parpellegi"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
-"The possible values are “system” to use the global cursor blinking settings,"
-" or “on” or “off” to set the mode explicitly."
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
 msgstr ""
-"Els valors possibles són: «system» (sistema) per utilitzar la configuració "
-"global de parpelleig, «on» (actiu) o «off» (inactiu) per definir el mode "
+"Els valors possibles són: «system» (sistema) per a utilitzar la configuració "
+"global de parpelleig, «on» (actiu) o «off» (inactiu) per a definir el mode "
 "explícitament."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
@@ -665,9 +664,9 @@ msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
-"Els valors possibles són «block» (bloc) per utilitzar un cursor de bloc "
-"quadrat, «ibeam» (vertical) per utilitzar un cursor en forma de barra "
-"vertical, o «underline» (subratllat) per utilitzar un cursor en forma de "
+"Els valors possibles són «block» (bloc) per a utilitzar un cursor de bloc "
+"quadrat, «ibeam» (vertical) per a utilitzar un cursor en forma de barra "
+"vertical, o «underline» (subratllat) per a utilitzar un cursor en forma de "
 "barra horitzontal."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
@@ -690,8 +689,8 @@ msgstr "Tipus de lletra"
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
-"Un nom de tipus de lletra de Pango. Per exemple: «Sans 12» o «Monospace Bold"
-" 14»."
+"Un nom de tipus de lletra de Pango. Per exemple: «Sans 12» o «Monospace Bold "
+"14»."
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -746,8 +745,8 @@ msgstr "On mostrar el resultat de la traducció"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
-"If true, output of the translation is inserted in the document window if not"
-" in the Output Translate Window."
+"If true, output of the translation is inserted in the document window if not "
+"in the Output Translate Window."
 msgstr ""
 "Si és cert, el resultat de la traducció s'insereix a la finestra del "
 "document si no a la finestra del resultat de la traducció."
@@ -768,7 +767,7 @@ msgstr "Parell d'idiomes utilitzat"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
-msgstr "Parell d'idiomes utilitzat per traduir d'un idioma a un altre"
+msgstr "Parell d'idiomes utilitzat per a traduir d'un idioma a un altre"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
@@ -805,11 +804,11 @@ msgstr "Clau API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a "
-"href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Heu d'obtenir una clau d'API a <a "
-"href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
+"Heu d'obtenir una clau d'API a <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -876,65 +875,3 @@ msgstr "Compleció de paraules"
 msgid "Word completion using the completion framework"
 msgstr "Compleció de paraules utilitzant l'entorn de treball de compleció"
 
-#~ msgid "Show _White Space"
-#~ msgstr "Mostra els espais en _blanc"
-
-#~ msgid "Draw tabs"
-#~ msgstr "Dibuixa les tabulacions"
-
-#~ msgid "Draw new lines"
-#~ msgstr "Dibuixa les línies noves"
-
-# FIXME
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "Dibuixa els espais durs"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "Dibuixa els espais del principi de la línia"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "Dibuixa els espais al text"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "Dibuixa els espais del final de la línia"
-
-#~ msgid "Show White Space"
-#~ msgstr "Mostra els espais en blanc"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "Si és «TRUE» (cert) s'activarà el dibuix."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "El tipus d'espai que es dibuixarà."
-
-#~ msgid "Join lines/ Split lines"
-#~ msgstr "Uneix/separa les línies"
-
-#~ msgid "_In "
-#~ msgstr "_A "
-
-#~ msgid "Whether to allow bold text"
-#~ msgstr "Si es permet el text en negreta"
-
-#~ msgid "If true, allow applications in the terminal to make text boldface."
-#~ msgstr ""
-#~ "Si és «true» (cert), es permet que les aplicacions del terminal mostrin text"
-#~ " amb  negreta."
-
-#~ msgid "Zeitgeist Data provider"
-#~ msgstr "Proveïdor de dades del Zeitgeist"
-
-#~ msgid ""
-#~ "Records user activity and giving easy access to recently-used and "
-#~ "frequently-used files"
-#~ msgstr ""
-#~ "Registra l'activitat d'usuari donant accés als fitxers usats de forma "
-#~ "freqüent i recent"
-
-#~ msgid "Zeitgeist dataprovider"
-#~ msgstr "Proveïdor de dades del Zeitgeist"
-
-#~ msgid "Logs access and leave event for documents used with gedit"
-#~ msgstr ""
-#~ "Registra els esdeveniments d'accés i tancament dels documents usats amb el "
-#~ "gedit"
