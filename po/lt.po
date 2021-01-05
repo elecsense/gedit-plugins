@@ -8,14 +8,14 @@
 # Žygimantas Beručka <zygis@gnome.org>, 2003-2006.
 # Vytautas Povilaitis <punktyras@nkm.lt>, 2007.
 # Gintautas Miliauskas <gintas@akl.lt>, 2007, 2008, 2010.
-# Aurimas Černius <aurisc4@gmail.com>, 2010-2020.
+# Aurimas Černius <aurisc4@gmail.com>, 2010-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-09-07 21:44+0300\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2021-01-05 12:36+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 3.36.0\n"
+"X-Generator: Gtranslator 3.38.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -41,12 +41,10 @@ msgid "Toggle Bookmark"
 msgstr "Perjungti žymelę"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-#| msgid "Goto Next Bookmark"
 msgid "Go to Next Bookmark"
 msgstr "Pereiti prie kitos žymelės"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-#| msgid "Goto Previous Bookmark"
 msgid "Go to Previous Bookmark"
 msgstr "Pereiti prie ankstesnės žymelės"
 
@@ -207,7 +205,6 @@ msgid "_Foreground"
 msgstr "_Priekinis planas"
 
 #: plugins/colorschemer/schemer.ui:341
-#| msgid "_Clear "
 msgid "_Clear"
 msgstr "_Išvalyti"
 
@@ -246,7 +243,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Komandų eilutės sąsaja sudėtingesniam redagavimui"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Piešti tarpus"
 
@@ -254,55 +250,13 @@ msgstr "Piešti tarpus"
 msgid "Draw spaces and tabs"
 msgstr "Piešti tarpus ir tabuliacijas"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Rodyti tuščią _erdvę"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Piešti tarpus"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Piešti tabuliacijas"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Piešti eilučių pabaigas"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Piešti nekeliamus tarpus"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Piešti tarpus pradžioje"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Piešti tarpus tekste"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Piešti tarpus pabaigoje"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Piešti tarpus ir tabuliacijas"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-#| msgid "Show _White Space"
-msgid "Show White Space"
-msgstr "Rodyti nespausdinamus simbolius"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Jei teigiama, piešimas bus įjungtas."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Piešiamų tarpų tipas."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -321,8 +275,6 @@ msgid "_Find"
 msgstr "_Rasti"
 
 #: plugins/findinfiles/dialog.ui:72
-#| msgctxt "label on the left of the GtkEntry containing text to search"
-#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
 msgstr "Rast_i:"
@@ -360,7 +312,6 @@ msgid "Find in Files…"
 msgstr "Rasti failuose…"
 
 #: plugins/findinfiles/result-panel.vala:127
-#| msgid "Git"
 msgid "hit"
 msgid_plural "hits"
 msgstr[0] "atitikmuo"
@@ -398,16 +349,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Paryškinti eilutes, kurios buvo pakeisto nuo paskutinio patvirtinimo"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Sujungti/padalinti eilutes"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Sujungti ar padalinti kelias eilutes naudojant Vald+J bei Vald+Lyg2+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Sujungti/padalinti eilutes"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -532,7 +480,7 @@ msgid "Saved Sessions"
 msgstr "Įrašyti seansai"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Išmanieji tarpai"
 
@@ -541,7 +489,7 @@ msgid "Allow to unindent like if you were using tabs while you’re using spaces
 msgstr ""
 "Leisti įtraukos sumažinimą lyg naudotumės tabuliaciją, nors naudojate tarpus"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Pamiršti, kad nenaudojate tabuliacijų."
 
@@ -802,24 +750,29 @@ msgstr "Kalbų pora, naudojama vertimui iš vienos į kitą"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "API raktas nutolusiai internetinei tarnybai"
+msgid "Apertium server end point"
+msgstr "Apertium serverio prieigos taškas"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "API raktas nutolusiai internetinei tarnybai"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Naudotina internetinė tarnyba"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Vertimus įgalino {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Vertimų konsolė"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Išversti pasirinktą tekstą [{0}]"
@@ -829,11 +782,14 @@ msgid "API Key"
 msgstr "API raktas"
 
 #: plugins/translate/translate/services/yandex.py:65
+#| msgid ""
+#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
+#| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Jums reikia gauti free API raktą iš <a href='https://tech.yandex.com/"
+"Jums reikia gauti API raktą iš <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
@@ -901,6 +857,40 @@ msgstr "Žodžių užbaigimas"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Žodžių užbaigimas naudojant užbaigimo karkasą"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Rodyti tuščią _erdvę"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Piešti tabuliacijas"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Piešti eilučių pabaigas"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Piešti nekeliamus tarpus"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Piešti tarpus pradžioje"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Piešti tarpus tekste"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Piešti tarpus pabaigoje"
+
+#~| msgid "Show _White Space"
+#~ msgid "Show White Space"
+#~ msgstr "Rodyti nespausdinamus simbolius"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Jei teigiama, piešimas bus įjungtas."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Piešiamų tarpų tipas."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Sujungti/padalinti eilutes"
 
 #~ msgid "accessories-character-map"
 #~ msgstr "accessories-character-map"
