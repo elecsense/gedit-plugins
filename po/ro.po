@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-06-02 21:49+0200\n"
-"Last-Translator: Florentina Mușat <emryslokadottir [at] gmail [dot] com>\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2021-01-07 15:59+0200\n"
+"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
 "Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -247,7 +247,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Interfață în linia de comandă pentru editare avansată"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Desenează spații"
 
@@ -255,54 +254,13 @@ msgstr "Desenează spații"
 msgid "Draw spaces and tabs"
 msgstr "Desenează spații și taburi"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Arată spațiile a_lbe"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Desenează spații"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Desenează taburi"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Desenează linii noi"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Desenează spațiile inseparabile"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Desenează spațiile de conducere"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Desenează spații în text"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Desenează spațiile de finalizare"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Desenează spații și taburi"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Arată spațiile albe"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Dacă este activat desenarea va fi activată."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Tipul de spații ce vor fi desenate."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -395,16 +353,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Liniile de evidențiere care au fost schimbate de la ultimul comit"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
-msgstr "Unește liniile/ Împarte liniile"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Unește/împarte liniile"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Alătură sau separă liniile multiple prin Ctrl+J și Ctrl+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Unește/împarte liniile"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -527,7 +482,7 @@ msgid "Saved Sessions"
 msgstr "Sesiuni salvate"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Spații inteligente"
 
@@ -537,7 +492,7 @@ msgstr ""
 "Permite să dezidentați ca și cum ați utiliza taburi în timp ce utilizați "
 "spații"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Uită că nu folosești tabulatoare."
 
@@ -805,24 +760,29 @@ msgstr "Perechea de limbaje utilizate pentru a traduce dintr-o limbă în alta"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Cheie API pentru serviciul web de la distanță"
+msgid "Apertium server end point"
+msgstr "Punct final al serverului Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Cheie API pentru serviciul web de la distanță"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Serviciu web de la distanță de utilizat"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traduceri cu sprijinul a {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Traduce consola"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Traduce textul selectat [{0}]"
@@ -833,11 +793,11 @@ msgstr "Cheie API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Trebuie să obțineți o cheie API gratuită de la <a href='https://tech.yandex."
-"com/translate/'>https://tech.yandex.com/translate/</a>"
+"Trebuie să obțineți o cheie API la <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -904,6 +864,39 @@ msgstr "Completarea cuvintelor"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Completare de cuvinte folosind platforma de completări"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Arată spațiile a_lbe"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Desenează taburi"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Desenează linii noi"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Desenează spațiile inseparabile"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Desenează spațiile de conducere"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Desenează spații în text"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Desenează spațiile de finalizare"
+
+#~ msgid "Show White Space"
+#~ msgstr "Arată spațiile albe"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Dacă este activat desenarea va fi activată."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Tipul de spații ce vor fi desenate."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Unește liniile/ Împarte liniile"
 
 #~ msgid "_In "
 #~ msgstr "Î_n "
