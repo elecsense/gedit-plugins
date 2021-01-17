@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-09-20 15:51+0000\n"
-"PO-Revision-Date: 2020-09-22 11:53+0200\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2021-01-17 16:25+0100\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -99,8 +99,7 @@ msgstr "Seletôr colôr"
 
 #: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
-msgstr ""
-"Sielç un colôr di un dialic e inserìs la sô rapresentazion esadecimâl. "
+msgstr "Sielç un colôr di un dialic e inserìs la sô rapresentazion esadecimâl."
 
 #: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
@@ -243,7 +242,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Interface a rie di comant par modifichis avanzadis"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Disegne spazis"
 
@@ -251,54 +249,13 @@ msgstr "Disegne spazis"
 msgid "Draw spaces and tabs"
 msgstr "Disegne spazis e tabulazions"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Mostre spazi _blanc"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Disegne spazis"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Disegne tabulazions"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Disegne gnovis riis"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Disegne i spazis di no roture"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Disegne i spazis di inizi rie"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Disegne spazis tal test"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Disegne i spazis di fin rie"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Disegne spazis e tabulazions"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Mostre spazi blanc"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Se VÊR il disegnâ al vignarà abilitât."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Il gjenar di spazis di disegnâ."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -390,16 +347,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Evidenzie riis che a son stadis cambiadis de ultime consegne"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
-msgstr "Unìs riis/ Divît riis"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Unìs/divît riis"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Unìs o divît plui riis cun Ctrl+J e Ctrl+Maiusc+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Unìs/divît riis"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -521,7 +475,7 @@ msgid "Saved Sessions"
 msgstr "Sessions salvadis"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Spazis inteligjents"
 
@@ -529,7 +483,7 @@ msgstr "Spazis inteligjents"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr ""
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Dismentee che no tu stâs doprant lis tabulazions."
 
@@ -797,24 +751,29 @@ msgstr "Cubie di lenghis doprade par voltâ di une lenghe a chê altre"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Clâf API pal servizi web rimot"
+msgid "Apertium server end point"
+msgstr ""
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
-msgid "Remote web service to use"
-msgstr "Servizi web rimot di doprâ"
+msgid "API key for remote web service"
+msgstr "Clâf API pal servizi web esterni"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+msgid "Remote web service to use"
+msgstr "Servizi web esterni di doprâ"
+
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traduzions implementadis di {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Console di traduzion"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Volte il test selezionât [{0}]"
@@ -825,15 +784,15 @@ msgstr "Clâf API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Tu scugnis otignî un clâf API libare su <a href='https://tech.yandex.com/"
+"Tu scugnis otignî un clâf API su <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
-msgstr "Lenghis di traduzion"
+msgstr "Lenghis di traduzion:"
 
 #: plugins/translate/translate/ui/preferences.ui:60
 msgid "Where to output translation:"
@@ -896,6 +855,39 @@ msgstr "Completament peraule"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Completament peraulis doprant il contest di completament"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Mostre spazi _blanc"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Disegne tabulazions"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Disegne gnovis riis"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Disegne i spazis di no roture"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Disegne i spazis di inizi rie"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Disegne spazis tal test"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Disegne i spazis di fin rie"
+
+#~ msgid "Show White Space"
+#~ msgstr "Mostre spazi blanc"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Se VÊR il disegnâ al vignarà abilitât."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Il gjenar di spazis di disegnâ."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Unìs riis/ Divît riis"
 
 #~ msgid "_In "
 #~ msgstr "_In "
