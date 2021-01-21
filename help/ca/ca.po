@@ -475,7 +475,7 @@ msgstr ""
 #: C/commander.page:32
 msgid "Select <gui style=\"menuitem\">Commander</gui> to enable the plugin."
 msgstr ""
-"Seleccioneu <gui style=\"menuitem\">Commander</gui> per activar el connector."
+"Seleccioneu <gui style=\"menuitem\">Commander</gui> per a activar el connector."
 
 #. (itstool) path: page/p
 #: C/commander.page:36
@@ -835,7 +835,7 @@ msgstr ""
 #: C/multi-edit.page:33
 msgid "Select <gui style=\"menuitem\">Multi Edit</gui> to enable the plugin."
 msgstr ""
-"Seleccioneu <gui style=\"menuitem\">Edició múltiple</gui> per activar el "
+"Seleccioneu <gui style=\"menuitem\">Edició múltiple</gui> per a activar el "
 "connector."
 
 #. (itstool) path: page/p
