@@ -1,5 +1,5 @@
 # Hungarian translation for gedit-plugins.
-# Copyright (C) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020 Free Software Foundation, Inc.
+# Copyright (C) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gedit package.
 #
 # Szabolcs Ban <shooby at gnome dot hu>, 2000.
@@ -10,13 +10,13 @@
 # Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2015.
 # Mate Ory <orymate at gmail dot com>, 2006, 2007, 2008.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2017, 2018, 2019, 2020.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2017, 2018, 2019, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-09-04 23:29+0000\n"
-"PO-Revision-Date: 2020-09-12 21:37+0200\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2021-02-14 01:45+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -215,7 +215,6 @@ msgid "_Foreground"
 msgstr "_Előtér"
 
 #: plugins/colorschemer/schemer.ui:341
-#| msgid "_Clear "
 msgid "_Clear"
 msgstr "_Törlés"
 
@@ -254,7 +253,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Parancssoros felület speciális szerkesztéshez"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Szóközök rajzolása"
 
@@ -262,55 +260,13 @@ msgstr "Szóközök rajzolása"
 msgid "Draw spaces and tabs"
 msgstr "Szóközök és tabok rajzolása"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Üres _helyek megjelenítése"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Szóközök rajzolása"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Tabok rajzolása"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Új sorok rajzolása"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Nem törhető szóközök rajzolása"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Kezdő szóközök rajzolása"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Szóközök rajzolása a szövegben"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Befejező szóközök rajzolása"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Szóközök és tabulátorok kirajzolása"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-#| msgid "Show _White Space"
-msgid "Show White Space"
-msgstr "Üres helyek megjelenítése"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Ha igazra van állítva, akkor a rajzolás engedélyezve lesz."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "A megrajzolandó szóközök típusa."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -329,8 +285,6 @@ msgid "_Find"
 msgstr "_Keresés"
 
 #: plugins/findinfiles/dialog.ui:72
-#| msgctxt "label on the left of the GtkEntry containing text to search"
-#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
 msgstr "_Keresés:"
@@ -404,7 +358,8 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Sorok kiemelése, amelyek megváltoztak a legutóbbi véglegesítés óta"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Sorok egyesítése / szétvágása"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
@@ -412,10 +367,6 @@ msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr ""
 "Több sor egyesítése vagy szétvágása a Ctrl+J és Ctrl+Shift+J "
 "billentyűkombinációkkal"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Sorok egyesítése / szétvágása"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -541,7 +492,7 @@ msgid "Saved Sessions"
 msgstr "Mentett munkamenetek"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Intelligens szóközök"
 
@@ -551,7 +502,7 @@ msgstr ""
 "Behúzás visszavonásának lehetővé tétele, mintha tabulátorokat használna, "
 "miközben szóközöket használ"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Felejtse el, hogy nem használ tabokat."
 
@@ -811,24 +762,29 @@ msgstr "A fordításhoz használt nyelvpár az egyik nyelvről a másikra"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "API kulcs a távoli webszolgáltatáshoz"
+msgid "Apertium server end point"
+msgstr "Apertium-kiszolgáló végpont"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "API kulcs a távoli webszolgáltatáshoz"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Használandó távoli webszolgáltatás"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "A fordításokat készítette: {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Fordítási konzol"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Kijelölt szöveg lefordítása [{0}]"
@@ -838,11 +794,14 @@ msgid "API Key"
 msgstr "API kulcs"
 
 #: plugins/translate/translate/services/yandex.py:65
+#| msgid ""
+#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
+#| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Be kell szereznie egy ingyenes API kulcsot a <a href='https://tech.yandex."
+"Be kell szereznie egy API kulcsot a <a href='https://tech.yandex."
 "com/translate/'>https://tech.yandex.com/translate/</a> címről"
 
 #: plugins/translate/translate/ui/preferences.ui:23
@@ -911,6 +870,40 @@ msgstr "Szókiegészítés"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "A szókiegészítés használata a kiegészítő keretrendszer használatával"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Üres _helyek megjelenítése"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Tabok rajzolása"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Új sorok rajzolása"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Nem törhető szóközök rajzolása"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Kezdő szóközök rajzolása"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Szóközök rajzolása a szövegben"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Befejező szóközök rajzolása"
+
+#~| msgid "Show _White Space"
+#~ msgid "Show White Space"
+#~ msgstr "Üres helyek megjelenítése"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Ha igazra van állítva, akkor a rajzolás engedélyezve lesz."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "A megrajzolandó szóközök típusa."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Sorok egyesítése / szétvágása"
 
 #~ msgid "_In "
 #~ msgstr "_Itt "
