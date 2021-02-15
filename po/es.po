@@ -15,21 +15,21 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010.
 # Gustavo Jasso Ahuja <gjasso@gmail.com>, 2012.
 # Rodrigo Lledó <rodhos92@gmail.com>, 2019.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2020.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-08-25 19:27+0000\n"
-"PO-Revision-Date: 2020-06-09 17:05+0200\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2021-02-15 11:01+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.36.0\n"
+"X-Generator: Gtranslator 3.38.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -253,7 +253,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Interfaz de edición avanzada para la línea de comandos"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Dibujar espacios"
 
@@ -261,54 +260,13 @@ msgstr "Dibujar espacios"
 msgid "Draw spaces and tabs"
 msgstr "Dibujar espacios y tabulaciones"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Mostrar espacios en _blanco"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Dibujar espacios"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Dibujar tabulaciones"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Dibujar líneas nuevas"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Dibujar espacios de no ruptura"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Dibujar espacios iniciales"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Dibujar espacios en el texto"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Dibujar espacios adicionales"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Dibujar espacios y tabulaciones"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Mostrar espacios en blanco"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Si está activada se activará el dibujado."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "El tipo de espacios que dibujar."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -400,16 +358,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Resaltar líneas que han cambiado desde el último «commit»"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Unir/Dividir líneas"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Unir o dividir varias líneas mediante Ctrl+J y Ctrl+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Unir/Dividir líneas"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -535,7 +490,7 @@ msgid "Saved Sessions"
 msgstr "Sesiones guardadas"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Espacios inteligentes"
 
@@ -545,7 +500,7 @@ msgstr ""
 "Permitir quitar el sangrado igual que si usara tabuladores cuando usa "
 "espacios"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Olvidar que no está usando tabulaciones."
 
@@ -820,24 +775,29 @@ msgstr "Pareja de idiomas usada para traducir de un idioma a otro"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Clave de la API para el servicio web remoto"
+msgid "Apertium server end point"
+msgstr "Terminado del servidor Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Clave de la API para el servicio web remoto"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Servicio web remoto que usar"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traducciones facilitadas por {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Consola de traducción"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Traducir el texto seleccionado {0}"
@@ -847,11 +807,14 @@ msgid "API Key"
 msgstr "Clave de la API"
 
 #: plugins/translate/translate/services/yandex.py:65
+#| msgid ""
+#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
+#| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Debe obtener una clave gratis de la API en <a href='https://tech.yandex.com/"
+"Debe obtener una clave de la API en <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
@@ -919,6 +882,39 @@ msgstr "Completado de palabras"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Completado de palabras usando el entorno de trabajo de completado"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Mostrar espacios en _blanco"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Dibujar tabulaciones"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Dibujar líneas nuevas"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Dibujar espacios de no ruptura"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Dibujar espacios iniciales"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Dibujar espacios en el texto"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Dibujar espacios adicionales"
+
+#~ msgid "Show White Space"
+#~ msgstr "Mostrar espacios en blanco"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Si está activada se activará el dibujado."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "El tipo de espacios que dibujar."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Unir/Dividir líneas"
 
 #~ msgid "_In "
 #~ msgstr "_En"
