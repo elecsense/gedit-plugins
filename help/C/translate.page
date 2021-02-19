@@ -43,6 +43,16 @@
     </item>
   </steps>
 
+<note style="advanced"><p>You can also customize the address of the Apertium server, you will need to use the <app>dconf-editor</app> application.</p>
+    <list>
+      <item><p>Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui>
+      <gui>gnome</gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui>
+      <gui>apertium-server</gui></guiseq>.</p></item>
+      <item><p>Double-click on the URL next to <gui>apertium-server</gui> and
+      change the URL to your desired value.</p></item>
+    </list>
+</note>
+
 </section>
 
 <section id="use-translate">
