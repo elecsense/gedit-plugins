@@ -3,21 +3,20 @@
 # This file is distributed under the same license as the gedit package.
 #
 # Maxim Dziumanenko <dziumanenko@gmail.com>, 2007.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-05 19:52+0000\n"
-"PO-Revision-Date: 2020-11-06 09:27+0200\n"
+"POT-Creation-Date: 2021-02-19 21:21+0000\n"
+"PO-Revision-Date: 2021-02-20 10:26+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 20.11.70\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -1288,36 +1287,59 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/translate.page:42
-#| msgid ""
-#| "In case you use the Yandex translation engine, you need an API key. You "
-#| "can obtain a free key at <link href=\"https://tech.yandex.com/translate/"
-#| "\">Yandex web site</link>."
 msgid ""
 "In case you use the Yandex translation engine, you need an API key. You can "
 "obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
 "site</link>."
 msgstr ""
 "Якщо ви захочете скористатися рушієм перекладу Yandex, вам знадобиться ключ "
-"до програмного інтерфейсу. Отримати ключ можна на <link href="
-"\"https://tech.yandex.com/translate/\">сайті Yandex</link>."
+"до програмного інтерфейсу. Отримати ключ можна на <link href=\"https://tech."
+"yandex.com/translate/\">сайті Yandex</link>."
+
+#. (itstool) path: note/p
+#: C/translate.page:46
+msgid ""
+"You can also customize the address of the Apertium server, you will need to "
+"use the <app>dconf-editor</app> application."
+msgstr ""
+"Ви також можете налаштувати адресу сервера Apertium. Для цього знадобиться програма <app>dconf-editor</app>."
+
+#. (itstool) path: item/p
+#: C/translate.page:48
+msgid ""
+"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+msgstr ""
+"Запустіть <app>dconf-editor</app> і виберіть <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/translate.page:51
+msgid ""
+"Double-click on the URL next to <gui>apertium-server</gui> and change the "
+"URL to your desired value."
+msgstr ""
+"Двічі клацніть на адресі поряд із <gui>apertium-server</gui> і змініть значення адреси на бажане."
 
 #. (itstool) path: section/title
-#: C/translate.page:49
+#: C/translate.page:59
 msgid "Using the Translate plugin"
 msgstr "Користування додатком перекладу"
 
 #. (itstool) path: steps/title
-#: C/translate.page:52
+#: C/translate.page:62
 msgid "To translate a text:"
 msgstr "Щоб перекласти текст, виконайте такі дії:"
 
 #. (itstool) path: item/p
-#: C/translate.page:54
+#: C/translate.page:64
 msgid "Select the part of text that you would like to translate."
 msgstr "Позначте частину тексту, яку ви хочете перекласти."
 
 #. (itstool) path: item/p
-#: C/translate.page:57
+#: C/translate.page:67
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
@@ -1326,7 +1348,7 @@ msgstr ""
 "скористайтеся контекстним меню для перекладу тексту."
 
 #. (itstool) path: item/p
-#: C/translate.page:58
+#: C/translate.page:68
 msgid ""
 "The translation appears in the document or in the bottom panel, depending on "
 "your configuration."
