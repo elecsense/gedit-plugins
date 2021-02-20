@@ -58,7 +58,9 @@ class CharmapPanel(Gtk.Box):
     def on_chapter_view_selection_changed(self, selection):
         model, it = selection.get_selected()
         if it:
-            codepoint_list = self.view.get_codepoint_list()
+            script_name = self.view.get_selected()
+            codepoint_list = Gucharmap.ScriptCodepointList()
+            codepoint_list.append_script(script_name)
             self.chartable.set_codepoint_list(codepoint_list)
 
     def get_chartable(self):
