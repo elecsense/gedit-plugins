@@ -1,5 +1,5 @@
 # Brazilian Portuguese translation of gedit.
-# Copyright (C) 1999-2020 Free Software Foundation, Inc.
+# Copyright (C) 2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gedit package.
 # Frederic L. W. Meunier <linux@urbi.com.br>, 1999.
 # Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2000.
@@ -21,23 +21,23 @@
 # Carlos José Pereira <carlao2005@gmail.com>, 2009
 # Henrique P. Machado <hpmachado@gnome.org>, 2010.
 # Krix Apolinário <krixapolinario@gmail.com>, 2010, 2011.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2013-2020.
 # Enrico Nicoletto <liverig@gmail.com>, 2013, 2020.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-11-05 19:52+0000\n"
-"PO-Revision-Date: 2020-11-18 17:16-0300\n"
-"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"POT-Creation-Date: 2021-02-21 11:57+0000\n"
+"PO-Revision-Date: 2021-02-21 14:54-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 3.38.0\n"
 "X-Project-Style: gnome\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -753,12 +753,15 @@ msgid "Where translation output is shown"
 msgstr "Onde a saída da tradução é mostrada"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+#| msgid ""
+#| "If true, output of the translation is inserted in the document window if "
+#| "not in the Output Translate Window."
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
 "Se verdadeiro, a saída da tradução é inserida na janela do documento se não "
-"estiver na janela de saída de tradução"
+"estiver no console de tradução"
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
