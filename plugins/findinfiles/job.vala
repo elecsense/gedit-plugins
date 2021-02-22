@@ -251,7 +251,7 @@ class FindJob {
             var line_length = nl - ptr;
 
             // Check if the match is within this line
-            if (line_start >= span.from) {
+            if (span.from >= line_start && span.to < line_start + line_length) {
                 // Update the bookmark
                 bookmark.line_number = line_count;
                 bookmark.line_start = line_start;
