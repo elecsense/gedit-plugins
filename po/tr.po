@@ -7,14 +7,14 @@
 # Baris Cicek <baris@teamforce.name.tr>, 2008, 2009.
 # Muhammet Kara <muhammetk@gmail.com>, 2014.
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2019, 2020.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2019, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-09-06 01:12+0300\n"
+"POT-Creation-Date: 2021-02-19 22:14+0000\n"
+"PO-Revision-Date: 2021-02-22 15:04+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 3.32.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-POOTLE-MTIME: 1434875960.000000\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -84,9 +84,7 @@ msgstr "Kod Açıklaması"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
-"Seçilen kod bloğunu açıklama olarak imle ya da açıklama imini "
-"kaldır."
+msgstr "Seçilen kod bloğunu açıklama olarak imle ya da açıklama imini kaldır."
 
 #: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
@@ -106,8 +104,7 @@ msgstr "Renk Seçici"
 
 #: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
-msgstr ""
-"İletişim penceresinden renk seç ve onaltılık gösterimini ekle."
+msgstr "İletişim penceresinden renk seç ve onaltılık gösterimini ekle."
 
 #: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
@@ -221,7 +218,7 @@ msgstr "Ad"
 
 #: plugins/colorschemer/schemer.ui:408
 msgid "ID"
-msgstr "Kimlik (ID)"
+msgstr "Kimlik"
 
 #: plugins/colorschemer/schemer.ui:433
 msgid "Description"
@@ -250,7 +247,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Gelişmiş düzenleme için komut satırı arayüzü"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Boşlukları Çiz"
 
@@ -258,54 +254,13 @@ msgstr "Boşlukları Çiz"
 msgid "Draw spaces and tabs"
 msgstr "Sekmeleri ve boşlukları çiz"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "_Boşluğu Göster"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Boşlukları çiz"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Sekmeleri çiz"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Yeni satırları çiz"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Bölünemez boşlukları çiz"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Önde gelen boşlukları çiz"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Metindeki boşlukları çiz"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Sondaki boşlukları çiz"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Boşlukları ve Sekmeleri Çiz"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Boşluğu Göster"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Eğer DOĞRU ise çizme etkinleştirilecektir."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Çizilecek boşlukların türü."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -396,16 +351,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Son gönderiminizden bu yana değişen satırları vurgula"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
-msgstr "Satırları birleştir/ Satırları böl"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Satırları Birleştir/Böl"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Ctrl+J ve Ctrl+Shift+J sayesinde birçok satırı birleştir ya da böl"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Satırları Birleştir/Böl"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -527,7 +479,7 @@ msgid "Saved Sessions"
 msgstr "Kaydedilen Oturumlar"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Akıllı Boşluklar"
 
@@ -535,7 +487,7 @@ msgstr "Akıllı Boşluklar"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr "Boşluk kullanırken sekme kullanırsanız girintilemeye izin verme"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Listeleme kullanmıyorsanız unutun."
 
@@ -671,8 +623,8 @@ msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"Eğer seçiliyse, kullanıcıca sağlanan renklerin yerine metin giriş "
-"kutuları için kullanılan tema renk şeması, uçbirim için kullanılacaktır."
+"Eğer seçiliyse, kullanıcıca sağlanan renklerin yerine metin giriş kutuları "
+"için kullanılan tema renk şeması, uçbirim için kullanılacaktır."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
@@ -695,8 +647,8 @@ msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
-"Blok imleç kullanmak için “block”, dikey çizgi biçimli imleç kullanmak "
-"için “ibeam” ya da altçizgi biçiminde imleç kullanmak için “underline” olası "
+"Blok imleç kullanmak için “block”, dikey çizgi biçimli imleç kullanmak için "
+"“ibeam” ya da altçizgi biçiminde imleç kullanmak için “underline” olası "
 "değerlerdir."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
@@ -764,7 +716,7 @@ msgstr "Çevir"
 #: plugins/translate/gedit-translate.metainfo.xml.in:6
 #: plugins/translate/translate.plugin.desktop.in.in:7
 msgid "Translates text into different languages"
-msgstr "Metni farklı dillere çevir"
+msgstr "Metni başka dillere çevir"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
 msgid "Where translation output is shown"
@@ -773,10 +725,10 @@ msgstr "Çeviri çıktısının gösterileceği yer"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
-"Doğruysa, çevirinin çıktısı Çevirinin Çıktısı Penceresinde değilse belge "
-"penceresine eklenir."
+"Doğruysa, çevirinin çıktısı eğer Çeviri konsolunda değilse belge penceresine "
+"eklenir."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -797,24 +749,29 @@ msgstr "Bir dilden diğerine çeviri yapmak için kullanılacak dil çifti"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Uzak web servisi için API anahtarı"
+msgid "Apertium server end point"
+msgstr "Apertium sunucu bitiş noktası"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Uzak web servisi için API anahtarı"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Kullanılacak uzak web servisi"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Çeviriler {0} ile desteklenmiştir"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Çeviri Konsolu"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Seçilen metni çevir [{0}]"
@@ -825,11 +782,11 @@ msgstr "API Anahtarı"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
 "<a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/"
-"translate/</a> adresinden ücretsiz API anahtarı edinmeniz gerekiyor"
+"translate/</a> adresinden API anahtarı edinmelisiniz"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -896,6 +853,39 @@ msgstr "Sözcük Tamamlama"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Tamamlama çatısını kullanarak sözcük tamamlama"
+
+#~ msgid "Show _White Space"
+#~ msgstr "_Boşluğu Göster"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Sekmeleri çiz"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Yeni satırları çiz"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Bölünemez boşlukları çiz"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Önde gelen boşlukları çiz"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Metindeki boşlukları çiz"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Sondaki boşlukları çiz"
+
+#~ msgid "Show White Space"
+#~ msgstr "Boşluğu Göster"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Eğer DOĞRU ise çizme etkinleştirilecektir."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Çizilecek boşlukların türü."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Satırları birleştir/ Satırları böl"
 
 #~ msgid "_In "
 #~ msgstr "_İçinde "
