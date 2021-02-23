@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-01-17 15:26+0000\n"
-"PO-Revision-Date: 2021-01-22 07:38+0200\n"
+"POT-Creation-Date: 2021-02-21 11:57+0000\n"
+"PO-Revision-Date: 2021-02-23 06:29+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: српски <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
@@ -37,12 +37,10 @@ msgid "Toggle Bookmark"
 msgstr "Укључи обележивач"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-#| msgid "Goto Next Bookmark"
 msgid "Go to Next Bookmark"
 msgstr "Иде на следећи обележивач"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-#| msgid "Goto Previous Bookmark"
 msgid "Go to Previous Bookmark"
 msgstr "Иде на претходни обележивач"
 
@@ -208,7 +206,6 @@ msgid "_Foreground"
 msgstr "Про_чеље"
 
 #: plugins/colorschemer/schemer.ui:341
-#| msgid "_Clear "
 msgid "_Clear"
 msgstr "_Очисти"
 
@@ -279,8 +276,6 @@ msgid "_Find"
 msgstr "_Нађи"
 
 #: plugins/findinfiles/dialog.ui:72
-#| msgctxt "label on the left of the GtkEntry containing text to search"
-#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
 msgstr "На_ђи:"
@@ -310,7 +305,6 @@ msgid "Find text in all files of a folder."
 msgstr "Пронађите текст у свим датотекама у фасцикли."
 
 #: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
-#| msgid "Find text in all files of a folder."
 msgid "Find text in all files of a folder"
 msgstr "Пронађите текст у свим датотекама у фасцикли"
 
@@ -319,13 +313,12 @@ msgid "Find in Files…"
 msgstr "Пронађи у датотекама…"
 
 #: plugins/findinfiles/result-panel.vala:127
-#| msgid "Git"
 msgid "hit"
 msgid_plural "hits"
 msgstr[0] "погодак"
 msgstr[1] "поготка"
 msgstr[2] "погодака"
-msgstr[3] "Гит"
+msgstr[3] "погодак"
 
 #: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
@@ -492,15 +485,12 @@ msgid "Smart Spaces"
 msgstr "Паметни размаци"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
-#| msgid ""
-#| "Allow to unindent like if you were using tabs while you're using spaces"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr ""
 "Омогућава поништавање увлачења као да користите табулаторе док користите "
 "размаке"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
-#| msgid "Forget you're not using tabulations."
 msgid "Forget you’re not using tabulations."
 msgstr "Заборавите да не користите табулаторе."
 
@@ -535,9 +525,6 @@ msgid "Whether to silence terminal bell"
 msgstr "Да ли да искључи терминалско звонце"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
-#| msgid ""
-#| "If true, don't make a noise when applications send the escape sequence "
-#| "for the terminal bell."
 msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
@@ -548,10 +535,6 @@ msgid "Number of lines to keep in scrollback"
 msgstr "Број редова који се памте у клизачу"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
-#| msgid ""
-#| "Number of scrollback lines to keep around. You can scroll back in the "
-#| "terminal by this number of lines; lines that don't fit in the scrollback "
-#| "are discarded. If scrollback-unlimited is true, this value is ignored."
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
@@ -586,14 +569,10 @@ msgstr ""
 "Ако је изабрано, притисак на тастер пребацује клизач на крај терминала."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
-#| msgid "Whether to scroll to the bottom when there's new output"
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Да ли да помери на дно када има новог излаза"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
-#| msgid ""
-#| "If true, whenever there's new output the terminal will scroll to the "
-#| "bottom."
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
@@ -605,9 +584,6 @@ msgid "Default color of text in the terminal"
 msgstr "Основна боја текста у терминалу"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-#| msgid ""
-#| "Default color of text in the terminal, as a color specification (can be "
-#| "HTML-style hex digits, or a color name such as \"red\")."
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -621,9 +597,6 @@ msgid "Default color of terminal background"
 msgstr "Основна боја позадине терминала"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
-#| msgid ""
-#| "Default color of terminal background, as a color specification (can be "
-#| "HTML-style hex digits, or a color name such as \"red\")."
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -637,10 +610,6 @@ msgid "Palette for terminal applications"
 msgstr "Палета за програме терминала"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
-#| msgid ""
-#| "Terminals have a 16-color palette that applications inside the terminal "
-#| "can use. This is that palette, in the form of a colon-separated list of "
-#| "color names. Color names should be in hex format e.g. \"#FF00FF\""
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -667,9 +636,6 @@ msgid "Whether to blink the cursor"
 msgstr "Да ли курсор да трепће"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
-#| msgid ""
-#| "The possible values are \"system\" to use the global cursor blinking "
-#| "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -682,9 +648,6 @@ msgid "The cursor appearance"
 msgstr "Изглед курсора"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
-#| msgid ""
-#| "The possible values are \"block\" to use a block cursor, \"ibeam\" to use "
-#| "a vertical line cursor, or \"underline\" to use an underline cursor."
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -697,9 +660,6 @@ msgid "Whether to use the system font"
 msgstr "Да ли да користи системски словни лик"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
-#| msgid ""
-#| "If true, the terminal will use the desktop-global standard font if it's "
-#| "monospace (and the most similar font it can come up with otherwise)."
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -712,8 +672,6 @@ msgid "Font"
 msgstr "Слова"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
-#| msgid ""
-#| "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr "Назив Панго слова. Примери су „Sans 12“ или „Monospace Bold 14“."
 
@@ -766,17 +724,19 @@ msgid "Translates text into different languages"
 msgstr "Преведите текст на разне језике"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
-#| msgid "Where to output translation:"
 msgid "Where translation output is shown"
 msgstr "Где се приказује излаз превода"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+#| msgid ""
+#| "If true, output of the translation is inserted in the document window if "
+#| "not in the Output Translate Window."
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
 "Ако је изабрано, излаз превода се умеће у прозор документа ако није у "
-"прозору превода излаза."
+"конзоли превода."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -833,11 +793,10 @@ msgid ""
 "You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Треба да набавите АПИ кључ са „<a href='https://tech.yandex.com/translate/"
-"'>https://tech.yandex.com/translate/</a>“"
+"Треба да набавите АПИ кључ са „<a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>“"
 
 #: plugins/translate/translate/ui/preferences.ui:23
-#| msgid "Translation languages"
 msgid "Translation languages:"
 msgstr "Језици превода:"
 
