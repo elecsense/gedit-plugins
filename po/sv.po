@@ -1,19 +1,20 @@
 # Swedish messages for gedit plugins
-# Copyright © 1998-2020 Free Software Foundation, Inc.
+# Copyright © 1998-2021 Free Software Foundation, Inc.
 # Martin Wahlen <mva@sslug.dk>, 1998.
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 1999, 2000.
 # Andreas Hyden <a.hyden@cyberpoint.se>, 2000.
 # Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
 # Josef Andersson <josef.andersson@fripost.org>, 2016, 2017.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2019, 2020.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2019, 2020, 2021.
+# Luna Jernberg <droidbittin@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-07-30 14:35+0200\n"
+"POT-Creation-Date: 2021-02-19 22:14+0000\n"
+"PO-Revision-Date: 2021-02-24 01:25+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -244,7 +245,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Kommandoradsgränssnitt för avancerad redigering"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Rita ut blanksteg"
 
@@ -252,54 +252,13 @@ msgstr "Rita ut blanksteg"
 msgid "Draw spaces and tabs"
 msgstr "Rita ut blanksteg och tabulatorer"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Visa _tomt utrymme"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Rita ut blanksteg"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Rita ut tabulatorer"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Rita ut nya rader"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Rita ut icke-brytande blanksteg"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Rita ut inledande blanksteg"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Rita ut blanksteg i text"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Rita ut eftersläpande blanksteg"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Rita ut blanksteg och tabulatorer"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Visa tomt utrymme"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Om TRUE (sant) kommer ritning att aktiveras."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Typen av blanksteg som kommer att ritas."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -391,16 +350,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Markera rader som har ändrats sedan senaste incheckningen"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
-msgstr "Sammanfoga/ Dela rader"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Sammanfoga/Dela rader"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Sammanfoga eller dela upp rader med Ctrl+J och Ctrl+Skift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Sammanfoga/Dela rader"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -523,7 +479,7 @@ msgid "Saved Sessions"
 msgstr "Sparade sessioner"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Smarta blanksteg"
 
@@ -532,7 +488,7 @@ msgid "Allow to unindent like if you were using tabs while you’re using spaces
 msgstr ""
 "Tillåter att avindentera som om du använde tabbar medan du använder blanksteg"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Glöm att du inte använder tabulatorer."
 
@@ -775,10 +731,10 @@ msgstr "Var översättningsutmatning visas"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
 "Om true (sant) infogas översättningens utmatning i dokumentfönstret, om inte "
-"infogas den i utmatningsöversättningsfönstret."
+"infogas den i översättningskonsolen."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -799,24 +755,29 @@ msgstr "Språkpar som används för att översätta från ett språk till ett an
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "API-nyckel för fjärrwebbtjänst"
+msgid "Apertium server end point"
+msgstr "Ändpunkt för Apertium-server"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "API-nyckel för fjärrwebbtjänst"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Fjärrwebbtjänst att använda"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Översättningar med hjälp av {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Översättningskonsol"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Översätt vald text [{0}]"
@@ -827,10 +788,10 @@ msgstr "API-nyckel"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Du behöver erhålla en gratis API-nyckel på <a href='https://tech.yandex.com/"
+"Du behöver erhålla en API-nyckel på <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
@@ -897,1159 +858,3 @@ msgstr "Ordkomplettering"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Ordkomplettering som använder kompletteringsramverket"
-
-#~ msgid "_In "
-#~ msgstr "_I "
-
-#~ msgid "Whether to allow bold text"
-#~ msgstr "Huruvida fet text ska tillåtas"
-
-#~ msgid "If true, allow applications in the terminal to make text boldface."
-#~ msgstr "Om true (sant), tillåt program i terminalen att göra text fet."
-
-#~ msgid "Zeitgeist Data provider"
-#~ msgstr "Zeitgeist dataleverantör"
-
-#~ msgid ""
-#~ "Records user activity and giving easy access to recently-used and "
-#~ "frequently-used files"
-#~ msgstr ""
-#~ "Spelar in användaraktivitet och ger en enkel åtkomst till nyligen och "
-#~ "ofta använda filer"
-
-#~ msgid "Zeitgeist dataprovider"
-#~ msgstr "Zeitgeist dataleverantör"
-
-#~ msgid "Logs access and leave event for documents used with gedit"
-#~ msgstr "Loggar åtkomst- och lämnahändelser för dokument använda med gedit"
-
-#~ msgid "Empty Document"
-#~ msgstr "Tomt dokument"
-
-#~ msgid "Type here to search…"
-#~ msgstr "Skriv här för att söka…"
-
-#~ msgid "Dashboard"
-#~ msgstr "Instrumentpanel"
-
-#~ msgid "A Dashboard for new tabs"
-#~ msgstr "En instrumentpanel för nya flikar"
-
-#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
-#~ msgstr ""
-#~ "Visar ett rutnät över senaste/mest använda filer vid öppnandet av ny flik"
-
-#~ msgid "Pick _Color..."
-#~ msgstr "Välj _färg…"
-
-#~ msgid "Pick a color from a dialog"
-#~ msgstr "Välj en färg från en dialog"
-
-#~ msgid "_Insert"
-#~ msgstr "_Infoga"
-
-#~ msgid "Tags"
-#~ msgstr "Taggar"
-
-#~ msgid "Select the group of tags you want to use"
-#~ msgstr "Välj den grupp med taggar som du vill använda"
-
-#~ msgid "_Preview"
-#~ msgstr "_Förhandsgranska"
-
-#~ msgid "Available Tag Lists"
-#~ msgstr "Tillgängliga tagglistor"
-
-#~ msgid "Abbreviated form"
-#~ msgstr "Förkortad form"
-
-#~ msgid "Abbreviation"
-#~ msgstr "Förkortning"
-
-#~ msgid "Above"
-#~ msgstr "Ovanför"
-
-#~ msgid "Accessibility key character"
-#~ msgstr "Tecken för tillgänglighetstangent"
-
-#~ msgid "Acronym"
-#~ msgstr "Akronym"
-
-#~ msgid "Align"
-#~ msgstr "Justera"
-
-#~ msgid "Alignment character"
-#~ msgstr "Justeringstecken"
-
-#~ msgid "Alternative"
-#~ msgstr "Alternativ"
-
-#~ msgid "Anchor"
-#~ msgstr "Ankare"
-
-#~ msgid "Anchor URI"
-#~ msgstr "Ankar-URI"
-
-#~ msgid "Applet class file code"
-#~ msgstr "Applet-klassfilsnamn"
-
-#~ msgid "Applet class file code (deprecated)"
-#~ msgstr "Applet-klassfilsnamn (utfasad)"
-
-#~ msgid "Array"
-#~ msgstr "Vektor"
-
-#~ msgid "Associated information"
-#~ msgstr "Associerad information"
-
-#~ msgid "Axis related headers"
-#~ msgstr "Axelrelaterade huvuden"
-
-#~ msgid "Background color (deprecated)"
-#~ msgstr "Bakgrundsfärg (utfasad)"
-
-#~ msgid "Background texture tile"
-#~ msgstr "Bakgrundstexturbricka"
-
-#~ msgid "Background texture tile (deprecated)"
-#~ msgstr "Bakgrundstexturbricka (utfasad)"
-
-#~ msgid "Base URI"
-#~ msgstr "Bas-URI"
-
-#~ msgid "Base font"
-#~ msgstr "Bastypsnitt"
-
-#~ msgid "Base font (deprecated)"
-#~ msgstr "Grundtypsnitt (utfasad)"
-
-#~ msgid "Border"
-#~ msgstr "Kant"
-
-#~ msgid "Border (deprecated)"
-#~ msgstr "Ram (utfasad)"
-
-#~ msgid "Border color"
-#~ msgstr "Kantfärg"
-
-#~ msgid "Cell rowspan"
-#~ msgstr "Cellradvidd"
-
-#~ msgid "Center"
-#~ msgstr "Mitt"
-
-#~ msgid "Center (deprecated)"
-#~ msgstr "Centrera (utfasad)"
-
-#~ msgid "Character encoding of linked resource"
-#~ msgstr "Teckenkodning för länkad resurs"
-
-#~ msgid "Checked (state)"
-#~ msgstr "Ikryssat (tillstånd)"
-
-#~ msgid "Checked state"
-#~ msgstr "Ikryssat tillstånd"
-
-#~ msgid "Citation"
-#~ msgstr "Citering"
-
-#~ msgid "Cite reason for change"
-#~ msgstr "Ange orsak för ändring"
-
-#~ msgid "Class implementation ID"
-#~ msgstr "Id för klassimplementation"
-
-#~ msgid "Class list"
-#~ msgstr "Klasslista"
-
-#~ msgid "Clear text flow control"
-#~ msgstr "Töm textflödeskontroll"
-
-#~ msgid "Code content type"
-#~ msgstr "Typ av kodinnehåll"
-
-#~ msgid "Color of selected links"
-#~ msgstr "Färg på markerade länkar"
-
-#~ msgid "Color of selected links (deprecated)"
-#~ msgstr "Färg på markerade länkar (utfasad)"
-
-#~ msgid "Column span"
-#~ msgstr "Kolumnvidd"
-
-#~ msgid "Columns"
-#~ msgstr "Kolumner"
-
-#~ msgid "Comment"
-#~ msgstr "Kommentar"
-
-#~ msgid "Computer code fragment"
-#~ msgstr "Datorkodfragment"
-
-#~ msgid "Content scheme"
-#~ msgstr "Innehållsschema"
-
-#~ msgid "Content type"
-#~ msgstr "Innehållstyp"
-
-#~ msgid "Content type (deprecated)"
-#~ msgstr "Innehållstyp (utfasad)"
-
-#~ msgid "Coordinates"
-#~ msgstr "Koordinater"
-
-#~ msgid "DIV Style container"
-#~ msgstr "DIV-stilcontainer"
-
-#~ msgid "DIV container"
-#~ msgstr "DIV-container"
-
-#~ msgid "Date and time of change"
-#~ msgstr "Datum och tid för ändring"
-
-#~ msgid "Declare flag"
-#~ msgstr "Deklarera flagga"
-
-#~ msgid "Defer attribute"
-#~ msgstr "Defer-attribut"
-
-#~ msgid "Definition description"
-#~ msgstr "Definitionsbeskrivning"
-
-#~ msgid "Definition list"
-#~ msgstr "Definitionslista"
-
-#~ msgid "Definition term"
-#~ msgstr "Definitionsterm"
-
-#~ msgid "Deleted text"
-#~ msgstr "Borttagen text"
-
-#~ msgid "Direction"
-#~ msgstr "Riktning"
-
-#~ msgid "Directionality"
-#~ msgstr "Riktning"
-
-#~ msgid "Directionality (deprecated)"
-#~ msgstr "Riktning (utfasad)"
-
-#~ msgid "Directory list"
-#~ msgstr "Kataloglista"
-
-#~ msgid "Disabled"
-#~ msgstr "Inaktiverad"
-
-#~ msgid "Document base"
-#~ msgstr "Dokumentbas"
-
-#~ msgid "Document body"
-#~ msgstr "Dokumenttext"
-
-#~ msgid "Document head"
-#~ msgstr "Dokumenthuvud"
-
-#~ msgid "Document title"
-#~ msgstr "Dokumenttitel"
-
-#~ msgid "Document type"
-#~ msgstr "Dokumenttyp"
-
-#~ msgid "Element ID"
-#~ msgstr "Element-id"
-
-#~ msgid "Embedded object"
-#~ msgstr "Inbäddat objekt"
-
-#~ msgid "Emphasis"
-#~ msgstr "Betoning"
-
-#~ msgid "Encode type"
-#~ msgstr "Kodningstyp"
-
-#~ msgid "Figure"
-#~ msgstr "Figur"
-
-#~ msgid "Font face (deprecated)"
-#~ msgstr "Typsnitt (utfasad)"
-
-#~ msgid "For label"
-#~ msgstr "För etikett"
-
-#~ msgid "Forced line break"
-#~ msgstr "Framtvingad radbrytning"
-
-#~ msgid "Form"
-#~ msgstr "Formulär"
-
-#~ msgid "Form action handler"
-#~ msgstr "Formuläråtgärdshanterare"
-
-#~ msgid "Form control group"
-#~ msgstr "Formulärkontrollgrupp"
-
-#~ msgid "Form field label text"
-#~ msgstr "Etikettext för formulärfält"
-
-#~ msgid "Form input"
-#~ msgstr "Formulärinmatning"
-
-#~ msgid "Form input type"
-#~ msgstr "Typ av formulärinmatning"
-
-#~ msgid "Form method"
-#~ msgstr "Formulärmetod"
-
-#~ msgid "Forward link"
-#~ msgstr "Framåtlänk"
-
-#~ msgid "Frame"
-#~ msgstr "Ram"
-
-#~ msgid "Frame border"
-#~ msgstr "Ramkant"
-
-#~ msgid "Frame render parts"
-#~ msgstr "Ramrenderingsdelar"
-
-#~ msgid "Frame source"
-#~ msgstr "Ramkälla"
-
-#~ msgid "Frame spacing"
-#~ msgstr "Rammellanrum"
-
-#~ msgid "Frame target"
-#~ msgstr "Rammål"
-
-#~ msgid "Frameborder"
-#~ msgstr "Ramkant"
-
-#~ msgid "Frameset"
-#~ msgstr "Ramsamling"
-
-#~ msgid "Frameset columns"
-#~ msgstr "Ramsamlingskolumner"
-
-#~ msgid "Frameset rows"
-#~ msgstr "Ramsamlingsrader"
-
-#~ msgid "Framespacing"
-#~ msgstr "Rammellanrum"
-
-#~ msgid "Generic embedded object"
-#~ msgstr "Allmänt inbäddat objekt"
-
-#~ msgid "Generic metainformation"
-#~ msgstr "Allmän metainformation"
-
-#~ msgid "Generic span"
-#~ msgstr "Allmän vidd"
-
-#~ msgid "HREF URI"
-#~ msgstr "HREF-URI"
-
-#~ msgid "HTML root element"
-#~ msgstr "HTML-rotelement"
-
-#~ msgid "HTML version"
-#~ msgstr "HTML-version"
-
-#~ msgid "HTML — Special Characters"
-#~ msgstr "HTML — Specialtecken"
-
-#~ msgid "HTML — Tags"
-#~ msgstr "HTML — Taggar"
-
-#~ msgid "HTTP header name"
-#~ msgstr "Namn på HTTP-huvud"
-
-#~ msgid "Header cell IDs"
-#~ msgstr "Huvudcell-id"
-
-#~ msgid "Heading"
-#~ msgstr "Rubrik"
-
-#~ msgid "Heading 1"
-#~ msgstr "Rubrik 1"
-
-#~ msgid "Heading 2"
-#~ msgstr "Rubrik 2"
-
-#~ msgid "Heading 3"
-#~ msgstr "Rubrik 3"
-
-#~ msgid "Heading 4"
-#~ msgstr "Rubrik 4"
-
-#~ msgid "Heading 5"
-#~ msgstr "Rubrik 5"
-
-#~ msgid "Heading 6"
-#~ msgstr "Rubrik 6"
-
-#~ msgid "Height"
-#~ msgstr "Höjd"
-
-#~ msgid "Horizontal rule"
-#~ msgstr "Horisontell linje"
-
-#~ msgid "Horizontal space"
-#~ msgstr "Horisontellt mellanrum"
-
-#~ msgid "Horizontal space (deprecated)"
-#~ msgstr "Horisontellt mellanrum (utfasad)"
-
-#~ msgid "I18N BiDi override"
-#~ msgstr "Åsidosättning av I18N BiDi"
-
-#~ msgid "Image"
-#~ msgstr "Bild"
-
-#~ msgid "Image map"
-#~ msgstr "Bildkarta"
-
-#~ msgid "Image map area"
-#~ msgstr "Bildkarteområde"
-
-#~ msgid "Image map name"
-#~ msgstr "Bildkartenamn"
-
-#~ msgid "Image source"
-#~ msgstr "Bildkälla"
-
-#~ msgid "Inline frame"
-#~ msgstr "Inline-ram"
-
-#~ msgid "Inline layer"
-#~ msgstr "Inline-lager"
-
-#~ msgid "Inserted text"
-#~ msgstr "Infogad text"
-
-#~ msgid "Instance definition"
-#~ msgstr "Instansdefinition"
-
-#~ msgid "Java applet"
-#~ msgstr "Java-applet"
-
-#~ msgid "Java applet (deprecated)"
-#~ msgstr "Java-applet (utfasad)"
-
-#~ msgid "Label"
-#~ msgstr "Etikett"
-
-#~ msgid "Layer"
-#~ msgstr "Lager"
-
-#~ msgid "Link color"
-#~ msgstr "Länkfärg"
-
-#~ msgid "Link color (deprecated)"
-#~ msgstr "Länkfärg (utfasad)"
-
-#~ msgid "List item"
-#~ msgstr "Listobjekt"
-
-#~ msgid "List of MIME types for file upload"
-#~ msgstr "Lista med MIME-typer för fillämning"
-
-#~ msgid "List of supported character sets"
-#~ msgstr "Lista med teckentabeller som stöds"
-
-#~ msgid "Listing"
-#~ msgstr "Lista"
-
-#~ msgid "Local change to font"
-#~ msgstr "Lokal ändring av typsnitt"
-
-#~ msgid "Long description link"
-#~ msgstr "Lång beskrivningslänk"
-
-#~ msgid "Long quotation"
-#~ msgstr "Långt citat"
-
-#~ msgid "Mail link"
-#~ msgstr "E-postlänk"
-
-#~ msgid "Margin pixel height"
-#~ msgstr "Bildpunktshöjd för marginal"
-
-#~ msgid "Margin pixel width"
-#~ msgstr "Bildpunktsbredd för marginal"
-
-#~ msgid "Marquee"
-#~ msgstr "Skärmtak"
-
-#~ msgid "Maximum length of text field"
-#~ msgstr "Maximal längd på textfält"
-
-#~ msgid "Media-independent link"
-#~ msgstr "Mediaoberoende länk"
-
-#~ msgid "Menu list"
-#~ msgstr "Menylista"
-
-#~ msgid "Menu list (deprecated)"
-#~ msgstr "Menylista (utfasad)"
-
-#~ msgid "Multi-line text field"
-#~ msgstr "Flerradigt textfält"
-
-#~ msgid "Multicolumn"
-#~ msgstr "Flera kolumner"
-
-#~ msgid "Multiple"
-#~ msgstr "Flertal"
-
-#~ msgid "Named property value"
-#~ msgstr "Värde på namngiven egenskap"
-
-#~ msgid "Next ID"
-#~ msgstr "Nästa id"
-
-#~ msgid "No URI"
-#~ msgstr "Ingen URI"
-
-#~ msgid "No embedded objects"
-#~ msgstr "Inga inbäddade objekt"
-
-#~ msgid "No frames"
-#~ msgstr "Inga ramar"
-
-#~ msgid "No layers"
-#~ msgstr "Inga lager"
-
-#~ msgid "No line break"
-#~ msgstr "Ingen radbrytning"
-
-#~ msgid "No script"
-#~ msgstr "Inget skript"
-
-#~ msgid "No shade"
-#~ msgstr "Ingen skuggning"
-
-#~ msgid "No shade (deprecated)"
-#~ msgstr "Ingen skuggning (utfasad)"
-
-#~ msgid "No word wrap"
-#~ msgstr "Ingen ordbrytning"
-
-#~ msgid "No word wrap (deprecated)"
-#~ msgstr "Ingen ordbrytning (utfasad)"
-
-#~ msgid "Non-breaking space"
-#~ msgstr "Icke-brytande mellanrum"
-
-#~ msgid "Note"
-#~ msgstr "Anteckning"
-
-#~ msgid "Object applet file"
-#~ msgstr "Fil för objekt-applet"
-
-#~ msgid "Object applet file (deprecated)"
-#~ msgstr "Fil för objekt-applet (utfasad)"
-
-#~ msgid "Object data reference"
-#~ msgstr "Objektdatareferens"
-
-#~ msgid "Offset for alignment character"
-#~ msgstr "Avstånd för justeringstecken"
-
-#~ msgid "OnBlur event"
-#~ msgstr "Suddningshändelse"
-
-#~ msgid "OnChange event"
-#~ msgstr "Ändringshändelse"
-
-#~ msgid "OnClick event"
-#~ msgstr "Klickhändelse"
-
-#~ msgid "OnDblClick event"
-#~ msgstr "Dubbelklickshändelse"
-
-#~ msgid "OnFocus event"
-#~ msgstr "Fokushändelse"
-
-#~ msgid "OnKeyDown event"
-#~ msgstr "Tangentnedtryckningshändelse"
-
-#~ msgid "OnKeyPress event"
-#~ msgstr "Tangenttryckningshändelse"
-
-#~ msgid "OnKeyUp event"
-#~ msgstr "Tangentuppsläppningshändelse"
-
-#~ msgid "OnLoad event"
-#~ msgstr "Inläsningshändelse"
-
-#~ msgid "OnMouseDown event"
-#~ msgstr "Musklickningshändelse"
-
-#~ msgid "OnMouseMove event"
-#~ msgstr "Musflyttningshändelse"
-
-#~ msgid "OnMouseOut event"
-#~ msgstr "Musutflyttningshändelse"
-
-#~ msgid "OnMouseOver event"
-#~ msgstr "Musöverflyttningshändelse"
-
-#~ msgid "OnMouseUp event"
-#~ msgstr "Musuppsläppningshändelse"
-
-#~ msgid "OnReset event"
-#~ msgstr "Återställningshändelse"
-
-#~ msgid "OnSelect event"
-#~ msgstr "Markeringshändelse"
-
-#~ msgid "OnSubmit event"
-#~ msgstr "Skickandehändelse"
-
-#~ msgid "OnUnload event"
-#~ msgstr "Utläsningshändelse"
-
-#~ msgid "Option group"
-#~ msgstr "Alternativgrupp"
-
-#~ msgid "Option selector"
-#~ msgstr "Alternativväljare"
-
-#~ msgid "Ordered list"
-#~ msgstr "Sorterad lista"
-
-#~ msgid "Output media"
-#~ msgstr "Utdatamedia"
-
-#~ msgid "Paragraph"
-#~ msgstr "Stycke"
-
-#~ msgid "Paragraph class"
-#~ msgstr "Styckeklass"
-
-#~ msgid "Paragraph style"
-#~ msgstr "Styckestil"
-
-#~ msgid "Preformatted listing"
-#~ msgstr "Förformaterad lista"
-
-#~ msgid "Preformatted text"
-#~ msgstr "Förformaterad text"
-
-#~ msgid "Profile metainfo dictionary"
-#~ msgstr "Katalog för profilmetainformation"
-
-#~ msgid "Prompt message"
-#~ msgstr "Frågemeddelande"
-
-#~ msgid "Push button"
-#~ msgstr "Tryckknapp"
-
-#~ msgid "Quote"
-#~ msgstr "Citat"
-
-#~ msgid "Range"
-#~ msgstr "Intervall"
-
-#~ msgid "ReadOnly text and password"
-#~ msgstr "Skrivskyddad text och lösenord"
-
-#~ msgid "Reduced spacing"
-#~ msgstr "Reducerat mellanrum"
-
-#~ msgid "Reduced spacing (deprecated)"
-#~ msgstr "Reducerat mellanrum (utfasad)"
-
-#~ msgid "Reverse link"
-#~ msgstr "Baklängeslänk"
-
-#~ msgid "Root"
-#~ msgstr "Rot"
-
-#~ msgid "Rows"
-#~ msgstr "Rader"
-
-#~ msgid "Rulings between rows and columns"
-#~ msgstr "Linjer mellan rader och kolumner"
-
-#~ msgid "Sample program output, scripts"
-#~ msgstr "Exempelprogramutdata, skript"
-
-#~ msgid "Scope covered by header cells"
-#~ msgstr "Omfattning som täcks av huvudceller"
-
-#~ msgid "Script language name"
-#~ msgstr "Namn på skriptspråk"
-
-#~ msgid "Script statements"
-#~ msgstr "Skriptsatser"
-
-#~ msgid "Scrollbar"
-#~ msgstr "Rullningslist"
-
-#~ msgid "Selectable option"
-#~ msgstr "Valbart alternativ"
-
-#~ msgid "Selected"
-#~ msgstr "Markerad"
-
-#~ msgid "Server-side image map"
-#~ msgstr "Bildkarta på serversida"
-
-#~ msgid "Shape"
-#~ msgstr "Form"
-
-#~ msgid "Short inline quotation"
-#~ msgstr "Kort inline-citat"
-
-#~ msgid "Single line prompt"
-#~ msgstr "Enkelradsfråga"
-
-#~ msgid "Size"
-#~ msgstr "Storlek"
-
-#~ msgid "Size (deprecated)"
-#~ msgstr "Storlek (utfasad)"
-
-#~ msgid "Soft line break"
-#~ msgstr "Mjuk radbrytning"
-
-#~ msgid "Sound"
-#~ msgstr "Ljud"
-
-#~ msgid "Source"
-#~ msgstr "Källa"
-
-#~ msgid "Space-separated archive list"
-#~ msgstr "Blankstegsseparerad arkivlista"
-
-#~ msgid "Spacer"
-#~ msgstr "Utfyllnad"
-
-#~ msgid "Spacing between cells"
-#~ msgstr "Mellanrum mellan celler"
-
-#~ msgid "Spacing within cells"
-#~ msgstr "Mellanrum i celler"
-
-#~ msgid "Span"
-#~ msgstr "Vidd"
-
-#~ msgid "Square root"
-#~ msgstr "Kvadratrot"
-
-#~ msgid "Standby load message"
-#~ msgstr "Standby-inläsningsmeddelande"
-
-#~ msgid "Starting sequence number"
-#~ msgstr "Startsekvensnummer"
-
-#~ msgid "Starting sequence number (deprecated)"
-#~ msgstr "Startsekvensnummer (utfasad)"
-
-#~ msgid "Strike-through text (deprecated)"
-#~ msgstr "Genomstruken textstil (utfasad)"
-
-#~ msgid "Strike-through text style"
-#~ msgstr "Genomstruken textstil"
-
-#~ msgid "Strike-through text style (deprecated)"
-#~ msgstr "Genomstruken textstil (utfasad)"
-
-#~ msgid "Strong emphasis"
-#~ msgstr "Stark betoning"
-
-#~ msgid "Style info"
-#~ msgstr "Stilinformation"
-
-#~ msgid "Subscript"
-#~ msgstr "Nedsänkt"
-
-#~ msgid "Superscript"
-#~ msgstr "Upphöjd"
-
-#~ msgid "Tab order position"
-#~ msgstr "Position för fliksortering"
-
-#~ msgid "Table"
-#~ msgstr "Tabell"
-
-#~ msgid "Table body"
-#~ msgstr "Tabelltext"
-
-#~ msgid "Table caption"
-#~ msgstr "Tabellrubrik"
-
-#~ msgid "Table column group properties"
-#~ msgstr "Gruppegenskaper för tabellkolumn"
-
-#~ msgid "Table column properties"
-#~ msgstr "Egenskaper för tabellkolumn"
-
-#~ msgid "Table data cell"
-#~ msgstr "Tabelldatacell"
-
-#~ msgid "Table footer"
-#~ msgstr "Tabellfot"
-
-#~ msgid "Table header"
-#~ msgstr "Tabellhuvud"
-
-#~ msgid "Table header cell"
-#~ msgstr "Tabellhuvudcell"
-
-#~ msgid "Table row"
-#~ msgstr "Tabellrad"
-
-#~ msgid "Table summary"
-#~ msgstr "Tabellsammanfattning"
-
-#~ msgid "Target — Blank"
-#~ msgstr "Mål — Tomt"
-
-#~ msgid "Target — Parent"
-#~ msgstr "Mål — Förälder"
-
-#~ msgid "Target — Self"
-#~ msgstr "Mål — Själv"
-
-#~ msgid "Target — Top"
-#~ msgstr "Mål — Överst"
-
-#~ msgid "Teletype or monospace text style"
-#~ msgstr "Textstil med fast breddsteg"
-
-#~ msgid "Text"
-#~ msgstr "Text"
-
-#~ msgid "Text color"
-#~ msgstr "Textfärg"
-
-#~ msgid "Text color (deprecated)"
-#~ msgstr "Textfärg (utfasad)"
-
-#~ msgid "Text entered by user"
-#~ msgstr "Text angiven av användaren"
-
-#~ msgid "Title"
-#~ msgstr "Titel"
-
-#~ msgid "Top margin in pixels"
-#~ msgstr "Överkantsmarginal i bildpunkter"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgid "Unordered list"
-#~ msgstr "Osorterad lista"
-
-#~ msgid "Use image map"
-#~ msgstr "Använd bildkarta"
-
-#~ msgid "Value"
-#~ msgstr "Värde"
-
-#~ msgid "Value interpretation"
-#~ msgstr "Värdetolkning"
-
-#~ msgid "Variable or program argument"
-#~ msgstr "Variabel eller programargument"
-
-#~ msgid "Vertical cell alignment"
-#~ msgstr "Vertikal celljustering"
-
-#~ msgid "Vertical space"
-#~ msgstr "Vertikalt blanksteg"
-
-#~ msgid "Vertical space (deprecated)"
-#~ msgstr "Vertikalt blanksteg (utfasad)"
-
-#~ msgid "Visited link color"
-#~ msgstr "Färg på besökt länk"
-
-#~ msgid "Visited link color (deprecated)"
-#~ msgstr "Färg på besökt länk (utfasad)"
-
-#~ msgid "Width"
-#~ msgstr "Bredd"
-
-#~ msgid "XHTML 1.0 — Tags"
-#~ msgstr "XHTML 1.0 — Taggar"
-
-#~ msgid "Bibliography (cite)"
-#~ msgstr "Bibliografi (citat)"
-
-#~ msgid "Bibliography (item)"
-#~ msgstr "Bibliografi (objekt)"
-
-#~ msgid "Bibliography (shortcite)"
-#~ msgstr "Bibliografi (kort citat)"
-
-# Märkligt meddelande...
-#~ msgid "Bibliography (thebibliography)"
-#~ msgstr "Bibliografi (bibliografin)"
-
-#~ msgid "Brackets ()"
-#~ msgstr "Klamrar ()"
-
-#~ msgid "Brackets <>"
-#~ msgstr "Klamrar <>"
-
-#~ msgid "Brackets []"
-#~ msgstr "Klamrar []"
-
-#~ msgid "Brackets {}"
-#~ msgstr "Klamrar {}"
-
-#~ msgid "File input"
-#~ msgstr "Filindata"
-
-#~ msgid "Footnote"
-#~ msgstr "Fotnot"
-
-#~ msgid "Function cosine"
-#~ msgstr "Funktionen cosinus"
-
-#~ msgid "Function e^"
-#~ msgstr "Funktionen e^"
-
-#~ msgid "Function exp"
-#~ msgstr "Funktionen exp"
-
-#~ msgid "Function log"
-#~ msgstr "Funktionen log"
-
-#~ msgid "Function log10"
-#~ msgstr "Funktionen log10"
-
-#~ msgid "Function sine"
-#~ msgstr "Funktionen sinus"
-
-#~ msgid "Greek alpha"
-#~ msgstr "Grekiskt alfa"
-
-#~ msgid "Greek beta"
-#~ msgstr "Grekiskt beta"
-
-#~ msgid "Greek epsilon"
-#~ msgstr "Grekiskt epsilon"
-
-#~ msgid "Greek gamma"
-#~ msgstr "Grekiskt gamma"
-
-#~ msgid "Greek lambda"
-#~ msgstr "Grekiskt lambda"
-
-#~ msgid "Greek rho"
-#~ msgstr "Grekiskiskt rho"
-
-#~ msgid "Greek tau"
-#~ msgstr "Grekiskt tau"
-
-#~ msgid "Header 0 (chapter)"
-#~ msgstr "Rubrik 0 (kapitel)"
-
-#~ msgid "Header 0 (chapter*)"
-#~ msgstr "Rubrik 0 (kapitel*)"
-
-#~ msgid "Header 1 (section)"
-#~ msgstr "Rubrik 1 (avsnitt)"
-
-#~ msgid "Header 1 (section*)"
-#~ msgstr "Rubrik 1 (avsnitt*)"
-
-#~ msgid "Header 2 (subsection)"
-#~ msgstr "Rubrik 2 (underavsnitt)"
-
-#~ msgid "Header 2 (subsection*)"
-#~ msgstr "Rubrik 2 (underavsnitt*)"
-
-#~ msgid "Header 3 (subsubsection)"
-#~ msgstr "Rubrik 3 (underunderavsnitt)"
-
-#~ msgid "Header 3 (subsubsection*)"
-#~ msgstr "Rubrik 3 (underunderavsnitt*)"
-
-#~ msgid "Header 4 (paragraph)"
-#~ msgstr "Rubrik 4 (stycke)"
-
-#~ msgid "Header appendix"
-#~ msgstr "Rubrikappendix"
-
-#~ msgid "Item"
-#~ msgstr "Objekt"
-
-#~ msgid "Item with label"
-#~ msgstr "Objekt med etikett"
-
-#~ msgid "Latex — Tags"
-#~ msgstr "Latex — Taggar"
-
-#~ msgid "List enumerate"
-#~ msgstr "Listnumrering"
-
-#~ msgid "List itemize"
-#~ msgstr "Listobjektifiering"
-
-#~ msgid "Maths (display)"
-#~ msgstr "Matematik (visning)"
-
-#~ msgid "Maths (inline)"
-#~ msgstr "Matematik (inline)"
-
-#~ msgid "Operator fraction"
-#~ msgstr "Operatorn bråkdel"
-
-#~ msgid "Operator integral (display)"
-#~ msgstr "Operatorn integral (visning)"
-
-#~ msgid "Operator integral (inline)"
-#~ msgstr "Operatorn integral (inline)"
-
-#~ msgid "Operator sum (display)"
-#~ msgstr "Operatorn summa (visning)"
-
-#~ msgid "Operator sum (inline)"
-#~ msgstr "Operatorn summa (inline)"
-
-#~ msgid "Reference label"
-#~ msgstr "Referensetikett"
-
-#~ msgid "Reference ref"
-#~ msgstr "Referens ref"
-
-#~ msgid "Symbol <<"
-#~ msgstr "Symbolen <<"
-
-#~ msgid "Symbol <="
-#~ msgstr "Symbolen <="
-
-#~ msgid "Symbol >="
-#~ msgstr "Symbolen >="
-
-#~ msgid "Symbol >>"
-#~ msgstr "Symbolen >>"
-
-#~ msgid "Symbol and"
-#~ msgstr "Symbolen and"
-
-#~ msgid "Symbol const"
-#~ msgstr "Symbolen const"
-
-#~ msgid "Symbol d-by-dt"
-#~ msgstr "Symbolen d-dt"
-
-#~ msgid "Symbol d-by-dt-partial"
-#~ msgstr "Symbolen d-dt-delvis"
-
-#~ msgid "Symbol d2-by-dt2-partial"
-#~ msgstr "Symbolen d2-dt2-delvis"
-
-#~ msgid "Symbol dagger"
-#~ msgstr "Symbolen dagger"
-
-#~ msgid "Symbol em-dash ---"
-#~ msgstr "Symbolen streck ---"
-
-#~ msgid "Symbol en-dash --"
-#~ msgstr "Symbolen streck --"
-
-#~ msgid "Symbol equiv"
-#~ msgstr "Symbolen equiv"
-
-#~ msgid "Symbol infinity"
-#~ msgstr "Symbolen oändligheten"
-
-#~ msgid "Symbol mathspace ,"
-#~ msgstr "Symbolen mathspace ,"
-
-#~ msgid "Symbol mathspace ."
-#~ msgstr "Symbolen mathspace ."
-
-#~ msgid "Symbol mathspace _"
-#~ msgstr "Symbolen mathspace _"
-
-#~ msgid "Symbol mathspace __"
-#~ msgstr "Symbolen mathspace __"
-
-#~ msgid "Symbol simeq"
-#~ msgstr "Symbolen simeq"
-
-#~ msgid "Symbol star"
-#~ msgstr "Symbolen stjärna"
-
-#~ msgid "Typeface bold"
-#~ msgstr "Fett typsnitt"
-
-#~ msgid "Typeface italic"
-#~ msgstr "Kursivt typsnitt"
-
-#~ msgid "Typeface slanted"
-#~ msgstr "Lutat typsnitt"
-
-#~ msgid "Typeface type"
-#~ msgstr "Typtypsnitt"
-
-#~ msgid "Unbreakable text"
-#~ msgstr "Obrytbar text"
-
-#~ msgid ""
-#~ "Provides a method to easily insert commonly used tags/strings into a "
-#~ "document without having to type them."
-#~ msgstr ""
-#~ "Tillhandahåller en metod för att enkelt infoga ofta använda taggar/"
-#~ "strängar i ett dokument utan att behöva skriva dem."
-
-#~ msgid "Tag list"
-#~ msgstr "Tagglista"
-
-#~ msgid "XSLT — Axes"
-#~ msgstr "XSLT — Axlar"
-
-#~ msgid "XSLT — Elements"
-#~ msgstr "XSLT — Element"
-
-#~ msgid "XSLT — Functions"
-#~ msgstr "XSLT — Funktioner"
-
-#~ msgid "ancestor"
-#~ msgstr "förfader"
-
-#~ msgid "ancestor-or-self"
-#~ msgstr "förfader-eller-själv"
-
-#~ msgid "attribute"
-#~ msgstr "attribut"
-
-#~ msgid "child"
-#~ msgstr "barn"
-
-#~ msgid "descendant"
-#~ msgstr "avkomma"
-
-#~ msgid "descendant-or-self"
-#~ msgstr "avkomma-eller-själv"
-
-#~ msgid "following"
-#~ msgstr "följande"
-
-#~ msgid "following-sibling"
-#~ msgstr "följande-syskon"
-
-#~ msgid "namespace"
-#~ msgstr "namnrymd"
-
-#~ msgid "parent"
-#~ msgstr "förälder"
-
-#~ msgid "preceding"
-#~ msgstr "föregående"
-
-#~ msgid "preceding-sibling"
-#~ msgstr "föregående-syskon"
-
-#~ msgid "self"
-#~ msgstr "själv"
-
-#~ msgid "XUL — Tags"
-#~ msgstr "XUL — Taggar"
