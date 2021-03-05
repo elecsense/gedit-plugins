@@ -7,13 +7,13 @@
 # Imam Musthaqim, 2010.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2010.
 # Andika Triwidada <andika@gmail.com>, 2010, 2012, 2013, 2014.
-# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2020.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins gnome-3-20\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-11-05 19:52+0000\n"
-"PO-Revision-Date: 2020-11-12 09:43+0700\n"
+"POT-Creation-Date: 2021-02-21 11:57+0000\n"
+"PO-Revision-Date: 2021-03-05 19:13+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -735,10 +735,10 @@ msgstr "Di mana terjemahan keluaran ditampilkan"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
-"Jika true, keluaran terjemahan dimasukkan ke dalam jendela dokumen jika "
-"tidak pada Jendela Hasil Terjemahan."
+"Jika true, keluaran terjemahan disisipkan ke dalam jendela dokumen jika "
+"tidak pada konsol Terjemahan."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
