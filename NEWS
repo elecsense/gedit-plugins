@@ -1,5 +1,5 @@
-News in 40.alpha, 2021-xx-yy (not yet released)
-----------------------------
+News in 40.0, 2021-03-13
+------------------------
 * Draw Spaces plugin: new implementation based on TeplSpaceDrawerPrefs.
 * Smart Spaces plugin: Python to C rewrite, new implementation based on the
   GtkSourceView:smart-backspace property.
