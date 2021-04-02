@@ -16,14 +16,14 @@
 # Kenneth Venken <kenneth.venken@gmail.com>, 2010.
 # Hannie Dumoleyn <lafeber-dumoleyn2@zonnet.nl>, 2010.
 # Justin van Steijn <jvs@fsfe.org>, 2016, 2018.
-# Nathan Follens <nthn@unseen.is>, 2017-2020.
+# Nathan Follens <nthn@unseen.is>, 2017-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-08-25 19:27+0000\n"
-"PO-Revision-Date: 2020-08-25 21:51+0200\n"
+"POT-Creation-Date: 2021-02-19 22:14+0000\n"
+"PO-Revision-Date: 2021-04-02 16:31+0200\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -259,7 +259,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Opdrachtlijn-interface voor geavanceerd bewerken"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Spaties weergeven"
 
@@ -267,54 +266,13 @@ msgstr "Spaties weergeven"
 msgid "Draw spaces and tabs"
 msgstr "Spaties en tabs tonen"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "_Witspaties tonen"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Spaties tonen"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Tabs tonen"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Nieuwe regels tonen"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Niet-afbrekende spaties tonen"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Leidende spaties tonen"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Spaties in tekst tonen"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Afsluitende spaties tonen"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Spaties en tabs tonen"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Witspaties tonen"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Als WAAR zal weergeven worden ingeschakeld."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Het type spaties om te tonen."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -406,16 +364,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Regels markeren die veranderd zijn sinds de laatste commit"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
-msgstr "Regels samenvoegen/splitsen"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Regels aaneenvoegen/splitsen"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Meerdere regels samenvoegen of splitsen met Ctrl+J en Ctrl+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Regels aaneenvoegen/splitsen"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -539,7 +494,7 @@ msgid "Saved Sessions"
 msgstr "Opgeslagen sessies"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Slimme spaties"
 
@@ -547,7 +502,7 @@ msgstr "Slimme spaties"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr "Uitlijnen met tabs terwijl u eigenlijk spaties gebruikt"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Vergeet dat u geen tabs gebruikt."
 
@@ -797,10 +752,10 @@ msgstr "Waar vertalingsuitvoer wordt weergegeven"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
 "Indien ingeschakeld wordt de uitvoer van de vertaling in het documentvenster "
-"ingevoegd indien niet in het Output Translate Window."
+"ingevoegd indien niet in de vertalingsconsole."
 
 # ? - Nathan
 #. Translators: You can adjust the default pair for users in your locale.
@@ -823,24 +778,29 @@ msgstr ""
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "API-sleutel voor de externe webdienst"
+msgid "Apertium server end point"
+msgstr "Apertium-servereindpunt"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "API-sleutel voor de externe webdienst"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Te gebruiken externe webdienst"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Vertalingen aangeboden door {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Vertalingsconsole"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Geselecteerde tekst vertalen [{0}]"
@@ -851,11 +811,11 @@ msgstr "API-sleutel"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"U dient een gratis API-sleutel te verkrijgen op <a href='https://tech.yandex."
-"com/translate/'>https://tech.yandex.com/translate/</a>"
+"U dient een API-sleutel te verkrijgen op <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -923,6 +883,39 @@ msgstr "Woordaanvulling"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Woordaanvulling gebruikmakend van het aanvullingsraamwerk"
+
+#~ msgid "Show _White Space"
+#~ msgstr "_Witspaties tonen"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Tabs tonen"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Nieuwe regels tonen"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Niet-afbrekende spaties tonen"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Leidende spaties tonen"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Spaties in tekst tonen"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Afsluitende spaties tonen"
+
+#~ msgid "Show White Space"
+#~ msgstr "Witspaties tonen"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Als WAAR zal weergeven worden ingeschakeld."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Het type spaties om te tonen."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Regels samenvoegen/splitsen"
 
 #~ msgid "_In "
 #~ msgstr "_In "
