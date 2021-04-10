@@ -7,6 +7,15 @@ libdrawspaces_deps = [
   gedit_dep,
 ]
 
+libdrawspaces_res = gnome.compile_resources(
+  'gedit-drawspaces-resources',
+  'gedit-drawspaces.gresource.xml',
+)
+
+libdrawspaces_sources += [
+  libdrawspaces_res.get(0),
+]
+
 libdrawspaces_sha = shared_module(
   'drawspaces',
   sources: libdrawspaces_sources,
