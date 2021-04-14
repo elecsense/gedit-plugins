@@ -21,23 +21,23 @@
 # Carlos José Pereira <carlao2005@gmail.com>, 2009
 # Henrique P. Machado <hpmachado@gnome.org>, 2010.
 # Krix Apolinário <krixapolinario@gmail.com>, 2010, 2011.
-# Enrico Nicoletto <liverig@gmail.com>, 2013, 2020.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2013-2021.
+# Enrico Nicoletto <liverig@gmail.com>, 2013, 2020-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-02-21 11:57+0000\n"
-"PO-Revision-Date: 2021-02-21 14:54-0300\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"POT-Creation-Date: 2021-04-12 12:33+0000\n"
+"PO-Revision-Date: 2021-04-13 21:17-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Project-Style: gnome\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -73,7 +73,7 @@ msgstr "Fecha parênteses automaticamente."
 
 #: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
 msgid "Automatically add a closing bracket when you insert one"
-msgstr "Fecha parênteses automaticamente quando você insere um."
+msgstr "Fecha parênteses automaticamente quando você insere um"
 
 #: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
@@ -263,6 +263,7 @@ msgid "Command line interface for advanced editing"
 msgstr "Interface de linha de comando para edição avançada"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Desenhar espaços"
 
@@ -270,13 +271,50 @@ msgstr "Desenhar espaços"
 msgid "Draw spaces and tabs"
 msgstr "Desenha espaços e tabulações"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Desenhar espaços"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Desenhar tabulações"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Desenhar novas linhas"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Desenhar espaços não-quebráveis"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Desenhar espaços à esquerda"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Desenhar espaços no texto"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Desenhar espaços perdidos"
+
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Desenha espaços e tabulações"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Mostrar espaço em branco"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Se VERDADEIRO o drawing será habilitado."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "O tipo de espaços a serem desenhados."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -753,15 +791,12 @@ msgid "Where translation output is shown"
 msgstr "Onde a saída da tradução é mostrada"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
-#| msgid ""
-#| "If true, output of the translation is inserted in the document window if "
-#| "not in the Output Translate Window."
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Translate console."
 msgstr ""
 "Se verdadeiro, a saída da tradução é inserida na janela do documento se não "
-"estiver no console de tradução"
+"estiver no console de tradução."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -886,141 +921,3 @@ msgstr "Completar palavras"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Completa palavras usando o framework de completar"
-
-#~ msgid "Show _White Space"
-#~ msgstr "Mostrar _espaço em branco"
-
-#~ msgid "Draw tabs"
-#~ msgstr "Desenhar tabulações"
-
-#~ msgid "Draw new lines"
-#~ msgstr "Desenhar novas linhas"
-
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "Desenhar espaços não-quebráveis"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "Desenhar espaços à esquerda"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "Desenhar espaços no texto"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "Desenhar espaços perdidos"
-
-#~| msgid "Show _White Space"
-#~ msgid "Show White Space"
-#~ msgstr "Mostrar espaço em branco"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "Se VERDADEIRO o drawing será habilitado."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "O tipo de espaços a serem desenhados."
-
-#~ msgid "Join lines/ Split lines"
-#~ msgstr "Juntar/Dividir linhas"
-
-#~ msgid "_In "
-#~ msgstr "_Em "
-
-#~ msgid "Whether to allow bold text"
-#~ msgstr "Se permitir ou não texto negrito"
-
-#~ msgid "If true, allow applications in the terminal to make text boldface."
-#~ msgstr ""
-#~ "Se verdadeiro, permite que os aplicativos no terminal usem texto em "
-#~ "negrito."
-
-#~ msgid "Zeitgeist Data provider"
-#~ msgstr "Provedor de dados Zeitgeist"
-
-#~ msgid ""
-#~ "Records user activity and giving easy access to recently-used and "
-#~ "frequently-used files"
-#~ msgstr ""
-#~ "Registra atividade do usuário e dá acesso fácil a arquivos usados "
-#~ "recentemente e usados frequentemente"
-
-#~ msgid "Zeitgeist dataprovider"
-#~ msgstr "Provedor de dados Zeitgeist"
-
-#~ msgid "Logs access and leave event for documents used with gedit"
-#~ msgstr "Registra acesso e deixa evento para documentos usados com o gedit"
-
-#~ msgid "accessories-character-map"
-#~ msgstr "accessories-character-map"
-
-#~ msgid "utilities-terminal"
-#~ msgstr "utilities-terminal"
-
-#~ msgid "Empty Document"
-#~ msgstr "Documento vazio"
-
-#~ msgid "Type here to search…"
-#~ msgstr "Digite aqui para pesquisar…"
-
-#~ msgid "Dashboard"
-#~ msgstr "Painel"
-
-#~ msgid "A Dashboard for new tabs"
-#~ msgstr "Um painel para novas abas"
-
-#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
-#~ msgstr ""
-#~ "Exibe uma grade de arquivos recentemente/mais usados ao abrir uma nova aba"
-
-#~ msgid "Pick _Color..."
-#~ msgstr "Selecionar _cor..."
-
-#~ msgid "Characters that are considered \"part of a word\""
-#~ msgstr "Caracteres que são considerados \"parte de uma palavra\""
-
-#~ msgid ""
-#~ "When selecting text by word, sequences of these characters are considered "
-#~ "single words. Ranges can be given as \"A-Z\". Literal hyphen (not "
-#~ "expressing a range) should be the first character given."
-#~ msgstr ""
-#~ "Ao selecionar texto por palavra, sequências destes caracteres são "
-#~ "considerados uma palavra. Intervalos podem ser dados como \"A-Z\". "
-#~ "Hífenes literais (que não exprimam um intervalo) deverão ser o primeiro "
-#~ "caractere indicado."
-
-#~ msgid "Toggle bookmark status of the current line"
-#~ msgstr "Alterna o status do marcador da linha atual"
-
-#~ msgid "Goto the next bookmark"
-#~ msgstr "Ir ao próximo marcador"
-
-#~ msgid "Goto the previous bookmark"
-#~ msgstr "Ir ao marcador anterior"
-
-#~ msgid "Comment the selected code"
-#~ msgstr "Comenta código selecionado"
-
-#~ msgid "Uncomment the selected code"
-#~ msgstr "Descomentar o código selecionado"
-
-#~ msgid "Pick a color from a dialog"
-#~ msgstr "Seleciona uma cor a partir de um diálogo"
-
-#~ msgid "Start commander mode"
-#~ msgstr "Iniciar modo de comando"
-
-#~ msgid "Show spaces and tabs"
-#~ msgstr "Mostrar espaços e tabulações"
-
-#~ msgid "Enabled"
-#~ msgstr "Habilitado"
-
-#~ msgid "Join the selected lines"
-#~ msgstr "Juntar as linhas selecionadas"
-
-#~ msgid "Split the selected lines"
-#~ msgstr "Divide as linhas selecionadas"
-
-#~ msgid "Start multi edit mode"
-#~ msgstr "Iniciar modo de multi edição"
-
-#~ msgid "Git differences"
-#~ msgstr "Diferenças no Git"
