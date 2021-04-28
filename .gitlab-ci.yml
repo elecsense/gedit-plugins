@@ -5,6 +5,7 @@ stages:
 
 
 static_analysis:
+  stage: static_analysis
   before_script:
     - export DEBIAN_FRONTEND=noninteractive
     - apt-get update -y
