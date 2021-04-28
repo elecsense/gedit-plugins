@@ -98,9 +98,7 @@ class SessionSaverWindowActivatable(GObject.Object, Gedit.WindowActivatable):
     def load_session(self, session):
         # Note: a session has to stand on its own window.
         tab = self.window.get_active_tab()
-        if tab is not None and \
-           not (tab.get_document().is_untouched() and
-                tab.get_state() == Gedit.TabState.STATE_NORMAL):
+        if tab is not None:
             # Create a new gedit window
             window = Gedit.App.get_default().create_window(None)
             window.show()
