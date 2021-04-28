@@ -1,3 +1,9 @@
+News in 40.1, 2021-04-28
+------------------------
+* Removes tepl dependency
+* Fixes SessionSaver plugin does not start problem
+* Translation updates
+
 News in 40.0, 2021-03-13
 ------------------------
 * Draw Spaces plugin: new implementation based on TeplSpaceDrawerPrefs.
