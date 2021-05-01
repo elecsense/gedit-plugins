@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-02-21 11:57+0000\n"
-"PO-Revision-Date: 2021-02-23 06:29+0200\n"
+"POT-Creation-Date: 2021-04-16 18:16+0000\n"
+"PO-Revision-Date: 2021-05-01 16:44+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: српски <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
@@ -244,6 +244,7 @@ msgid "Command line interface for advanced editing"
 msgstr "Сучеље линије наредби за напредније уређивање"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Исцртавач размака"
 
@@ -251,13 +252,51 @@ msgstr "Исцртавач размака"
 msgid "Draw spaces and tabs"
 msgstr "Исцртава размаке и табулаторе"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Исцртај размаке"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Исцртај табулаторе"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Исцртај нове редове"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Исцртај размаке без прелома"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Исцртај почетне размаке"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Исцртај размаке у тексту"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Исцртај завршне размаке"
+
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Исцртајте размаке и табулаторе"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#| msgid "Show _White Space"
+msgid "Show White Space"
+msgstr "Приказује празнину"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Уколико је изабрано исцртавање ће бити укључено."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "Врсте размака које ће бити исцртане."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -357,7 +396,7 @@ msgstr "Споји/Подели редове"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
-msgstr "Спојите или поделите више редова користећи Ктрл+Ј и Ктрл+Помак+Ј"
+msgstr "Спојите или поделите више редова користећи Ктрл+Ј и Ктрл+Шифт+Ј"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -728,9 +767,6 @@ msgid "Where translation output is shown"
 msgstr "Где се приказује излаз превода"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
-#| msgid ""
-#| "If true, output of the translation is inserted in the document window if "
-#| "not in the Output Translate Window."
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Translate console."
@@ -877,33 +913,6 @@ msgstr "Довршавајте речи користећи радни оквир
 #~ msgstr ""
 #~ "Прикажите мрежу недавно/често коришћених датотека пред отварањем новог "
 #~ "језичка"
-
-#~ msgid "Show _White Space"
-#~ msgstr "Прикажи пра_зан размак"
-
-#~ msgid "Draw tabs"
-#~ msgstr "Исцртај табулаторе"
-
-#~ msgid "Draw new lines"
-#~ msgstr "Исцртај нове редове"
-
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "Исцртај размаке без прелома"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "Исцртај почетне размаке"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "Исцртај размаке у тексту"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "Исцртај завршне размаке"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "Уколико је изабрано исцртавање ће бити укључено."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "Врсте размака које ће бити исцртане."
 
 #~ msgid "_In "
 #~ msgstr "_У"
