@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-11-05 19:52+0000\n"
-"PO-Revision-Date: 2021-01-07 15:59+0200\n"
+"POT-Creation-Date: 2021-04-16 18:16+0000\n"
+"PO-Revision-Date: 2021-05-03 23:26+0200\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
 "Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -247,6 +247,7 @@ msgid "Command line interface for advanced editing"
 msgstr "Interfață în linia de comandă pentru editare avansată"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Desenează spații"
 
@@ -254,13 +255,50 @@ msgstr "Desenează spații"
 msgid "Draw spaces and tabs"
 msgstr "Desenează spații și taburi"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Desenează spații"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Desenează taburi"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Desenează linii noi"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Desenează spațiile inseparabile"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Desenează spațiile de conducere"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Desenează spații în text"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Desenează spațiile de finalizare"
+
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Desenează spații și taburi"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Arată spațiile albe"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Dacă este activat desenarea va fi activată."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "Tipul de spații ce vor fi desenate."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -736,10 +774,10 @@ msgstr "Dacă rezultatul traducerii este arătat"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
-"Dacă este adevărat, rezultatul traducerii este inserat în fereastra "
-"documentului dacă nu în fereastra de traducere a rezultatului."
+"Dacă este adevărat, rezultatul traducerii este introdus în fereastra "
+"documentului dacă nu în consola de traducere."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -867,33 +905,6 @@ msgstr "Completare de cuvinte folosind platforma de completări"
 
 #~ msgid "Show _White Space"
 #~ msgstr "Arată spațiile a_lbe"
-
-#~ msgid "Draw tabs"
-#~ msgstr "Desenează taburi"
-
-#~ msgid "Draw new lines"
-#~ msgstr "Desenează linii noi"
-
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "Desenează spațiile inseparabile"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "Desenează spațiile de conducere"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "Desenează spații în text"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "Desenează spațiile de finalizare"
-
-#~ msgid "Show White Space"
-#~ msgstr "Arată spațiile albe"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "Dacă este activat desenarea va fi activată."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "Tipul de spații ce vor fi desenate."
 
 #~ msgid "Join lines/ Split lines"
 #~ msgstr "Unește liniile/ Împarte liniile"
