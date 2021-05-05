@@ -21,15 +21,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-11-05 19:52+0000\n"
-"PO-Revision-Date: 2021-02-15 11:01+0100\n"
+"POT-Creation-Date: 2021-04-16 18:16+0000\n"
+"PO-Revision-Date: 2021-05-05 10:28+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"X-Generator: Gtranslator 40.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -253,6 +253,7 @@ msgid "Command line interface for advanced editing"
 msgstr "Interfaz de edición avanzada para la línea de comandos"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Dibujar espacios"
 
@@ -260,13 +261,50 @@ msgstr "Dibujar espacios"
 msgid "Draw spaces and tabs"
 msgstr "Dibujar espacios y tabulaciones"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Dibujar espacios"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Dibujar tabulaciones"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Dibujar líneas nuevas"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Dibujar espacios de no ruptura"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Dibujar espacios iniciales"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Dibujar espacios en el texto"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Dibujar espacios adicionales"
+
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Dibujar espacios y tabulaciones"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Mostrar espacios en blanco"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Si está activada se activará el dibujado."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "El tipo de espacios que dibujar."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -749,12 +787,15 @@ msgid "Where translation output is shown"
 msgstr "Dónde se muestra la salida de la traducción"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+#| msgid ""
+#| "If true, output of the translation is inserted in the document window if "
+#| "not in the Output Translate Window."
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
-"Si es cierto la salida de la traducción se inserta en la ventana del "
-"documento; si es falso, en la ventana de salida de la traducción."
+"Si es cierto, la salida de la traducción se inserta en la ventana del "
+"documento; si es falso, en la consola de la traducción."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -807,9 +848,6 @@ msgid "API Key"
 msgstr "Clave de la API"
 
 #: plugins/translate/translate/services/yandex.py:65
-#| msgid ""
-#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
-#| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
 "You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
@@ -885,33 +923,6 @@ msgstr "Completado de palabras usando el entorno de trabajo de completado"
 
 #~ msgid "Show _White Space"
 #~ msgstr "Mostrar espacios en _blanco"
-
-#~ msgid "Draw tabs"
-#~ msgstr "Dibujar tabulaciones"
-
-#~ msgid "Draw new lines"
-#~ msgstr "Dibujar líneas nuevas"
-
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "Dibujar espacios de no ruptura"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "Dibujar espacios iniciales"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "Dibujar espacios en el texto"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "Dibujar espacios adicionales"
-
-#~ msgid "Show White Space"
-#~ msgstr "Mostrar espacios en blanco"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "Si está activada se activará el dibujado."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "El tipo de espacios que dibujar."
 
 #~ msgid "Join lines/ Split lines"
 #~ msgstr "Unir/Dividir líneas"
