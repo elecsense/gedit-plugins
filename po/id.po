@@ -10,11 +10,11 @@
 # Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit-plugins gnome-3-20\n"
+"Project-Id-Version: gedit-plugins gnome-40\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-02-21 11:57+0000\n"
-"PO-Revision-Date: 2021-03-05 19:13+0700\n"
-"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
+"POT-Creation-Date: 2021-04-16 18:16+0000\n"
+"PO-Revision-Date: 2021-05-27 20:00+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -22,29 +22,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n!=1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
 msgid "Bookmarks"
-msgstr "Tanda taut"
+msgstr "Markah"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr "Navigasi dokumen yang mudah dengan tanda taut"
+msgstr "Navigasi dokumen yang mudah dengan markah"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
-msgstr "Jungkitkan Tanda Taut"
+msgstr "Jungkitkan Markah"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
 msgid "Go to Next Bookmark"
-msgstr "Ke Tanda Taut Berikutnya"
+msgstr "Ke Markah Berikutnya"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
 msgid "Go to Previous Bookmark"
-msgstr "Ke Tanda Taut Sebelumnya"
+msgstr "Ke Markah Sebelumnya"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 #: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
@@ -248,20 +248,58 @@ msgid "Command line interface for advanced editing"
 msgstr "Antar muka baris perintah bagi penyuntingan tingkat lanjut"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
-msgstr "Gambar Spasi"
+msgstr "Menggambar Spasi"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
 msgid "Draw spaces and tabs"
-msgstr "Gambar spasi dan tab"
+msgstr "Menggambar spasi dan tab"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
-msgstr "Gambar spasi"
+msgstr "Menggambar spasi"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Menggambar tab"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Menggambar garis baru"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Menggambar spasi tidak putus"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Menggambar spasi awal"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Menggambar spasi dalam teks"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Menggambar spasi di belakang"
 
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
-msgstr "Gambar Spasi dan Tab"
+msgstr "Menggambar Spasi dan Tab"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Tampilkan White Space"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Bila TRUE maka menggambar akan difungsikan."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "Tipe spasi yang akan digambar."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
