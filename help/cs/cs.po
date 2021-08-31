@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the gedit help.
 #
 # Lucas Lommer <llommer@svn.gnome.org>, 2009.
-# Marek Černocký <marek@manet.cz>, 2009, 2010, 2013, 2014, 2018, 2020.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2013, 2014, 2018, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
-"POT-Creation-Date: 2020-11-05 19:52+0000\n"
-"PO-Revision-Date: 2020-11-13 17:38+0100\n"
+"POT-Creation-Date: 2021-04-14 00:19+0000\n"
+"PO-Revision-Date: 2021-08-31 13:03+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1273,23 +1273,52 @@ msgstr ""
 "můžete získat na <link href=\"https://tech.yandex.com/translate/\">webových "
 "stránkách Yandex</link>."
 
+#. (itstool) path: note/p
+#: C/translate.page:46
+msgid ""
+"You can also customize the address of the Apertium server, you will need to "
+"use the <app>dconf-editor</app> application."
+msgstr ""
+"Můžete si také přizpůsobit adresu serveru Apertium. Budete k tomu potřebovat "
+"aplikaci <app>dconf-editor</app>."
+
+#. (itstool) path: item/p
+#: C/translate.page:48
+msgid ""
+"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+msgstr ""
+"Spusťte <app>dconf-editor</app> a vyberte <guiseq><gui>org</gui><gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/translate.page:51
+msgid ""
+"Double-click on the URL next to <gui>apertium-server</gui> and change the "
+"URL to your desired value."
+msgstr ""
+"Dvojitě klikněte na adresu URL vedle <gui>apertium-server</gui> a změňte ji "
+"na požadovanou hodnotu."
+
 #. (itstool) path: section/title
-#: C/translate.page:49
+#: C/translate.page:59
 msgid "Using the Translate plugin"
 msgstr "Používání zásuvného modulu Překlady"
 
 #. (itstool) path: steps/title
-#: C/translate.page:52
+#: C/translate.page:62
 msgid "To translate a text:"
 msgstr "Když chcete přeložit text:"
 
 #. (itstool) path: item/p
-#: C/translate.page:54
+#: C/translate.page:64
 msgid "Select the part of text that you would like to translate."
 msgstr "Vyberte část textu, kterou si přejete přeložit."
 
 #. (itstool) path: item/p
-#: C/translate.page:57
+#: C/translate.page:67
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
@@ -1298,7 +1327,7 @@ msgstr ""
 "kontextové nabídky je přeložíte."
 
 #. (itstool) path: item/p
-#: C/translate.page:58
+#: C/translate.page:68
 msgid ""
 "The translation appears in the document or in the bottom panel, depending on "
 "your configuration."
