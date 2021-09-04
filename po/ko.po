@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-02-19 22:14+0000\n"
-"PO-Revision-Date: 2021-03-07 17:30+0900\n"
+"POT-Creation-Date: 2021-04-17 11:58+0000\n"
+"PO-Revision-Date: 2021-09-04 20:43+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: ko\n"
@@ -247,6 +247,7 @@ msgid "Command line interface for advanced editing"
 msgstr "명령어 인터페이스, 고급 편집에 사용"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "공백 보기"
 
@@ -254,13 +255,50 @@ msgstr "공백 보기"
 msgid "Draw spaces and tabs"
 msgstr "공백과 탭 보기"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "공백 보기"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "탭 보기"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "줄 바꿈 보기"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "끊어지지 않는 공백 보기"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "앞에 붙은 공백 보기"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "텍스트 중간의 공백 보기"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "뒤에 붙은 공백 보기"
+
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "공백과 탭 보기"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "공백 문자 표시"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "참이면 공백을 봅니다."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "볼 공백의 종류."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -716,7 +754,8 @@ msgstr "번역 결과가 표시되는 위치"
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Translate console."
-msgstr "참이면, 번역 결과가 문서 창에 입력되고 거짓이면 번역 콘솔에 나타납니다."
+msgstr ""
+"참이면, 번역 결과가 문서 창에 입력되고 거짓이면 번역 콘솔에 나타납니다."
 
 # FIXME: apertium 현재 한국어 지원하지 않음
 #. Translators: You can adjust the default pair for users in your locale.
@@ -771,9 +810,11 @@ msgstr "API 키"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
-msgstr "<a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a> 위치에서 API 키를 먼저 얻어야 합니다."
+"You need to obtain an API key at <a href='https://yandex.com/dev/"
+"translate/'>https://yandex.com/dev/translate/</a>"
+msgstr ""
+"<a href='https://yandex.com/dev/translate/'>https://yandex.com/dev/translate/"
+"</a> 위치에서 API 키를 먼저 얻어야 합니다."
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -842,33 +883,6 @@ msgstr "자동 완성 프레임워크를 사용한 단어 완성"
 
 #~ msgid "Show _White Space"
 #~ msgstr "공백 문자 표시(_W)"
-
-#~ msgid "Draw tabs"
-#~ msgstr "탭 보기"
-
-#~ msgid "Draw new lines"
-#~ msgstr "줄 바꿈 보기"
-
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "끊어지지 않는 공백 보기"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "앞에 붙은 공백 보기"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "텍스트 중간의 공백 보기"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "뒤에 붙은 공백 보기"
-
-#~ msgid "Show White Space"
-#~ msgstr "공백 문자 표시"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "참이면 공백을 봅니다."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "볼 공백의 종류."
 
 #~ msgid "Join lines/ Split lines"
 #~ msgstr "줄 합치기/줄 나누기"
