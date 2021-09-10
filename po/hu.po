@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-02-21 11:57+0000\n"
-"PO-Revision-Date: 2021-03-17 00:38+0100\n"
+"POT-Creation-Date: 2021-04-16 18:16+0000\n"
+"PO-Revision-Date: 2021-09-10 22:10+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -253,20 +253,63 @@ msgid "Command line interface for advanced editing"
 msgstr "Parancssoros felület speciális szerkesztéshez"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
-msgstr "Szóközök rajzolása"
+msgstr "Szóközök megjelenítése"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
 msgid "Draw spaces and tabs"
-msgstr "Szóközök és tabok rajzolása"
+msgstr "Szóközök és tabulátorok megjelenítése"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
-msgstr "Szóközök rajzolása"
+msgstr "Szóközök megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+#| msgid "Draw Spaces"
+msgid "Draw tabs"
+msgstr "Tabulátorok megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Új sorok megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+#| msgid "Draw spaces"
+msgid "Draw non-breaking spaces"
+msgstr "Nem törő szóközök megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+#| msgid "Draw spaces"
+msgid "Draw leading spaces"
+msgstr "Kezdő szóközök megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+#| msgid "Draw spaces and tabs"
+msgid "Draw spaces in text"
+msgstr "Szóközök megjelenítése a szövegben"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+#| msgid "Draw spaces"
+msgid "Draw trailing spaces"
+msgstr "Záró szóközök megjelenítése"
 
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
-msgstr "Szóközök és tabulátorok kirajzolása"
+msgstr "Szóközök és tabulátorok megjelenítése"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Üres helyek megjelenítése"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Ha IGAZ, akkor a megjelenítés engedélyezve lesz."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "A megjelenítendő szóközök típusa."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -736,15 +779,12 @@ msgid "Where translation output is shown"
 msgstr "Hol jelenjen meg a fordítás kimenete"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
-#| msgid ""
-#| "If true, output of the translation is inserted in the document window if "
-#| "not in the Output Translate Window."
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Translate console."
 msgstr ""
-"Ha igaz, akkor a fordítás kimenete a dokumentum ablakába lesz beszúrva, ha"
-" nincs a fordítási konzolban."
+"Ha igaz, akkor a fordítás kimenete a dokumentum ablakába lesz beszúrva, ha "
+"nincs a fordítási konzolban."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
