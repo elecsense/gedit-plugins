@@ -5,22 +5,22 @@
 # Stanislav Visnovsky <visnovsky@kde.org>, 2003, 2004.
 # Marcel Telka <marcel@telka.sk>, 2005, 2009.
 # Ivan Masár <helix84@centrum.sk>, 2011, 2012.
-# Dušan Kazik <prescott66@gmail.com>, 2015.
+# Dušan Kazik <prescott66@gmail.com>, 2015-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-16 18:16+0000\n"
-"PO-Revision-Date: 2021-06-15 21:41+0200\n"
+"POT-Creation-Date: 2021-06-15 19:43+0000\n"
+"PO-Revision-Date: 2021-10-06 10:09+0200\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0\n"
+"X-Generator: Gtranslator 40.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -802,7 +802,7 @@ msgstr "Jazykový pár použitý na preklad z jedného jazyka do druhého"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "Apertium server end point"
-msgstr ""
+msgstr "Koncový bod servera Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
@@ -833,12 +833,15 @@ msgid "API Key"
 msgstr "API klúč"
 
 #: plugins/translate/translate/services/yandex.py:65
+#| msgid ""
+#| "You need to obtain an API key at <a href='https://tech.yandex.com/"
+#| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain an API key at <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
+"You need to obtain an API key at <a href='https://yandex.com/dev/"
+"translate/'>https://yandex.com/dev/translate/</a>"
 msgstr ""
-"Musíte získať API kľúč na adrese <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
+"Musíte získať API kľúč na adrese <a href='https://yandex.com/dev/"
+"translate/'>https://yandex.com/dev/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
