@@ -1,5 +1,5 @@
 # gedit ja.po.
-# Copyright (C) 1999-2012, 2016, 2020 gedit-plugins' COPYRIGHT HOLDER
+# Copyright (C) 1999-2012, 2016, 2020-2021 gedit-plugins' COPYRIGHT HOLDER
 # Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>, 1999.
 # Yuusuke Tahara <tahara@gnome.gr.jp>
 # Yukihiro Nakai <nakai@gnome.gr.jp>
@@ -12,14 +12,14 @@
 # Jiro Matsuzawa <jmatsuzawa@src.gnome.org>, 2011.
 # OKANO Takayoshi <kano@na.rim.or.jp>, 2012.
 # Kenichi Ito <ken.i54k@gmail.com>, 2016.
-# sicklylife <translation@sicklylife.jp>, 2020.
+# sicklylife <translation@sicklylife.jp>, 2020-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
 "POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2020-05-07 20:15+0900\n"
+"PO-Revision-Date: 2021-10-20 19:30+0900\n"
 "Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -203,10 +203,8 @@ msgid "_Foreground"
 msgstr "前景(_F)"
 
 #: plugins/colorschemer/schemer.ui:341
-#, fuzzy
-#| msgid "_Clear "
 msgid "_Clear"
-msgstr "消去(_C) "
+msgstr "消去(_C)"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -285,10 +283,8 @@ msgid "Draw Spaces and Tabs"
 msgstr "空白やタブ文字を表示します"
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-#, fuzzy
-#| msgid "Show _White Space"
 msgid "Show White Space"
-msgstr "空白を表示(_W)"
+msgstr "空白を表示"
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
@@ -315,16 +311,13 @@ msgid "_Find"
 msgstr "検索(_F)"
 
 #: plugins/findinfiles/dialog.ui:72
-#, fuzzy
-#| msgctxt "label on the left of the GtkEntry containing text to search"
-#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
-msgstr "検索(_I) "
+msgstr "検索(_I):"
 
 #: plugins/findinfiles/dialog.ui:99
 msgid "_In:"
-msgstr ""
+msgstr "場所(_I):"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -739,10 +732,6 @@ msgid "Where translation output is shown"
 msgstr "翻訳の出力をどこに表示するか"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
-#, fuzzy
-#| msgid ""
-#| "If true, output of the translation is inserted in the document window if "
-#| "not in the Output Translate Window."
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Translate console."
@@ -799,16 +788,13 @@ msgid "API Key"
 msgstr "API キー"
 
 #: plugins/translate/translate/services/yandex.py:65
-#, fuzzy
-#| msgid ""
-#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
-#| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
 "You need to obtain an API key at <a href='https://yandex.com/dev/"
 "translate/'>https://yandex.com/dev/translate/</a>"
 msgstr ""
-"次の場所でフリーの API キーを取得する必要があります: <a href='https://tech."
-"yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
+"次の場所で API キーを取得する必要があります: "
+"<a href='https://yandex.com/dev/translate/'>https://yandex.com/"
+"dev/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
