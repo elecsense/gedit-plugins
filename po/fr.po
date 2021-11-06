@@ -10,14 +10,14 @@
 # Bruno Brouard <annoa.b@gmail.com>, 2011-12.
 # Alain Lojewski <allomervan@gmail.com, 2014.
 # Claude Paroz <claude@2xlibre.net>, 2008-2018.
-# Charles Monzat <charles.monzat@free.fr>, 2018-2020.
+# Charles Monzat <charles.monzat@free.fr>, 2018-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-09-24 15:07+0000\n"
-"PO-Revision-Date: 2020-12-24 21:59+0100\n"
+"POT-Creation-Date: 2021-04-17 12:56+0000\n"
+"PO-Revision-Date: 2021-11-06 11:26+0100\n"
 "Last-Translator: Charles Monzat <charles.monzat@free.fr>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"X-Generator: Gtranslator 40.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -221,7 +221,6 @@ msgid "_Foreground"
 msgstr "_Premier plan"
 
 #: plugins/colorschemer/schemer.ui:341
-#| msgid "_Clear "
 msgid "_Clear"
 msgstr "Effa_cer"
 
@@ -270,10 +269,6 @@ msgstr "Indicateur d’espaces"
 msgid "Draw spaces and tabs"
 msgstr "Indiquer les espaces et les tabulations."
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Afficher les _espaces vides"
-
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
@@ -308,7 +303,6 @@ msgid "Draw Spaces and Tabs"
 msgstr "Indique les espaces et les tabulations"
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-#| msgid "Show _White Space"
 msgid "Show White Space"
 msgstr "Afficher les espaces vides"
 
@@ -337,8 +331,6 @@ msgid "_Find"
 msgstr "_Chercher"
 
 #: plugins/findinfiles/dialog.ui:72
-#| msgctxt "label on the left of the GtkEntry containing text to search"
-#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
 msgstr "_Chercher :"
@@ -413,16 +405,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Surligner les lignes qui ont été modifiées depuis le dernier commit."
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Joindre/couper les lignes"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Joint ou coupe plusieurs lignes avec Ctrl+J et Ctrl+Maj+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Joindre/couper les lignes"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -550,7 +539,7 @@ msgid "Saved Sessions"
 msgstr "Sessions enregistrées"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Espaces intelligents"
 
@@ -558,7 +547,7 @@ msgstr "Espaces intelligents"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr "Permet de désindenter avec la barre d’espace comme avec la touche Tab"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Oubliez que vous n’utilisez pas les tabulations."
 
@@ -814,10 +803,10 @@ msgstr "L’emplacement où les résultats de traduction sont affichés"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
 "Si vrai, les résultats de traduction sont insérés dans la fenêtre du "
-"document, sinon dans la fenêtre des résultats de traduction."
+"document, sinon dans la console de traduction."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -838,24 +827,29 @@ msgstr "Paire de langues utilisée pour traduire d’une langue à une autre"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Clé API pour le service Web distant"
+msgid "Apertium server end point"
+msgstr "Point d’accès du serveur Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Clé API pour le service Web distant"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Service Web distant à utiliser"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traductions réalisées avec {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Console de traduction"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Traduire le texte sélectionné [{0}]"
@@ -866,10 +860,10 @@ msgstr "Clé API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Vous devez obtenir une clé API gratuite sur <a href='https://tech.yandex.com/"
+"Vous devez obtenir une clé API sur <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
@@ -939,6 +933,12 @@ msgstr "Complétion de mots"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Complétion de mots, utilise la structure de complétion."
+
+#~ msgid "Show _White Space"
+#~ msgstr "Afficher les _espaces vides"
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Joindre/couper les lignes"
 
 #~ msgid "_In "
 #~ msgstr "_Dans "
