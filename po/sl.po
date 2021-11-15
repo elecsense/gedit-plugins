@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-02-24 00:29+0000\n"
-"PO-Revision-Date: 2021-03-03 21:38+0100\n"
+"POT-Creation-Date: 2021-11-06 10:58+0000\n"
+"PO-Revision-Date: 2021-11-15 20:23+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 3.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -72,7 +72,7 @@ msgstr "Nabor znakov"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:7
 msgid "Select characters from a character map"
-msgstr ""
+msgstr "Izbor znakov iz programa Znaki"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
@@ -117,7 +117,7 @@ msgstr "Izbirnik barv"
 
 #: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
 msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
-msgstr ""
+msgstr "Izbor in vstavljanje barve v pogovornem oknu (za HTML, CSS, PHP)"
 
 #: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
@@ -132,12 +132,12 @@ msgstr "Urejevalnik shem barvnega označevanja kode"
 
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
-msgstr ""
+msgstr "Ustvari in uredi barvno shemo za poudarjanje skladnje"
 
 #: plugins/colorschemer/schemer/schemer.py:271
 #: plugins/colorschemer/schemer/schemer.py:318
 msgid "There was a problem saving the scheme"
-msgstr ""
+msgstr "Prišlo je do napake med shranjevanjem barvne sheme."
 
 #: plugins/colorschemer/schemer/schemer.py:272
 msgid ""
@@ -146,6 +146,10 @@ msgid ""
 "\n"
 "Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
+"Ustvariti želite novo barvno shemo, vendar\n"
+"je izbrano ime oziroma ID sheme že v uporabi.\n"
+"\n"
+"Izbrati je treba tako ime, ki še ni zasedeno.\n"
 
 #: plugins/colorschemer/schemer/schemer.py:319
 msgid ""
@@ -154,6 +158,10 @@ msgid ""
 "\n"
 "Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
+"Ni ustreznih dovoljenj za prepis barvne shemo.\n"
+"zato bo obstoječa kopirana in ne zamenjana.\n"
+"\n"
+"Izbrati je treba tako ime, ki še ni zasedeno.\n"
 
 #. there must have been some conflict, since it opened the wrong file
 #: plugins/colorschemer/schemer/schemer.py:378
@@ -163,6 +171,8 @@ msgstr "Prišlo je do napake med odpiranjem datoteke."
 #: plugins/colorschemer/schemer/schemer.py:379
 msgid "You appear to have schemes with the same IDs in different directories\n"
 msgstr ""
+"Kaže, da so v različnih mapah barvne sheme z istimi določili ID.\n"
+"\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -235,6 +245,7 @@ msgid "Command line interface for advanced editing"
 msgstr "Vmesnik ukaznega okna za napredno urejanje"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Izriši presledne znake"
 
@@ -242,13 +253,50 @@ msgstr "Izriši presledne znake"
 msgid "Draw spaces and tabs"
 msgstr "Izriši presledke in tabulatorje"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Izriši presledke"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Izris tabulatorjev"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Izris znakov za nove vrstice"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Izriši nedeljive presledke"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Izriši presledke na začetku vrstic"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Izris preslednih znakov v besedilu"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Izriši presledke na koncu vrstic"
+
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Izriši presledke in tabulatorje"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Pokaži presledne znake"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Izbrana možnost omogoča izrisovanje znakov."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "Vrsta izrisanih preslednih znakov."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -273,7 +321,7 @@ msgstr "_Najdi:"
 
 #: plugins/findinfiles/dialog.ui:99
 msgid "_In:"
-msgstr ""
+msgstr "_V:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -334,6 +382,8 @@ msgid ""
 "Use git information to display which lines and files changed since last "
 "commit"
 msgstr ""
+"Uporabi podrobnosti git za prikaz vrstic in datotek, spremenjenih po zadnji "
+"uveljavitvi."
 
 #: plugins/git/git.plugin.desktop.in.in:7
 msgid "Highlight lines that have been changed since the last commit"
@@ -346,7 +396,7 @@ msgstr "Združi/razdeli vrstice"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
-msgstr ""
+msgstr "Združi ali razdeli več vrstic z uporabo Ctrl+J in Ctrl+Shift+J."
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -477,10 +527,10 @@ msgstr "Pametni presledki"
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr ""
+"Dovoli preklic odmika, če so bili pri vnosu uporabljeni tabulatorji izpisani "
+"kot presledki"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
-#, fuzzy
-#| msgid "Forget you're not using tabulations."
 msgid "Forget you’re not using tabulations."
 msgstr "Pozabi, da tabulatorji niso v uporabi."
 
@@ -490,8 +540,6 @@ msgid "SyncTeX"
 msgstr "SyncTeX"
 
 #: plugins/synctex/gedit-synctex.metainfo.xml.in:7
-#, fuzzy
-#| msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgid "Synchronize between LaTeX and PDF with gedit and evince"
 msgstr "Usklajevanje med LaTeX in PDF datotekami s programoma gedit in evince."
 
@@ -509,20 +557,14 @@ msgid "Terminal"
 msgstr "Terminal"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:7
-#, fuzzy
-#| msgid "Embed a terminal in the bottom pane."
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr "Vgradi terminal v spodnji pladenj"
+msgstr "Enostaven gradnik terminala, dostopen v spodnjem pladnju"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
 msgid "Whether to silence terminal bell"
 msgstr "Ali naj se utišajo terminalski zvoki."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
-#, fuzzy
-#| msgid ""
-#| "If true, don't make a noise when applications send the escape sequence "
-#| "for the terminal bell."
 msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
@@ -535,19 +577,14 @@ msgid "Number of lines to keep in scrollback"
 msgstr "Število shranjenih vrstic zgodovine drsnika"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
-#, fuzzy
-#| msgid ""
-#| "Number of scrollback lines to keep around. You can scroll back in the "
-#| "terminal by this number of lines; lines that don't fit in the scrollback "
-#| "are discarded. If scrollback-unlimited is true, this value is ignored."
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
 "discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
 "Število zgodovine izpisanih vrstic terminala. Število določa koliko vrstic "
-"se ohrani, preseženo število pa se izbriše. V kolikor je izbrana možnost "
-"neomejene zgodovine, je ta možnost prezrta."
+"se ohrani za brskanje, preseženo število pa se izbriše. V kolikor je "
+"določena neomejena zgodovina, je ta možnost prezrta."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -573,72 +610,53 @@ msgstr ""
 "Izbrana možnost omogoča skok drsnika na dno ob pritisku katerekoli tipke."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
-#, fuzzy
-#| msgid "Whether to scroll to the bottom when there's new output"
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Ali naj se prikaže zadnja vrstica novega izpisa, ko se ta pojavi."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
-#, fuzzy
-#| msgid ""
-#| "If true, whenever there's new output the terminal will scroll to the "
-#| "bottom."
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
 "Izbrana možnost določa, da se bo kazalka postavila v zadnjo vrstico ob novem "
-"izpisu."
+"izpisu v oknu terminala."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
 msgid "Default color of text in the terminal"
 msgstr "Privzeta barva besedila v terminalu"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-#, fuzzy
-#| msgid ""
-#| "Default color of text in the terminal, as a color specification (can be "
-#| "HTML-style hex digits, or a color name such as \"red\")."
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
 "Privzeta barva besedila terminala (vrednost je lahko določena v "
-"šestnajstiškem HTML zapisu ali pa z imenom, na primer \"red\" (rdeča) )."
+"šestnajstiškem HTML zapisu, ali pa z imenom, na primer \"red\" (rdeča) )."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Privzeta barva ozadja terminala"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
-#, fuzzy
-#| msgid ""
-#| "Default color of terminal background, as a color specification (can be "
-#| "HTML-style hex digits, or a color name such as \"red\")."
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
 "Privzeta barva ozadja terminala (vrednost je lahko določena v šestnajstiškem "
-"HTML zapisu ali pa z imenom, na primer \"red\" (rdeča) )."
+"HTML zapisu, ali pa z imenom, na primer \"red\" (rdeča) )."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Paleta barv terminalnih programov"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
-#, fuzzy
-#| msgid ""
-#| "Terminals have a 16-color palette that applications inside the terminal "
-#| "can use. This is that palette, in the form of a colon-separated list of "
-#| "color names. Color names should be in hex format e.g. \"#FF00FF\""
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. “#FF00FF”"
 msgstr ""
-"Terminali omogočajo shemo v 16 barvah, ki jih lahko uporabijo programi. To "
-"je paleta zapisana v obliki z dvopičjem ločenega seznama imen barv. Imena "
-"barv morajo biti v šestnajstiškem zapisu, na primer \"#FF00FF\"."
+"Terminali omogočajo shemo v 16 barvah, ki jo programi lahko uporabijo. To je "
+"paleta zapisana v obliki z dvopičjem ločenega seznama imen barv. Imena barv "
+"morajo biti v šestnajstiškem zapisu, na primer \"#FF00FF\"."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -657,15 +675,11 @@ msgid "Whether to blink the cursor"
 msgstr "Ali naj kazalec utripa"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
-#, fuzzy
-#| msgid ""
-#| "The possible values are \"system\" to use the global cursor blinking "
-#| "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
 msgstr ""
-"Mogoče vrednosti so \"system\" za uporabo utripajočega kazalnika, ali pa "
+"Mogoče vrednosti so »system« za uporabo utripajočega kazalnika, ali pa "
 "nastavitev \"on\" ali \"off\" za izrecni način delovanja."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
@@ -673,43 +687,32 @@ msgid "The cursor appearance"
 msgstr "Videz kazalke"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
-#, fuzzy
-#| msgid ""
-#| "The possible values are \"block\" to use a block cursor, \"ibeam\" to use "
-#| "a vertical line cursor, or \"underline\" to use an underline cursor."
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
-"Mogoče vrednosti so \"block\" za uporabo pravokotne kazalke, \"ibeam\" za "
-"obliko navpičnice ali pa \"underline\" za kazalko v obliki podčrtaja."
+"Mogoče vrednosti so »block« za uporabo pravokotne kazalke, »ibeam« za obliko "
+"navpičnice, ali pa »underline« za kazalko v obliki podčrtaja."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Ali naj se uporabi sistemska pisava"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
-#, fuzzy
-#| msgid ""
-#| "If true, the terminal will use the desktop-global standard font if it's "
-#| "monospace (and the most similar font it can come up with otherwise)."
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Izbrana možnost omogoča uporabo splošne pisave monospace, ali podobne, če ta "
-"ni na voljo."
+"Izbrana možnost omogoča uporabo splošne pisave enotne širine, ali podobne, "
+"če ta ni na voljo."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Pisava"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
-#, fuzzy
-#| msgid ""
-#| "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr "Ime pisave Pango. Primera sta \"Sans 12\" ali \"Monospace Bold 14\"."
+msgstr "Ime pisave Pango, na primer »Sans 12« ali »Monospace Bold 14«."
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -767,6 +770,8 @@ msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Translate console."
 msgstr ""
+"Izbrana možnost določa, da bo odvod prevoda vstavljen v okno dokumenta, če "
+"ni v konzoli prevoda."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -783,12 +788,12 @@ msgstr "Uporabljen jezikovni par"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
-msgstr ""
+msgstr "Jezikovni par, uporabljan za prevajanje iz enega v drug jezik."
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "Apertium server end point"
-msgstr ""
+msgstr "Končna točka strežnika Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
@@ -812,7 +817,7 @@ msgstr "Prevajalna konzola"
 #: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
-msgstr ""
+msgstr "Prevedi izbrano besedilo [{0}]"
 
 #: plugins/translate/translate/preferences.py:84
 msgid "API Key"
@@ -820,9 +825,11 @@ msgstr "Ključ API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
+"You need to obtain an API key at <a href='https://yandex.com/dev/"
+"translate/'>https://yandex.com/dev/translate/</a>"
 msgstr ""
+"Pred uporabo je treba pridobiti ključ api API na <a href='https://yandex.com/"
+"dev/translate/'>https://yandex.com/dev/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -926,38 +933,11 @@ msgstr "Dopolnjevanje besed z uporabo ogrodja dopolnjevanja"
 #~ msgid "A Dashboard for new tabs"
 #~ msgstr "Nadzorna plošča novih zavihkov"
 
-#~ msgid "Show _White Space"
-#~ msgstr "Pokaži _presledne znake"
-
 #~ msgid "Show spaces and tabs"
 #~ msgstr "Pokaži presledne znake in tabulatorje"
 
-#~ msgid "Draw tabs"
-#~ msgstr "Izris tabulatorjev"
-
-#~ msgid "Draw new lines"
-#~ msgstr "Izris znakov za nove vrstice"
-
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "Izriši nedeljive presledke"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "Izriši presledke na začetku vrstic"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "Izris preslednih znakov v besedilu"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "Izriši presledke na koncu vrstic"
-
 #~ msgid "Enabled"
 #~ msgstr "Omogočeno"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "Izbrana možnost omogoča izrisovanje znakov."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "Vrsta izrisanih preslednih znakov."
 
 #~ msgid "Join the selected lines"
 #~ msgstr "Združi izbrane vrstice"
