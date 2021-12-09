@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
 "POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2021-12-09 08:50+0000\n"
+"PO-Revision-Date: 2021-12-09 09:17+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -76,7 +76,7 @@ msgstr "Athugasemd kóða"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "Setja eða fjarlægja athugasemd á valinni blokk af kóða"
 
 #: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
@@ -84,11 +84,11 @@ msgstr "Athugasemdir í kóða"
 
 #: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "_Eyða athugasemd á kóða"
 
 #: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Setja eða fjarlægja athugasemdir á blokkir af kóða"
 
 #: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
 msgid "Color Picker"
@@ -143,6 +143,10 @@ msgid ""
 "\n"
 "Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
+"Þú hefur valið að útbúa nýtt litastef\n"
+"en nafnið eða auðkennið eru þegar til staðar.\n"
+"\n"
+"Gakktu úr skugga um að velja ekki nafn eða auðkenni sem þegar eru í notkun.\n"
 
 #: plugins/colorschemer/schemer/schemer.py:319
 msgid ""
@@ -151,6 +155,10 @@ msgid ""
 "\n"
 "Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
+"Þú hefur ekki heimild til að skrifa yfir litastefið sem þú valdir.\n"
+"Í staðinn verður búið til afrit.\n"
+"\n"
+"Gakktu úr skugga um að velja ekki nafn eða auðkenni sem þegar eru í notkun.\n"
 
 #. there must have been some conflict, since it opened the wrong file
 #: plugins/colorschemer/schemer/schemer.py:378
@@ -520,19 +528,19 @@ msgstr ""
 #: plugins/synctex/gedit-synctex.metainfo.xml.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/gedit-synctex.metainfo.xml.in:7
 msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr ""
+msgstr "Samstilla milli LaTeX og PDF með gedit og evince"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr ""
+msgstr "Samstilla milli LaTeX og PDF með gedit og evince."
 
 #: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
-msgstr ""
+msgstr "Leit áfram"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:313
@@ -541,7 +549,7 @@ msgstr "Skjáhermir"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "Einfaldur skjáhermi-viðmótshluti til taks á stiku neðst í glugganum"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
 msgid "Whether to silence terminal bell"
@@ -628,10 +636,13 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. “#FF00FF”"
 msgstr ""
+"Skjáhermar eru með 16-lita litastef sem forrit innan hans geta notað. Þetta"
+" er það litastef, á forminu sem listi litaheita aðgreindur í dálkum. Nöfn"
+" litanna ættu að vera á hex-sniði, t.d. “#FF00FF”"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
-msgstr ""
+msgstr "Hvort nota eigi liti úr þemanu fyrir skjáhermi-viðmótshlutann"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
@@ -650,6 +661,8 @@ msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
 msgstr ""
+"Möguleg gildi eru “kerfi” til að nota víðværar blikkstillingar bendils, eða"
+" “á” eða “af” til að setja haminn sérstaklega."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
