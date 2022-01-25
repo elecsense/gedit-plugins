@@ -56,7 +56,6 @@ install_data(
 )
 
 drawspaces_metainfo = i18n.merge_file(
-  'gedit-drawspaces.metainfo.xml',
   input: 'gedit-drawspaces.metainfo.xml.in',
   output: 'gedit-drawspaces.metainfo.xml',
   po_dir: join_paths(srcdir, 'po'),

@@ -47,7 +47,6 @@ install_data(
 )
 
 translate_metainfo = i18n.merge_file(
-  'gedit-translate.metainfo.xml',
   input: 'gedit-translate.metainfo.xml.in',
   output: 'gedit-translate.metainfo.xml',
   po_dir: join_paths(srcdir, 'po'),
