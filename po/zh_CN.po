@@ -15,21 +15,22 @@
 # Aron Xu <aronxu@gnome.org>, 2010.
 # YunQiang Su <wzssyqa@gmail.com>, 2014.
 # Junping Sun <junping@nfschina.com>, 2021.
+# lumingzh <lumingzh@qq.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-07-02 23:56+0000\n"
-"PO-Revision-Date: 2021-07-08 12:38-0400\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"POT-Creation-Date: 2022-02-01 06:47+0000\n"
+"PO-Revision-Date: 2022-02-03 10:42+0800\n"
+"Last-Translator: lumingzh <lumingzh@qq.com>\n"
+"Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Gtranslator 41.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -161,7 +162,6 @@ msgstr ""
 "请确保选择尚未使用的名称和 ID。\n"
 
 #: plugins/colorschemer/schemer/schemer.py:319
-#, fuzzy
 msgid ""
 "You do not have permission to overwrite the scheme you have chosen.\n"
 "Instead a copy will be created.\n"
@@ -169,9 +169,9 @@ msgid ""
 "Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
 "您没有权限覆盖所选方案。\n"
-"而是可以创建一个副本。\n"
+"作为替代将创建一个副本。\n"
 "\n"
-"请确保选择尚未使用的名称和 ID。\n"
+"请确保选择尚未使用的名称和标识。\n"
 
 #. there must have been some conflict, since it opened the wrong file
 #: plugins/colorschemer/schemer/schemer.py:378
@@ -179,9 +179,8 @@ msgid "There was a problem opening the file"
 msgstr "打开文件时出现问题"
 
 #: plugins/colorschemer/schemer/schemer.py:379
-#, fuzzy
 msgid "You appear to have schemes with the same IDs in different directories\n"
-msgstr "您在不同目录中似乎有具有相同 ID 的方案\n"
+msgstr "似乎您在不同目录中有具有相同标识的方案\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -363,7 +362,7 @@ msgstr "在文件中查找…"
 #: plugins/findinfiles/result-panel.vala:127
 msgid "hit"
 msgid_plural "hits"
-msgstr[0] ""
+msgstr[0] "结果"
 
 #: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
@@ -527,15 +526,14 @@ msgid "Smart Spaces"
 msgstr "智能空格"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
-#, fuzzy
 #| msgid ""
 #| "Allow to unindent like if you were using tabs while you're using spaces"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
-msgstr "如果您在使用制表符时同时使用空格，允许取消缩排"
+msgstr "如果您在使用空格时使用制表符允许取消缩进"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
-msgstr ""
+msgstr "忘记您未使用制表符。"
 
 #: plugins/synctex/gedit-synctex.metainfo.xml.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
@@ -568,7 +566,6 @@ msgid "Whether to silence terminal bell"
 msgstr "是否禁止终端响铃"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
-#, fuzzy
 #| msgid ""
 #| "If true, don't make a noise when applications send the escape sequence "
 #| "for the terminal bell."
@@ -582,7 +579,6 @@ msgid "Number of lines to keep in scrollback"
 msgstr "可回滚的行数"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
-#, fuzzy
 #| msgid ""
 #| "Number of scrollback lines to keep around. You can scroll back in the "
 #| "terminal by this number of lines; lines that don't fit in the scrollback "
@@ -621,20 +617,18 @@ msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "有新输出时是否滚动到底部"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
-#, fuzzy
 #| msgid ""
 #| "If true, whenever there's new output the terminal will scroll to the "
 #| "bottom."
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
-msgstr "如果设为 true，当有新输出时，终端将滚动到底部。"
+msgstr "如果设为 true，当有新输出时终端将滚动到底部。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
 msgid "Default color of text in the terminal"
 msgstr "终端中文本的默认颜色"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-#, fuzzy
 #| msgid ""
 #| "Default color of text in the terminal, as a color specification (can be "
 #| "HTML-style hex digits, or a color name such as \"red\")."
@@ -642,15 +636,14 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
-"终端文字的默认颜色，为某一颜色规范(可以是 HTML 样式的16进制数字，或某个颜色"
-"名，如“red”)"
+"终端文字的默认颜色，为某一颜色规范(可以是 HTML 样式的 16 进制数字，或某个颜色"
+"名如“red”)。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "终端背景的默认颜色"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
-#, fuzzy
 #| msgid ""
 #| "Default color of terminal background, as a color specification (can be "
 #| "HTML-style hex digits, or a color name such as \"red\")."
@@ -658,15 +651,14 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
-"终端背景的默认颜色，可以是某个颜色规范(可以是 HTML 样式的16制数字，或颜色名，"
-"比如“red”)"
+"终端背景的默认颜色，为某一颜色规范(可以是 HTML 样式的 16 制数字，或颜色名"
+"如“red”)。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "终端程序调色板"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
-#, fuzzy
 #| msgid ""
 #| "Terminals have a 16-color palette that applications inside the terminal "
 #| "can use. This is that palette, in the form of a colon-separated list of "
@@ -676,8 +668,8 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. “#FF00FF”"
 msgstr ""
-"终端有一个16色的调色板可让终端中程序使用。这就是该调色板，格式是冒号分隔的颜"
-"色名列表。颜色名应当是16进制的格式，如“#FF00FF”"
+"终端有一个 16 色的调色板可让终端中的应用程序使用。这就是该调色板，格式是冒号"
+"分隔的颜色名列表。颜色名应当是 16 进制的格式如“#FF00FF”"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -696,7 +688,6 @@ msgid "Whether to blink the cursor"
 msgstr "是否允许光标闪烁"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
-#, fuzzy
 #| msgid ""
 #| "The possible values are \"system\" to use the global cursor blinking "
 #| "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -711,7 +702,6 @@ msgid "The cursor appearance"
 msgstr "光标形状"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
-#, fuzzy
 #| msgid ""
 #| "The possible values are \"block\" to use a block cursor, \"ibeam\" to use "
 #| "a vertical line cursor, or \"underline\" to use an underline cursor."
@@ -727,7 +717,6 @@ msgid "Whether to use the system font"
 msgstr "是否使用系统字体"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
-#, fuzzy
 #| msgid ""
 #| "If true, the terminal will use the desktop-global standard font if it's "
 #| "monospace (and the most similar font it can come up with otherwise)."
@@ -735,8 +724,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"如果设为 true，终端将使用桌面的全局标准字体，如果该字体是等宽字体(否则将使用"
-"最相似的字体)。"
+"如果设为 true，终端将在桌面全局标准字体是等宽字体的情况下使用它(否则将使用最"
+"相似的字体)。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
@@ -801,7 +790,7 @@ msgstr "翻译输出显示位置"
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Translate console."
-msgstr ""
+msgstr "如果设为 true，翻译输出将插入文档窗口否则会在翻译控制台中。"
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -823,7 +812,7 @@ msgstr "用于从一种语言翻译到另一种语言的语言对"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "Apertium server end point"
-msgstr ""
+msgstr "Apertium 服务器端"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
@@ -847,7 +836,7 @@ msgstr "翻译控制台"
 #: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
-msgstr ""
+msgstr "翻译选中文本 [{0}]"
 
 #: plugins/translate/translate/preferences.py:84
 msgid "API Key"
