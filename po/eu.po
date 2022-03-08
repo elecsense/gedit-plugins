@@ -6,13 +6,13 @@
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007, 2008, 2010, 2014, 2015.
 # Edurne Labaka <elabaka@uzei.com>, 2015.
-# Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2019, 2021.
+# Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2019, 2021, 2022.
 #
 msgid ""
 msgstr "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-09-24 15:07+0000\n"
-"PO-Revision-Date: 2021-03-20 10:00+0100\n"
+"POT-Creation-Date: 2021-04-16 18:16+0000\n"
+"PO-Revision-Date: 2022-03-08 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -254,10 +254,6 @@ msgstr "Marraztu zuriuneak"
 msgid "Draw spaces and tabs"
 msgstr "Marraztu zuriuneak eta tabulazioak"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Erakutsi _zuriunea"
-
 #
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
@@ -393,16 +389,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Azken egikaritzetik aldatutako lerroak nabarmentzen ditu"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Elkartu/Zatitu lerroak"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Elkartu edo zatitu lerro anitz Ctrl+J eta Ctrl+Shift+J erabilita"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Elkartu/Zatitu lerroak"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -525,7 +518,7 @@ msgstr "Gordetako saioak"
 
 #
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Tarte azkarrak"
 
@@ -533,7 +526,7 @@ msgstr "Tarte azkarrak"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr "Koska kentzea baimentzen du, zuriuneak erabiltzean tabulazioak erabiltzea bezala"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Ahaztu tabulazioak ez zarela erabiltzen ari."
 
@@ -746,8 +739,8 @@ msgstr "Itzulpenaren irteera non erakutsiko den"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
-msgstr "Egia bada, itzulpenaren irteera dokumentu-leihoan txertatuko da; bestela, irteerako itzulpen-leihoan."
+"in the Translate console."
+msgstr "Egia bada, itzulpenaren irteera dokumentu-leihoan txertatuko da; bestela, itzulpen-leihoan."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -768,24 +761,29 @@ msgstr "Hizkuntza batetik bestera itzultzeko erabilitako hizkuntza-parea"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Urruneko web zerbitzurako API gakoa"
+msgid "Apertium server end point"
+msgstr "Apertium zerbitzariaren amaiera-puntua"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Urruneko web zerbitzurako API gakoa"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Erabiliko den urruneko web zerbitzua"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Itzulpena ahalbidetu duena: {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Itzuli kontsola"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Itzuli hautatutako testua [{0}]"
@@ -796,9 +794,9 @@ msgstr "API gakoa"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
-msgstr "Doako API gako bat eskuratu behar duzu hemen: <a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
+msgstr "API gako bat eskuratu behar duzu hemen: <a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -864,6 +862,12 @@ msgstr "Hitz-osaketa"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Osaketaren lan-markoa darabilen hitz-osaketa"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Erakutsi _zuriunea"
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Elkartu/Zatitu lerroak"
 
 #~ msgid "_In "
 #~ msgstr "_Sarrera "
