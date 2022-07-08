@@ -16,14 +16,14 @@
 # Kenneth Venken <kenneth.venken@gmail.com>, 2010.
 # Hannie Dumoleyn <lafeber-dumoleyn2@zonnet.nl>, 2010.
 # Justin van Steijn <jvs@fsfe.org>, 2016, 2018.
-# Nathan Follens <nfollens@gnome.org>, 2017-2021.
+# Nathan Follens <nfollens@gnome.org>, 2017-2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2021-09-07 21:23+0200\n"
+"POT-Creation-Date: 2022-06-23 19:50+0000\n"
+"PO-Revision-Date: 2022-07-08 23:31+0200\n"
 "Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -246,17 +246,17 @@ msgstr "Voorbeeld"
 
 #: plugins/commander/commander/appactivatable.py:56
 msgid "Commander Mode"
-msgstr "Opdrachtlijn-modus"
+msgstr "Opdrachtregelmodus"
 
 #: plugins/commander/commander.plugin.desktop.in.in:6
 #: plugins/commander/gedit-commander.metainfo.xml.in:6
 msgid "Commander"
-msgstr "Opdrachtlijn"
+msgstr "Opdrachtregel"
 
 #: plugins/commander/commander.plugin.desktop.in.in:7
 #: plugins/commander/gedit-commander.metainfo.xml.in:7
 msgid "Command line interface for advanced editing"
-msgstr "Opdrachtlijn-interface voor geavanceerd bewerken"
+msgstr "Opdrachtregelinterface voor geavanceerd bewerken"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
@@ -306,7 +306,7 @@ msgstr "Witspaties tonen"
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
-msgstr "Als WAAR zal weergeven worden ingeschakeld."
+msgstr "Indien WAAR zal weergeven ingeschakeld worden."
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
 msgid "The type of spaces to be drawn."
@@ -513,7 +513,7 @@ msgstr "Sessienaam"
 
 #: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
 msgid "Session Saver"
-msgstr "Sessies Opslaan"
+msgstr "Sessies opslaan"
 
 #: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
 msgid "Save and restore your working sessions"
@@ -881,7 +881,7 @@ msgstr "Interactieve aanvulling"
 
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:43
 msgid "Minimum word size:"
-msgstr "Minimum woordgrootte:"
+msgstr "Minimale woordgrootte:"
 
 #: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
 msgid "Word completion"
@@ -908,11 +908,11 @@ msgstr "Of interactieve aanvulling ingeschakeld is."
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
 msgid "Minimum Word Size"
-msgstr "Minimum woordgrootte"
+msgstr "Minimale woordgrootte"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
 msgid "The minimum word size to complete."
-msgstr "De minimum woordgrootte om aan te vullen."
+msgstr "De minimale woordgrootte om aan te vullen."
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
