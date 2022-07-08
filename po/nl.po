@@ -16,22 +16,22 @@
 # Kenneth Venken <kenneth.venken@gmail.com>, 2010.
 # Hannie Dumoleyn <lafeber-dumoleyn2@zonnet.nl>, 2010.
 # Justin van Steijn <jvs@fsfe.org>, 2016, 2018.
-# Nathan Follens <nthn@unseen.is>, 2017-2021.
+# Nathan Follens <nfollens@gnome.org>, 2017-2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-02-19 22:14+0000\n"
-"PO-Revision-Date: 2021-04-02 16:31+0200\n"
-"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
+"POT-Creation-Date: 2022-05-16 16:57+0000\n"
+"PO-Revision-Date: 2022-07-08 22:55+0200\n"
+"Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -246,19 +246,20 @@ msgstr "Voorbeeld"
 
 #: plugins/commander/commander/appactivatable.py:56
 msgid "Commander Mode"
-msgstr "Opdrachtlijn-modus"
+msgstr "Opdrachtregelmodus"
 
 #: plugins/commander/commander.plugin.desktop.in.in:6
 #: plugins/commander/gedit-commander.metainfo.xml.in:6
 msgid "Commander"
-msgstr "Opdrachtlijn"
+msgstr "Opdrachtregel"
 
 #: plugins/commander/commander.plugin.desktop.in.in:7
 #: plugins/commander/gedit-commander.metainfo.xml.in:7
 msgid "Command line interface for advanced editing"
-msgstr "Opdrachtlijn-interface voor geavanceerd bewerken"
+msgstr "Opdrachtregelinterface voor geavanceerd bewerken"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Spaties weergeven"
 
@@ -266,13 +267,50 @@ msgstr "Spaties weergeven"
 msgid "Draw spaces and tabs"
 msgstr "Spaties en tabs tonen"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Spaties tonen"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Tabs tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Nieuwe regels tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Niet-afbrekende spaties tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Leidende spaties tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Spaties in tekst tonen"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Afsluitende spaties tonen"
+
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Spaties en tabs tonen"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Witspaties tonen"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Indien WAAR zal weergeven ingeschakeld worden."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "Het type spaties om te tonen."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -475,7 +513,7 @@ msgstr "Sessienaam"
 
 #: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
 msgid "Session Saver"
-msgstr "Sessies Opslaan"
+msgstr "Sessies opslaan"
 
 #: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
 msgid "Save and restore your working sessions"
@@ -843,7 +881,7 @@ msgstr "Interactieve aanvulling"
 
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:43
 msgid "Minimum word size:"
-msgstr "Minimum woordgrootte:"
+msgstr "Minimale woordgrootte:"
 
 #: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
 msgid "Word completion"
@@ -870,11 +908,11 @@ msgstr "Of interactieve aanvulling ingeschakeld is."
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
 msgid "Minimum Word Size"
-msgstr "Minimum woordgrootte"
+msgstr "Minimale woordgrootte"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
 msgid "The minimum word size to complete."
-msgstr "De minimum woordgrootte om aan te vullen."
+msgstr "De minimale woordgrootte om aan te vullen."
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
@@ -886,33 +924,6 @@ msgstr "Woordaanvulling gebruikmakend van het aanvullingsraamwerk"
 
 #~ msgid "Show _White Space"
 #~ msgstr "_Witspaties tonen"
-
-#~ msgid "Draw tabs"
-#~ msgstr "Tabs tonen"
-
-#~ msgid "Draw new lines"
-#~ msgstr "Nieuwe regels tonen"
-
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "Niet-afbrekende spaties tonen"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "Leidende spaties tonen"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "Spaties in tekst tonen"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "Afsluitende spaties tonen"
-
-#~ msgid "Show White Space"
-#~ msgstr "Witspaties tonen"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "Als WAAR zal weergeven worden ingeschakeld."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "Het type spaties om te tonen."
 
 #~ msgid "Join lines/ Split lines"
 #~ msgstr "Regels samenvoegen/splitsen"
