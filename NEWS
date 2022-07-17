@@ -1,5 +1,24 @@
-News in 40.alpha, 2021-xx-yy (not yet released)
-----------------------------
+News in 42.1, 2022-05-27
+------------------------
+* Translation updates.
+
+News in 42.0, 2022-04-04
+------------------------
+* Translation updates
+
+News in 41.0, 2022-02-16
+------------------------
+* Fix build with latest meson
+* Translation updates
+
+News in 40.1, 2021-04-28
+------------------------
+* Removes tepl dependency
+* Fixes SessionSaver plugin does not start problem
+* Translation updates
+
+News in 40.0, 2021-03-13
+------------------------
 * Draw Spaces plugin: new implementation based on TeplSpaceDrawerPrefs.
 * Smart Spaces plugin: Python to C rewrite, new implementation based on the
   GtkSourceView:smart-backspace property.
