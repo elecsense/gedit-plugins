@@ -1,19 +1,19 @@
 # Swedish messages for gedit plugins
-# Copyright © 1998-2020 Free Software Foundation, Inc.
+# Copyright © 1998-2022 Free Software Foundation, Inc.
 # Martin Wahlen <mva@sslug.dk>, 1998.
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 1999, 2000.
 # Andreas Hyden <a.hyden@cyberpoint.se>, 2000.
 # Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
 # Josef Andersson <josef.andersson@fripost.org>, 2016, 2017.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2019, 2020.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2019, 2020, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-07-30 14:35+0200\n"
+"POT-Creation-Date: 2022-07-17 21:26+0000\n"
+"PO-Revision-Date: 2022-07-17 23:31+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 3.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -244,7 +244,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Kommandoradsgränssnitt för avancerad redigering"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Rita ut blanksteg"
 
@@ -252,54 +251,13 @@ msgstr "Rita ut blanksteg"
 msgid "Draw spaces and tabs"
 msgstr "Rita ut blanksteg och tabulatorer"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Visa _tomt utrymme"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Rita ut blanksteg"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Rita ut tabulatorer"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Rita ut nya rader"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Rita ut icke-brytande blanksteg"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Rita ut inledande blanksteg"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Rita ut blanksteg i text"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Rita ut eftersläpande blanksteg"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Rita ut blanksteg och tabulatorer"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Visa tomt utrymme"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Om TRUE (sant) kommer ritning att aktiveras."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Typen av blanksteg som kommer att ritas."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -391,16 +349,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Markera rader som har ändrats sedan senaste incheckningen"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
-msgstr "Sammanfoga/ Dela rader"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Sammanfoga/Dela rader"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Sammanfoga eller dela upp rader med Ctrl+J och Ctrl+Skift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Sammanfoga/Dela rader"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -523,7 +478,7 @@ msgid "Saved Sessions"
 msgstr "Sparade sessioner"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Smarta blanksteg"
 
@@ -532,7 +487,7 @@ msgid "Allow to unindent like if you were using tabs while you’re using spaces
 msgstr ""
 "Tillåter att avindentera som om du använde tabbar medan du använder blanksteg"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Glöm att du inte använder tabulatorer."
 
@@ -799,24 +754,29 @@ msgstr "Språkpar som används för att översätta från ett språk till ett an
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "API-nyckel för fjärrwebbtjänst"
+msgid "Apertium server end point"
+msgstr "Ändpunkt för Apertium-server"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "API-nyckel för fjärrwebbtjänst"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Fjärrwebbtjänst att använda"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Översättningar med hjälp av {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Översättningskonsol"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Översätt vald text [{0}]"
@@ -827,10 +787,10 @@ msgstr "API-nyckel"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Du behöver erhålla en gratis API-nyckel på <a href='https://tech.yandex.com/"
+"Du behöver erhålla en API-nyckel på <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
@@ -897,6 +857,39 @@ msgstr "Ordkomplettering"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Ordkomplettering som använder kompletteringsramverket"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Visa _tomt utrymme"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Rita ut tabulatorer"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Rita ut nya rader"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Rita ut icke-brytande blanksteg"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Rita ut inledande blanksteg"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Rita ut blanksteg i text"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Rita ut eftersläpande blanksteg"
+
+#~ msgid "Show White Space"
+#~ msgstr "Visa tomt utrymme"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Om TRUE (sant) kommer ritning att aktiveras."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Typen av blanksteg som kommer att ritas."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Sammanfoga/ Dela rader"
 
 #~ msgid "_In "
 #~ msgstr "_I "
