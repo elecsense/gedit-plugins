@@ -26,6 +26,7 @@ multiedit_plugin = custom_target(
 )
 
 multiedit_metainfo = i18n.merge_file(
+  'gedit-multiedit.metainfo.xml',
   input: 'gedit-multiedit.metainfo.xml.in',
   output: 'gedit-multiedit.metainfo.xml',
   po_dir: join_paths(srcdir, 'po'),

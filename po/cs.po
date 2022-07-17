@@ -14,14 +14,14 @@
 # Kamil Páral <ripper42@gmail.com>, 2009.
 # Lucas Lommer <llommer@svn.gnome.org>, 2009. (just one fix).
 # Petr Kovar <pknbe@volny.cz>, 2008 – 2010.
-# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2021-08-31 13:03+0200\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-13 17:40+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -254,7 +254,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Rozhraní příkazového řádku k pokročilým úpravám"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Vykreslovat mezery"
 
@@ -262,50 +261,13 @@ msgstr "Vykreslovat mezery"
 msgid "Draw spaces and tabs"
 msgstr "Vykresluje mezery a tabulátory"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Vykreslovat mezery"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Vykreslovat tabulátory"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Vykreslovat zalomení"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Vykreslovat nezalomitelné mezery"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Vykreslovat úvodní mezery"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Vykreslovat mezery v textu"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Vykreslovat koncové mezery"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Vykresluje mezery a tabulátory"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Zobrazovat bílé znaky"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Když je zapnuto, budou se bílé znaky vykreslovat."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Typ mezer, které se mají vykreslovat."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -779,10 +741,10 @@ msgstr "Kam vypisovat překlady"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
 "Když je zapnuto, je výstup překladu vložen do okna s dokumentem, když není, "
-"tak do konzoly překladů."
+"tak do okna pro výpis překladů."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -836,11 +798,11 @@ msgstr "Klíč API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Potřebujete na <a href='https://yandex.com/dev/translate/'>https://yandex.com/"
-"dev/translate/</a> získat klíč k API."
+"Potřebujete na <a href='https://tech.yandex.com/translate/'>https://tech."
+"yandex.com/translate/</a> získat klíč k API."
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"

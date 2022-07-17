@@ -26,16 +26,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2022-03-17 18:52+0100\n"
-"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
+"POT-Creation-Date: 2020-05-18 14:36+0000\n"
+"PO-Revision-Date: 2020-05-26 04:40+0200\n"
+"Last-Translator: scootergrisen\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.3\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -52,10 +51,12 @@ msgid "Toggle Bookmark"
 msgstr "Bogmærke til/fra"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#| msgid "Goto Next Bookmark"
 msgid "Go to Next Bookmark"
 msgstr "Gå til næste bogmærke"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#| msgid "Goto Previous Bookmark"
 msgid "Go to Previous Bookmark"
 msgstr "Gå til forrige bogmærke"
 
@@ -186,8 +187,7 @@ msgstr "Der opstod et problem da filen skulle åbnes"
 
 #: plugins/colorschemer/schemer/schemer.py:379
 msgid "You appear to have schemes with the same IDs in different directories\n"
-msgstr ""
-"Det ser ud til at du har skemaer med de samme id'er i forskellige mapper\n"
+msgstr "Det ser ud til at du har skemaer med de samme id'er i forskellige mapper\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -222,7 +222,7 @@ msgid "_Foreground"
 msgstr "_Forgrund"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear"
+msgid "_Clear "
 msgstr "_Ryd"
 
 #: plugins/colorschemer/schemer.ui:383
@@ -268,6 +268,11 @@ msgstr "Vis mellemrum"
 msgid "Draw spaces and tabs"
 msgstr "Vis mellemrum og tabulatorstop"
 
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show _White Space"
+msgstr "Vis _blanktegn"
+
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
@@ -301,10 +306,6 @@ msgstr "Vis efterstillede mellemrum"
 msgid "Draw Spaces and Tabs"
 msgstr "Vis mellemrum og tabulatorstop"
 
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Vis blanktegn"
-
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Hvis SAND vil visning blive aktiveret."
@@ -331,12 +332,12 @@ msgstr "_Find"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind:"
-msgstr "Fin_d:"
+msgid "F_ind "
+msgstr "F_ind"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In:"
-msgstr "_I:"
+msgid "_In "
+msgstr "_I"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -403,13 +404,16 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Fremhæv linjer, der er ændret siden sidste commit"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
+msgid "Join lines/ Split lines"
 msgstr "Sammenføj/del linjer"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Sammenføj eller del flere linjer med Ctrl+J og Ctrl+Skift+J"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Sammenføj/del linjer"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -534,17 +538,16 @@ msgid "Saved Sessions"
 msgstr "Gemte sessioner"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
 msgstr "Smarte mellemrum"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr ""
-"Tillad at ophæve indryk som hvis du brugte tabulatorstop, men bruger "
-"mellemrum"
+"Tillad at ophæve indryk som hvis du brugte tabulatorstop, men bruger mellemrum"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "Brug mellemrum som var de tabulatorstop."
 
@@ -610,9 +613,10 @@ msgid ""
 "stored on disk temporarily, so this may cause the system to run out of disk "
 "space if there is a lot of output to the terminal."
 msgstr ""
-"Hvis sand så vil tilbagerulningslinjer aldrig blive slettet. Historikken for "
-"tilbagerulning gemmes midlertidigt på disken, så dette kan få systemet til "
-"at løbe tør for diskplads, hvis der er masser af uddata til terminalen."
+"Hvis sand så vil tilbagerulningslinjer aldrig blive slettet. "
+"Historikken for tilbagerulning gemmes midlertidigt på disken, så dette kan "
+"få systemet til at løbe tør for diskplads, hvis der er masser af uddata til "
+"terminalen."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
 msgid "Whether to scroll to the bottom when a key is pressed"
@@ -678,8 +682,8 @@ msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"Hvis sand så vil temafarveskemaet brugt for indtastningsbokse blive brugt i "
-"terminalen i stedet for farver angivet af brugeren."
+"Hvis sand så vil temafarveskemaet brugt for indtastningsbokse blive "
+"brugt i terminalen i stedet for farver angivet af brugeren."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
@@ -717,8 +721,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Hvis sand så vil terminalen bruge standardskriften desktop-global, hvis den "
-"er monospace (og ellers den skrift som ligner mest)."
+"Hvis sand så vil terminalen bruge standardskriften desktop-global, "
+"hvis den er monospace (og ellers den skrift som ligner mest)."
 
 # scootergrisen: skal den ikke være "Skriftype"?
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
@@ -728,9 +732,7 @@ msgstr "Skrifttype"
 # scootergrisen: kopieret fra gedit
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
-"Navnet på en Pango-skrifttype. Eksempler: “Sans 12” eller “Monospace Bold "
-"14”."
+msgstr "Navnet på en Pango-skrifttype. Eksempler: “Sans 12” eller “Monospace Bold 14”."
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -786,7 +788,7 @@ msgstr "Hvor oversættelsen skal indsættes"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
 "Hvis sand indsættes oversættelsen i dokumentvinduet ellers i "
 "oversættelseskonsollen."
@@ -796,47 +798,41 @@ msgstr ""
 # scootergrisen: "'dan|nob'" - dansk > bokmål
 # scootergrisen: "'dan|swe'" - dansk > svensk
 #. Translators: You can adjust the default pair for users in your locale.
-#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
-#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
-#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
-#. You must keep this format 'xxx|yyy', or things will break!
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
 msgid "'eng|spa'"
 msgstr "'dan|nob'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "Language pair used"
 msgstr "Anvendt sprogpar"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used to translate from one language to another"
 msgstr "Sprogpar til brug for oversættelse fra et sprog til et andet"
 
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "Apertium server end point"
-msgstr "Slutpunkt for Apertium-server"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "API key for remote web service"
 msgstr "API-nøgle til ekstern webtjeneste"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 msgid "Remote web service to use"
 msgstr "Ekstern webtjeneste der skal bruges"
 
-#: plugins/translate/translate/__init__.py:88
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Oversættelser leveret af {0}"
 
-#: plugins/translate/translate/__init__.py:91
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Oversættelseskonsol"
 
-#: plugins/translate/translate/__init__.py:166
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Oversæt den valgte tekst [{0}]"
@@ -847,11 +843,11 @@ msgstr "API-nøgle"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Du skal hente en API-nøgle hos <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"Du skal hente en gratis API-nøgle hos <a href='https://tech.yandex.com/trans"
+"late/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -918,9 +914,3 @@ msgstr "Ordfuldførelse"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Ordfuldførelse med brug af fuldførelsesrammen"
-
-#~ msgid "_In "
-#~ msgstr "_I"
-
-#~ msgid "Join lines/ Split lines"
-#~ msgstr "Sammenføj/del linjer"

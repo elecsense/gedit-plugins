@@ -5,22 +5,22 @@
 # Stanislav Visnovsky <visnovsky@kde.org>, 2003, 2004.
 # Marcel Telka <marcel@telka.sk>, 2005, 2009.
 # Ivan Masár <helix84@centrum.sk>, 2011, 2012.
-# Dušan Kazik <prescott66@gmail.com>, 2015-2021.
+# Dušan Kazik <prescott66@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-06-15 19:43+0000\n"
-"PO-Revision-Date: 2021-10-06 10:09+0200\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-09-06 18:44+0200\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0\n"
-"X-Generator: Gtranslator 40.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -253,6 +253,10 @@ msgstr "Vykresľovať medzery"
 msgid "Draw spaces and tabs"
 msgstr "Vykreslí medzery a tabulátory"
 
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+msgid "Show _White Space"
+msgstr "Zobrazovať _netlačiteľné znaky"
+
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
@@ -392,8 +396,7 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Zvýrazní riadky, ktoré boli zmenené od posledného začlenenia"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
+msgid "Join lines/ Split lines"
 msgstr "Spojenie/rozdelenie riadkov"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
@@ -401,6 +404,10 @@ msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr ""
 "Spojí alebo rozdelí viacero riadkov pomocou klávesových skratiek Ctrl+J a "
 "Ctrl+Shift+J"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Spojenie/rozdelenie riadkov"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -523,7 +530,7 @@ msgid "Saved Sessions"
 msgstr "Uložené relácie"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
 msgstr "Inteligentné medzery"
 
@@ -533,7 +540,7 @@ msgstr ""
 "Umožní zrušiť posunutie textu, ako keď používate tabulátor pri zadávaní "
 "medzier"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "Zabudnite, že nepoužívate tabulátory."
 
@@ -777,10 +784,10 @@ msgstr "Kam umiestniť výstupný preklad"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
 "Ak je nastavené na true, výstupný preklad je vložený v okne dokumentu, inak "
-"je vložený v konzole prekladu."
+"je vložený v okne výstupného prekladu."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -801,29 +808,24 @@ msgstr "Jazykový pár použitý na preklad z jedného jazyka do druhého"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "Apertium server end point"
-msgstr "Koncový bod servera Apertium"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "API key for remote web service"
 msgstr "Kľúč API pre vzdialenú webovú službu"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Vzdialená webová služba, ktorá sa má použiť"
 
-#: plugins/translate/translate/__init__.py:88
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Preklady sú uskutočňované pomocou služby {0}"
 
-#: plugins/translate/translate/__init__.py:91
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Konzola prekladov"
 
-#: plugins/translate/translate/__init__.py:166
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Preložiť vybraný text [{0}]"
@@ -833,15 +835,12 @@ msgid "API Key"
 msgstr "API klúč"
 
 #: plugins/translate/translate/services/yandex.py:65
-#| msgid ""
-#| "You need to obtain an API key at <a href='https://tech.yandex.com/"
-#| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Musíte získať API kľúč na adrese <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"Musíte získať voľný API kľúč na adrese <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -907,12 +906,6 @@ msgstr "Dopĺňanie slov"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Dopĺňanie slov pomocou platformy na dopĺňanie"
-
-#~ msgid "Show _White Space"
-#~ msgstr "Zobrazovať _netlačiteľné znaky"
-
-#~ msgid "Join lines/ Split lines"
-#~ msgstr "Spojenie/rozdelenie riadkov"
 
 #~ msgid "_In "
 #~ msgstr "_V "

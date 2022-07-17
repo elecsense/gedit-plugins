@@ -1,13 +1,13 @@
 # Swedish translation for gedit-plugins-help
 # Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009.
 # Josef Andersson <josef.andersson@fripost.org>, 2016.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2019, 2020, 2021.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"POT-Creation-Date: 2021-08-31 11:41+0000\n"
-"PO-Revision-Date: 2021-09-01 23:03+0200\n"
+"POT-Creation-Date: 2020-11-22 05:45+0000\n"
+"PO-Revision-Date: 2020-12-17 22:46+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -1270,59 +1270,30 @@ msgstr ""
 #: C/translate.page:42
 msgid ""
 "In case you use the Yandex translation engine, you need an API key. You can "
-"obtain a key at <link href=\"https://yandex.com/dev/translate/\">Yandex web "
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
 "site</link>."
 msgstr ""
 "Om du använder översättningsmotorn Yandex så behöver du en API-nyckel. Du "
-"kan erhålla en nyckel på <link href=\"https://yandex.com/dev/translate/"
+"kan erhålla en nyckel på <link href=\"https://tech.yandex.com/translate/"
 "\">Yandex webbplats</link>."
 
-#. (itstool) path: note/p
-#: C/translate.page:46
-msgid ""
-"You can also customize the address of the Apertium server, you will need to "
-"use the <app>dconf-editor</app> application."
-msgstr ""
-"Du kan också anpassa adressen för Apertium-servern, du kommer behöva "
-"programmet <app>dconf-editor</app>."
-
-#. (itstool) path: item/p
-#: C/translate.page:48
-msgid ""
-"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
-"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
-"server</gui></guiseq>."
-msgstr ""
-"Starta <app>dconf-editor</app> och välj <guiseq><gui>org</gui> <gui>gnome</"
-"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
-"server</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/translate.page:51
-msgid ""
-"Double-click on the URL next to <gui>apertium-server</gui> and change the "
-"URL to your desired value."
-msgstr ""
-"Dubbelklicka på URL:en intill <gui>apertium-server</gui> och ändra URL:en "
-"till värdet du önskar."
-
 #. (itstool) path: section/title
-#: C/translate.page:59
+#: C/translate.page:49
 msgid "Using the Translate plugin"
 msgstr "Använda insticksmodulen Översätt"
 
 #. (itstool) path: steps/title
-#: C/translate.page:62
+#: C/translate.page:52
 msgid "To translate a text:"
 msgstr "För att översätta en text:"
 
 #. (itstool) path: item/p
-#: C/translate.page:64
+#: C/translate.page:54
 msgid "Select the part of text that you would like to translate."
 msgstr "Välj delen av texten som du vill översätta."
 
 #. (itstool) path: item/p
-#: C/translate.page:67
+#: C/translate.page:57
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
@@ -1331,7 +1302,7 @@ msgstr ""
 "snabbvalsmenyn för att översätta den."
 
 #. (itstool) path: item/p
-#: C/translate.page:68
+#: C/translate.page:58
 msgid ""
 "The translation appears in the document or in the bottom panel, depending on "
 "your configuration."
@@ -1391,3 +1362,338 @@ msgstr ""
 "För att infoga ett föreslaget ord, dubbelklicka på det i poppupplistan eller "
 "tryck ned <keyseq><key>Alt</key><key>Sif</key></keyseq>, där <key>Sif</key> "
 "är siffran som visas intill ditt önskade ord."
+
+#~ msgid ""
+#~ "By default, the <app>Draw Spaces</app> plugin will mark the following "
+#~ "types of whitespace in a file:"
+#~ msgstr ""
+#~ "Som standard kommer insticksmodulen <app>Rita ut blanksteg</app> att "
+#~ "markera följande typer av blanktecken i en fil:"
+
+#~ msgid "Spaces"
+#~ msgstr "Blanksteg"
+
+#~ msgid "Tabs"
+#~ msgstr "Tabulatorer"
+
+#~ msgid "Leading spaces"
+#~ msgstr "Inledande blanksteg"
+
+#~ msgid "Spaces in text"
+#~ msgstr "Blanksteg i text"
+
+#~ msgid "Trailing spaces"
+#~ msgstr "Eftersläpande blanksteg"
+
+#~ msgid "You can also set the plugin to mark:"
+#~ msgstr "Du kan också ställa in insticket till att markera:"
+
+#~ msgid "New lines"
+#~ msgstr "Nyrader"
+
+#~ msgid "Non-breaking spaces"
+#~ msgstr "Icke-brytande blanksteg"
+
+#~ msgid ""
+#~ "To enable the bookmark plugin, select <guiseq><gui style=\"menu\">gedit</"
+#~ "gui> <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
+#~ "<gui>Bookmarks</gui></guiseq>."
+#~ msgstr ""
+#~ "För att aktivera insticksmodulen för bokmärken, välj <guiseq><gui style="
+#~ "\"menu\">gedit</gui> <gui style=\"menuitem\">Inställningar</"
+#~ "gui><gui>Insticksmoduler</gui> <gui>Bokmärken</gui></guiseq>."
+
+#~ msgid ""
+#~ "To enable the plugin, select <guiseq><gui style=\"menu\">gedit</gui> <gui "
+#~ "style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Bracket "
+#~ "Completion</gui></guiseq>."
+#~ msgstr ""
+#~ "För att aktivera insticksmodulen, välj <guiseq><gui style=\"menu\">gedit</"
+#~ "gui> <gui style=\"menuitem\">Inställningar</gui><gui>Insticksmoduler</"
+#~ "gui> <gui>Parenteskomplettering</gui></guiseq>."
+
+#~ msgid ""
+#~ "The <app>code comment</app> plugin makes it easier to quickly create or "
+#~ "remove code comments. To enable the code comment plugin, select "
+#~ "<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem"
+#~ "\">Preferences</gui> <gui>Plugins</gui><gui>Code comment</gui></guiseq>."
+#~ msgstr ""
+#~ "Insticksmodulen <app>Kodkommentar</app> gör det enklare att snabbt skapa "
+#~ "eller ta bort kodkommentarer. För att aktivera insticket för "
+#~ "kodkommentarer, välj <guiseq><gui style=\"menu\">gedit</gui><gui style="
+#~ "\"menuitem\">Inställningar</gui> <gui>Inställningar</"
+#~ "gui><gui>Kodkommentar</gui></guiseq>."
+
+#~ msgid ""
+#~ "To enable the color picker plugin, select <guiseq><gui style=\"menu"
+#~ "\">gedit</gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</"
+#~ "gui><gui>Color Picker</gui></guiseq>."
+#~ msgstr ""
+#~ "För att aktivera insticksmodulen färgväljare, välj <guiseq><gui style="
+#~ "\"menu\">gedit</gui><gui style=\"menuitem\">Inställningar</gui> "
+#~ "<gui>Insticksmoduler</gui><gui>Färgväljare</gui></guiseq>."
+
+#~ msgid ""
+#~ "Select <guiseq><gui>Tools</gui><gui>Pick Color…</gui></guiseq>. The color "
+#~ "picker dialog will appear."
+#~ msgstr ""
+#~ "Välj <guiseq><gui>Verktyg</gui><gui>Välj färg…</gui></guiseq>. "
+#~ "Färgväljardialogen kommer att visas."
+
+#~ msgid ""
+#~ "Additionally, you can save colors by right-clicking on any of the colored "
+#~ "boxes in the color picker, and selecting <gui>Save color here</gui>. This "
+#~ "will make it easier to insert commonly-used colors later."
+#~ msgstr ""
+#~ "Dessutom kan du också spara färger genom att högerklicka på vilken som "
+#~ "helst av de färgade boxarna i färgväljaren och välja <gui>Spara färg här</"
+#~ "gui>. Det kommer att göra det enklare att infoga ofta använda färger "
+#~ "senare."
+
+#~ msgid "Display recently-used and most-used files on startup."
+#~ msgstr "Visa senast använda och mest använda filer vid uppstart."
+
+#~ msgid "Dashboard"
+#~ msgstr "Instrumentpanel"
+
+#~ msgid ""
+#~ "The <app>Dashboard</app> plugin provides quick access to your most "
+#~ "recently-used files and most-frequently used files. To activate the "
+#~ "<app>Dashboard</app> plugin, select <guiseq><gui style=\"menu\">gedit</"
+#~ "gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</"
+#~ "gui><gui>Dashboard</gui></guiseq>. You will need to restart <app>gedit</"
+#~ "app> to activate the <app>Dashboard</app> plugin."
+#~ msgstr ""
+#~ "Insticksmodulen <app>Instrumentpanel</app> ger dig snabb åtkomst till "
+#~ "dina senast och mest använda filer. För att aktivera insticksmodulen "
+#~ "<app>Instrumentpanel</app>, välj <guiseq><gui style=\"menu\">gedit</"
+#~ "gui><gui style=\"menuitem\">Inställningar</gui> <gui>Insticksmoduler</"
+#~ "gui><gui>Instrumentpanel</gui></guiseq>. Du kommer att behöva starta om "
+#~ "<app>gedit</app> för att aktivera insticksmodulen <app>Instrumentpanel</"
+#~ "app>."
+
+#~ msgid ""
+#~ "The <app>dashboard</app> also includes a <gui>Search</gui> window, "
+#~ "allowing you to search for files that may not appear in the list of files."
+#~ msgstr ""
+#~ "<app>Instrumentpanelen</app> inkluderar också ett <gui>Sök</gui>-fönster "
+#~ "vilket låter dig söka efter filer som kanske inte visas i listan över "
+#~ "filer."
+
+#~ msgid "Recently used files"
+#~ msgstr "Senast använda filer"
+
+#~ msgid ""
+#~ "The dashboard will initially display a shortcut for an <gui>empty "
+#~ "document</gui> and seven of your most recently-used files. Click on the "
+#~ "<gui>empty document</gui> to create a new file. Click on any of the other "
+#~ "files to open that file."
+#~ msgstr ""
+#~ "Instrumentpanelen kommer initialt att visa en genväg för ett <gui>tomt "
+#~ "dokument</gui> och sju andra av dina senast använda filer. Klicka på "
+#~ "<gui>tomt dokument</gui> för att skapa en ny fil. Klicka på någon av de "
+#~ "andra filerna för att öppna den filen."
+
+#~ msgid "Most frequently-used files"
+#~ msgstr "Mest använda filer"
+
+#~ msgid ""
+#~ "Similarly, the dashboard displays a shortcut for an <gui>empty document</"
+#~ "gui> and seven of your most frequently-used files. Click on the <gui> "
+#~ "empty document</gui> to create a new file. Click on any of the other "
+#~ "files to open that file."
+#~ msgstr ""
+#~ "På liknande sätt visar instrumentpanelen en genväg för ett <gui>tomt "
+#~ "dokument</gui> och sju andra av dina mest använda filer. Klicka på "
+#~ "<gui>tomt dokument</gui> för att skapa en ny fil. Klicka på någon av de "
+#~ "andra filerna för att öppna den filen."
+
+#~ msgid ""
+#~ "Once activated, the <app>dashboard</app> will be displayed by default "
+#~ "when you open <app>gedit</app>. You can also open the <app>dashboard</"
+#~ "app> by clicking <guiseq><gui>File</gui><gui>New</gui></guiseq>, or by "
+#~ "pressing <keyseq><key>Ctrl</key><key>N</key></keyseq>."
+#~ msgstr ""
+#~ "När den väl är aktiverad, kommer <app>instrumentpanelen</app> att visas "
+#~ "som standard när du öppnar <app>gedit</app>. Du kan också öppna "
+#~ "<app>instrumentpanelen</app> genom att klicka på <guiseq><gui>Arkiv</"
+#~ "gui><gui>Ny</gui></guiseq> eller genom att trycka <keyseq><key>Ctrl</"
+#~ "key><key>N</key></keyseq>."
+
+#~ msgid ""
+#~ "To enable this plugin, select <guiseq><gui style=\"menu\">gedit</gui> "
+#~ "<gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Draw "
+#~ "Spaces</gui></guiseq>. After you have enabled the plugin, you can set its "
+#~ "options by highlighting the plugin and selecting <gui style=\"menuitem"
+#~ "\">Preferences</gui>."
+#~ msgstr ""
+#~ "För att aktivera denna insticksmodul, välj <guiseq><gui style=\"menu"
+#~ "\">gedit</gui> <gui style=\"menuitem\">Inställningar</"
+#~ "gui><gui>Insticksmoduler</gui> <gui>Rita ut blanksteg</gui></guiseq>. "
+#~ "Efter att du har aktiverat denna insticksmodul kan du ställa in dess "
+#~ "alternativ genom att markera insticket och välja <gui style=\"menuitem"
+#~ "\">Inställningar</gui>."
+
+#~ msgid ""
+#~ "To enable the plugin, select <guiseq><gui style=\"menu\">gedit</gui> <gui "
+#~ "style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Git</gui></"
+#~ "guiseq>."
+#~ msgstr ""
+#~ "För att aktivera insticksmodulen, välj <guiseq><gui style=\"menu\">gedit</"
+#~ "gui> <gui style=\"menuitem\">Inställningar</gui><gui>Insticksmoduler</"
+#~ "gui> <gui>Git</gui></guiseq>."
+
+#~ msgid ""
+#~ "To enable this plugin, select <guiseq><gui style=\"menu\">gedit</gui> "
+#~ "<gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Join/"
+#~ "Split Lines</gui></guiseq>."
+#~ msgstr ""
+#~ "För att aktivera denna insticksmodul, välj <guiseq><gui style=\"menu"
+#~ "\">gedit</gui> <gui style=\"menuitem\">Inställningar</"
+#~ "gui><gui>Insticksmoduler</gui> <gui>Sammanfoga/Dela rader</gui></guiseq>."
+
+#~ msgid "To enable the <app>Embedded Terminal</app> plugin:"
+#~ msgstr "Att aktivera insticksmodulen <app>Inbäddad terminal</app>:"
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+#~ "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
+#~ msgstr ""
+#~ "Välj <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+#~ "\">Inställningar</gui> <gui style=\"tab\">Insticksmoduler</gui></guiseq>."
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+#~ "\">Bottom Pane</gui></guiseq>. Alternatively, you can press "
+#~ "<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
+#~ msgstr ""
+#~ "Välj <guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem"
+#~ "\">Bottenpanel</gui></guiseq>. Alternativt kan du trycka ned "
+#~ "<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
+
+#~ msgid "To enable the <app>Translate</app> plugin:"
+#~ msgstr "Att aktivera insticksmodulen <app>Översätt</app>:"
+
+#~ msgid "Shobha Tyagi"
+#~ msgstr "Shobha Tyagi"
+
+#~ msgid "Log user activity for documents which are opened in gedit"
+#~ msgstr "Logga användaraktivitet för dokument som öppnas i gedit"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist dataleverantör"
+
+#~ msgid ""
+#~ "Zeitgeist is a service that logs user activities and events. Zeitgeist "
+#~ "lets other applications access this information in the form of statistics "
+#~ "and timelines.The Zeitgeist dataprovider plugin for <app>gedit</app> "
+#~ "records user activity for documents used with gedit giving easy access to "
+#~ "recently-used and frequently-used files."
+#~ msgstr ""
+#~ "Zeitgeist är en tjänst som loggar användaraktiviteter och händelser. "
+#~ "Zeitgeist låter andra program komma åt denna information i form av "
+#~ "statistik och tidslinjer. Insticksmodulen Zeitgeist-dataleverantör för "
+#~ "<app>gedit</app> spelar in användaraktivitet för dokument använda med "
+#~ "gedit, och ger enkel åtkomst till nyligen och vanligen använda filer."
+
+#~ msgid "Enable Zeitgeist dataprovider"
+#~ msgstr "Aktivera Zeitgeist dataleverantör"
+
+#~ msgid "Select <gui style=\"menuitem\">Zeitgeist Dataprovider</gui>."
+#~ msgstr "Välj <gui style=\"menuitem\">Zeitgeist dataleverantör</gui>."
+
+#~ msgid "Real-time error highlighting for supported languages."
+#~ msgstr "Felmarkering i realtid för språk som stöds."
+
+#~ msgid "Code Assistance"
+#~ msgstr "Kodassistans"
+
+#~ msgid ""
+#~ "The <app>gedit-code-assistance</app> plugin provides real-time error "
+#~ "highlighting for C, C++ and Objective-C. To enable this plugin, select "
+#~ "<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem"
+#~ "\">Preferences</gui> <gui>Plugins</gui><gui>Code Assistance</gui></"
+#~ "guiseq>."
+#~ msgstr ""
+#~ "Insticksmodulen <app>gedit-code-assistance</app> tillhandahåller "
+#~ "felmarkering i realtid för C, C++ och Objective-C. För att aktivera denna "
+#~ "insticksmodul, välj <guiseq><gui style=\"menu\">gedit</gui><gui style="
+#~ "\"menuitem\">Inställningar</gui> <gui>Insticksmoduler</"
+#~ "gui><gui>Kodassistans</gui></guiseq>."
+
+#~ msgid "How the code assistance plugin works"
+#~ msgstr "Hur insticksmodulen kodassistans fungerar"
+
+#~ msgid ""
+#~ "The plugin currently relies on information in the makefile to deduce the "
+#~ "Clang error-highlighting rules. It examines the <_:code-1/> rules and "
+#~ "determines which targets depend on the the file that is being parsed. The "
+#~ "plugin then extracts the compiler flags by simulating an execution of "
+#~ "those targets."
+#~ msgstr ""
+#~ "Insticksmodulen förlitar sig på information i make-filen för att avgöra "
+#~ "felmarkeringsregler för Clang. Den undersöker reglerna <_:code-1/> och "
+#~ "bestämmer vilka mål beroende på filen som tolkas. Insticksmodulen "
+#~ "extraherar kompileringsflaggorna genom att simulera en körning av dessa "
+#~ "mål."
+
+#~ msgid ""
+#~ "This is not completely fool proof, of course. In the future, the plugin "
+#~ "will allow you to manually specify the compile flags."
+#~ msgstr ""
+#~ "Detta är inte helt felsäkert. I framtiden kommer insticket att låta dig "
+#~ "manuellt specificera kompileringsflaggorna."
+
+#~ msgid ""
+#~ "The <app>Session Saver</app> plugin saves groups of files together so "
+#~ "that you can open them together at a later time. To enable the plugin, "
+#~ "select <guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem"
+#~ "\">Preferences</gui> <gui>Plugins</gui><gui>Session Saver</gui></guiseq>."
+#~ msgstr ""
+#~ "Insticksmodulen <app>Sessionssparare</app> sparar ner grupper av filer "
+#~ "tillsammans så att du kan öppna dem samtidigt vid ett senare tillfälle. "
+#~ "För att aktivera insticket, välj <guiseq><gui style=\"menu\">gedit</"
+#~ "gui><gui style=\"menuitem\">Inställningar</gui> <gui>Insticksmoduler</"
+#~ "gui><gui>Sessionssparare</gui></guiseq>."
+
+#~ msgid ""
+#~ "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Save current "
+#~ "session</gui></guiseq>."
+#~ msgstr ""
+#~ "Välj <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui><gui>Spara "
+#~ "aktuell session</gui></guiseq>."
+
+#~ msgid "Type a session name in the <gui>Save session</gui> dialog box."
+#~ msgstr "Skriv in ett sessionsnamn i dialogrutan <gui>Spara session</gui>."
+
+#~ msgid "Click <gui>Save</gui>."
+#~ msgstr "Klicka på <gui>Spara</gui>."
+
+#~ msgid "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui></guiseq>."
+#~ msgstr "Välj <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui></guiseq>."
+
+#~ msgid "Click the name of your desired session."
+#~ msgstr "Klicka på namnet för din önskade session."
+
+#~ msgid "To delete an existing session:"
+#~ msgstr "Att ta bort en session:"
+
+#~ msgid ""
+#~ "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Manage saved "
+#~ "sessions</gui></guiseq>."
+#~ msgstr ""
+#~ "Markera <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui><gui>Hantera "
+#~ "sparade sessioner</gui></guiseq>."
+
+#~ msgid "Click <gui>Delete</gui>."
+#~ msgstr "Klicka på <gui>Ta bort</gui>."
+
+#~ msgid "Click <gui>Close</gui>."
+#~ msgstr "Klicka på <gui>Stäng</gui>."
+
+#~ msgid ""
+#~ "The session name will still be listed in your list of sessions until you "
+#~ "close <app>gedit</app>."
+#~ msgstr ""
+#~ "Sessionsnamnet kommer att listas i din sessionslista tills du stänger "
+#~ "<app>gedit</app>."

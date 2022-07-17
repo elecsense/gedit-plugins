@@ -4,7 +4,7 @@
 # Sung-Hyun Nam <namsh@lgic.co.kr>, 1998
 # Chideok Hwang <hwang@mizi.co.kr>, 2000, 2001
 # Young-Ho, Cha <ganadist@chollian.net>, 2000, 2002, 2007
-# Changwoo Ryu <cwryu@debian.org>, 2004, 2007-2009, 2010, 2013-2015, 2019-2021.
+# Changwoo Ryu <cwryu@debian.org>, 2004, 2007-2009, 2010, 2013-2015, 2019-2020.
 #
 # 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
 #
@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2021-09-04 20:43+0900\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-08-29 13:21+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: ko\n"
@@ -255,6 +255,10 @@ msgstr "공백 보기"
 msgid "Draw spaces and tabs"
 msgstr "공백과 탭 보기"
 
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+msgid "Show _White Space"
+msgstr "공백 문자 표시(_W)"
+
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
@@ -387,13 +391,16 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "최근 커밋 뒤에 바뀐 줄을 강조합니다"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "줄 합치기/나누기"
+msgid "Join lines/ Split lines"
+msgstr "줄 합치기/줄 나누기"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Ctrl+J 및 Ctrl+Shift+J를 눌러 여러 줄을 합치거나 나눕니다"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "줄 합치기/나누기"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -515,7 +522,7 @@ msgid "Saved Sessions"
 msgstr "저장한 세션"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
 msgstr "똑똑한 공백"
 
@@ -523,7 +530,7 @@ msgstr "똑똑한 공백"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr "공백 문자를 사용하는데 예전에 탭을 사용했다면 들여 쓰기를 없앱니다"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "탭 문자를 알아서 넣습니다."
 
@@ -753,9 +760,9 @@ msgstr "번역 결과가 표시되는 위치"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
-"참이면, 번역 결과가 문서 창에 입력되고 거짓이면 번역 콘솔에 나타납니다."
+"참이면, 번역 결과가 문서 창에 입력되고 거짓이면 번역 출력 창에 나타납니다."
 
 # FIXME: apertium 현재 한국어 지원하지 않음
 #. Translators: You can adjust the default pair for users in your locale.
@@ -777,29 +784,24 @@ msgstr "한 언어에서 다른 언어로 번역할 때 사용하는 언어 쌍"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "Apertium server end point"
-msgstr "Apertium 서버 엔드포인트"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "API key for remote web service"
 msgstr "원격 웹 서비스의 API 키"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "사용할 원격 웹 서비스"
 
-#: plugins/translate/translate/__init__.py:88
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "번역 기능, {0} 이용"
 
-#: plugins/translate/translate/__init__.py:91
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "번역 콘솔"
 
-#: plugins/translate/translate/__init__.py:166
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "선택한 텍스트 [{0}] 번역"
@@ -810,11 +812,11 @@ msgstr "API 키"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"<a href='https://yandex.com/dev/translate/'>https://yandex.com/dev/translate/"
-"</a> 위치에서 API 키를 먼저 얻어야 합니다."
+"<a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/"
+"translate/</a> 위치에서 무료 API 키를 먼저 얻어야 합니다."
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -880,12 +882,6 @@ msgstr "단어 완성"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "자동 완성 프레임워크를 사용한 단어 완성"
-
-#~ msgid "Show _White Space"
-#~ msgstr "공백 문자 표시(_W)"
-
-#~ msgid "Join lines/ Split lines"
-#~ msgstr "줄 합치기/줄 나누기"
 
 #~ msgid "_In "
 #~ msgstr "다음 내부(_I): "

@@ -7,14 +7,14 @@
 # Imam Musthaqim, 2010.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2010.
 # Andika Triwidada <andika@gmail.com>, 2010, 2012, 2013, 2014.
-# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2021.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit-plugins master\n"
+"Project-Id-Version: gedit-plugins gnome-3-20\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-05-27 13:01+0000\n"
-"PO-Revision-Date: 2021-05-31 17:35+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-12 09:43+0700\n"
+"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -27,24 +27,24 @@ msgstr ""
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
 msgid "Bookmarks"
-msgstr "Markah"
+msgstr "Tanda taut"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr "Navigasi dokumen yang mudah dengan markah"
+msgstr "Navigasi dokumen yang mudah dengan tanda taut"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
-msgstr "Jungkitkan Markah"
+msgstr "Jungkitkan Tanda Taut"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
 msgid "Go to Next Bookmark"
-msgstr "Ke Markah Berikutnya"
+msgstr "Ke Tanda Taut Berikutnya"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
 msgid "Go to Previous Bookmark"
-msgstr "Ke Markah Sebelumnya"
+msgstr "Ke Tanda Taut Sebelumnya"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 #: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
@@ -248,58 +248,20 @@ msgid "Command line interface for advanced editing"
 msgstr "Antar muka baris perintah bagi penyuntingan tingkat lanjut"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
-msgstr "Menggambar Spasi"
+msgstr "Gambar Spasi"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
 msgid "Draw spaces and tabs"
-msgstr "Menggambar spasi dan tab"
+msgstr "Gambar spasi dan tab"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
-msgstr "Menggambar spasi"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Menggambar tab"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Menggambar garis baru"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Menggambar spasi tidak putus"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Menggambar spasi awal"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Menggambar spasi dalam teks"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Menggambar spasi di belakang"
+msgstr "Gambar spasi"
 
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
-msgstr "Menggambar Spasi dan Tab"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Tampilkan White Space"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Bila TRUE maka menggambar akan difungsikan."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Tipe spasi yang akan digambar."
+msgstr "Gambar Spasi dan Tab"
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -773,10 +735,10 @@ msgstr "Di mana terjemahan keluaran ditampilkan"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
-"Jika true, keluaran terjemahan disisipkan ke dalam jendela dokumen jika "
-"tidak pada konsol Terjemahan."
+"Jika true, keluaran terjemahan dimasukkan ke dalam jendela dokumen jika "
+"tidak pada Jendela Hasil Terjemahan."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -832,11 +794,11 @@ msgstr "Kunci API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Anda perlu mendapatkan kunci API di <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"Anda perlu mendapatkan kunci API bebas di <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"

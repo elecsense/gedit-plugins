@@ -1,14 +1,14 @@
 # Polish translation for gedit-plugins help.
-# Copyright © 2017-2021 the gedit-plugins authors.
+# Copyright © 2017-2020 the gedit-plugins authors.
 # This file is distributed under the same license as the gedit-plugins help.
-# Piotr Drąg <piotrdrag@gmail.com>, 2017-2021.
-# Aviary.pl <community-poland@mozilla.org>, 2017-2021.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017-2020.
+# Aviary.pl <community-poland@mozilla.org>, 2017-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins-help\n"
-"POT-Creation-Date: 2021-08-31 11:41+0000\n"
-"PO-Revision-Date: 2021-02-21 12:57+0100\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-08 11:45+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Piotr Drąg <piotrdrag@gmail.com>, 2017-2021\n"
-"Aviary.pl <community-poland@mozilla.org>, 2017-2021"
+"Piotr Drąg <piotrdrag@gmail.com>, 2017-2020\n"
+"Aviary.pl <community-poland@mozilla.org>, 2017-2020"
 
 #. (itstool) path: credit/name
 #: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:13
@@ -1245,59 +1245,30 @@ msgstr ""
 #: C/translate.page:42
 msgid ""
 "In case you use the Yandex translation engine, you need an API key. You can "
-"obtain a key at <link href=\"https://yandex.com/dev/translate/\">Yandex web "
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
 "site</link>."
 msgstr ""
 "Do użycia serwisu tłumaczenia Yandex wymagany jest klucz API. Można go "
-"uzyskać na stronie <link href=\"https://yandex.com/dev/translate/\">Yandex</"
+"uzyskać na stronie <link href=\"https://tech.yandex.com/translate/\">Yandex</"
 "link>."
 
-#. (itstool) path: note/p
-#: C/translate.page:46
-msgid ""
-"You can also customize the address of the Apertium server, you will need to "
-"use the <app>dconf-editor</app> application."
-msgstr ""
-"Można także dostosować adres serwera Apertium za pomocą programu <app>dconf-"
-"editor</app>."
-
-#. (itstool) path: item/p
-#: C/translate.page:48
-msgid ""
-"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
-"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
-"server</gui></guiseq>."
-msgstr ""
-"Uruchom <app>dconf-editor</app> i wybierz <guiseq><gui>org</gui> <gui>gnome</"
-"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
-"server</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/translate.page:51
-msgid ""
-"Double-click on the URL next to <gui>apertium-server</gui> and change the "
-"URL to your desired value."
-msgstr ""
-"Podwójnie kliknij adres URL obok napisu <gui>apertium-server</gui> i zmień "
-"go na wybraną wartość."
-
 #. (itstool) path: section/title
-#: C/translate.page:59
+#: C/translate.page:49
 msgid "Using the Translate plugin"
 msgstr "Używanie wtyczki tłumaczenia"
 
 #. (itstool) path: steps/title
-#: C/translate.page:62
+#: C/translate.page:52
 msgid "To translate a text:"
 msgstr "Aby przetłumaczyć tekst:"
 
 #. (itstool) path: item/p
-#: C/translate.page:64
+#: C/translate.page:54
 msgid "Select the part of text that you would like to translate."
 msgstr "Zaznacz część tekstu do przetłumaczenia."
 
 #. (itstool) path: item/p
-#: C/translate.page:67
+#: C/translate.page:57
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
@@ -1306,7 +1277,7 @@ msgstr ""
 "kontekstowego, aby go przetłumaczyć."
 
 #. (itstool) path: item/p
-#: C/translate.page:68
+#: C/translate.page:58
 msgid ""
 "The translation appears in the document or in the bottom panel, depending on "
 "your configuration."

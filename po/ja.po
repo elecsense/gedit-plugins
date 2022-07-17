@@ -1,5 +1,5 @@
 # gedit ja.po.
-# Copyright (C) 1999-2012, 2016, 2020-2021 gedit-plugins' COPYRIGHT HOLDER
+# Copyright (C) 1999-2012, 2016, 2020 gedit-plugins' COPYRIGHT HOLDER
 # Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>, 1999.
 # Yuusuke Tahara <tahara@gnome.gr.jp>
 # Yukihiro Nakai <nakai@gnome.gr.jp>
@@ -12,14 +12,14 @@
 # Jiro Matsuzawa <jmatsuzawa@src.gnome.org>, 2011.
 # OKANO Takayoshi <kano@na.rim.or.jp>, 2012.
 # Kenichi Ito <ken.i54k@gmail.com>, 2016.
-# sicklylife <translation@sicklylife.jp>, 2020-2021.
+# sicklylife <translation@sicklylife.jp>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2021-10-20 19:30+0900\n"
+"POT-Creation-Date: 2020-04-25 19:54+0000\n"
+"PO-Revision-Date: 2020-05-07 20:15+0900\n"
 "Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -203,8 +203,8 @@ msgid "_Foreground"
 msgstr "前景(_F)"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear"
-msgstr "消去(_C)"
+msgid "_Clear "
+msgstr "消去(_C) "
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -249,6 +249,11 @@ msgstr "空白を表示"
 msgid "Draw spaces and tabs"
 msgstr "空白やタブ文字を表示します"
 
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show _White Space"
+msgstr "空白を表示(_W)"
+
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
@@ -282,10 +287,6 @@ msgstr "行末のスペースを表示する"
 msgid "Draw Spaces and Tabs"
 msgstr "空白やタブ文字を表示します"
 
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "空白を表示"
-
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "TRUE にすると表示が有効になります。"
@@ -312,12 +313,12 @@ msgstr "検索(_F)"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind:"
-msgstr "検索(_I):"
+msgid "F_ind "
+msgstr "検索(_I) "
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In:"
-msgstr "場所(_I):"
+msgid "_In "
+msgstr "対象(_I) "
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -381,13 +382,16 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr ""
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
+msgid "Join lines/ Split lines"
 msgstr "行を結合/分割"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Ctrl+J と Ctrl+Shift+J で複数の行を結合または分割します"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "行を結合/分割"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -509,7 +513,7 @@ msgid "Saved Sessions"
 msgstr "保存したセッション一覧"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
 msgstr "スマートスペース"
 
@@ -519,7 +523,7 @@ msgstr ""
 "インデントにスペースを使用しているときにタブ文字のようにインデントを解除しま"
 "す"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr ""
 
@@ -734,51 +738,45 @@ msgstr "翻訳の出力をどこに表示するか"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr "true にすると、ドキュメントウィンドウ内に翻訳を表示します。"
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
-#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
-#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
-#. You must keep this format 'xxx|yyy', or things will break!
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
 msgid "'eng|spa'"
 msgstr ""
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "Language pair used"
 msgstr "使用する言語の組み合わせ"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used to translate from one language to another"
 msgstr "翻訳元と翻訳先の言語の組み合わせです"
 
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "Apertium server end point"
-msgstr ""
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "API key for remote web service"
 msgstr "リモートウェブサービスの API キー"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 msgid "Remote web service to use"
 msgstr "使用するリモートウェブサービス"
 
-#: plugins/translate/translate/__init__.py:88
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "{0} での翻訳"
 
-#: plugins/translate/translate/__init__.py:91
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "翻訳コンソール"
 
-#: plugins/translate/translate/__init__.py:166
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "選択箇所を翻訳 [{0}]"
@@ -789,12 +787,11 @@ msgstr "API キー"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"次の場所で API キーを取得する必要があります: "
-"<a href='https://yandex.com/dev/translate/'>https://yandex.com/"
-"dev/translate/</a>"
+"次の場所でフリーの API キーを取得する必要があります: <a href='https://tech."
+"yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -860,12 +857,6 @@ msgstr "単語補完"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "補完フレームワークを使用した単語補完です"
-
-#~ msgid "_In "
-#~ msgstr "対象(_I) "
-
-#~ msgid "Join lines/ Split lines"
-#~ msgstr "行を結合/分割"
 
 #, fuzzy
 #~ msgid "Toggle bookmark status of the current line"

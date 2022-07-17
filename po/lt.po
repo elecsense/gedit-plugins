@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2021-09-06 14:01+0300\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2021-01-05 12:36+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 40.0\n"
+"X-Generator: Gtranslator 3.38.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -243,7 +243,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Komandų eilutės sąsaja sudėtingesniam redagavimui"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Piešti tarpus"
 
@@ -251,50 +250,13 @@ msgstr "Piešti tarpus"
 msgid "Draw spaces and tabs"
 msgstr "Piešti tarpus ir tabuliacijas"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Piešti tarpus"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Piešti tabuliacijas"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Piešti eilučių pabaigas"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Piešti nekeliamus tarpus"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Piešti tarpus pradžioje"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Piešti tarpus tekste"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Piešti tarpus pabaigoje"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Piešti tarpus ir tabuliacijas"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Rodyti nespausdinamus simbolius"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Jei teigiama, piešimas bus įjungtas."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Piešiamų tarpų tipas."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -764,10 +726,10 @@ msgstr "Kur rodoma vertimo išvestis"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
 "Jei teigiama, vertimas yra įterpiamas į dokumento langą, priešingu atveju į "
-"vertimų konsolę."
+"vertimų išvesties langą."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -821,14 +783,14 @@ msgstr "API raktas"
 
 #: plugins/translate/translate/services/yandex.py:65
 #| msgid ""
-#| "You need to obtain an API key at <a href='https://tech.yandex.com/"
+#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
 #| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Jums reikia gauti API raktą iš <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"Jums reikia gauti API raktą iš <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -898,6 +860,34 @@ msgstr "Žodžių užbaigimas naudojant užbaigimo karkasą"
 
 #~ msgid "Show _White Space"
 #~ msgstr "Rodyti tuščią _erdvę"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Piešti tabuliacijas"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Piešti eilučių pabaigas"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Piešti nekeliamus tarpus"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Piešti tarpus pradžioje"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Piešti tarpus tekste"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Piešti tarpus pabaigoje"
+
+#~| msgid "Show _White Space"
+#~ msgid "Show White Space"
+#~ msgstr "Rodyti nespausdinamus simbolius"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Jei teigiama, piešimas bus įjungtas."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Piešiamų tarpų tipas."
 
 #~ msgid "Join lines/ Split lines"
 #~ msgstr "Sujungti/padalinti eilutes"

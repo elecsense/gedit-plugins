@@ -1,37 +1,33 @@
 # German gedit-plugins translation.
 # Copyright (C) 1999-2005 Free Software Foundation, Inc.
 #
-#
-#
 # Matthias Warkus <mawarkus@gnome.org>, 1999-2001.
 # Manuel Borchers <webmaster@matronix.de>, 2002.
 # Christian Neumair <chris@gnome-de.org>, 2002-2004.
+# Hendrik Richter <hendrikr@gnome.org>, 2004-2010.
 # Frank Arnold <frank@scirocco-5v-turbo.de>, 2005, 2006.
 # Jochen Skulj <jochen@jochenskulj.de>, 2006, 2007, 2009.
 # Andre Klapper <ak-47@gmx.net>, 2008, 2009.
-# Hendrik Richter <hendrikr@gnome.org>, 2004-2010.
-# Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2010.
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2008-2010, 2012.
+# Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2010.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2011, 2017-2018, 2020.
+# Wolfgang Stöggl <c72578@yahoo.de>, 2012, 2014-2015.
 # Simon Linden <xhi2018@gmail.com>, 2013, 2014.
 # Benjamin Steinwender <b@stbe.at>, 2014.
-# Wolfgang Stöggl <c72578@yahoo.de>, 2012, 2014-2015.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2011, 2017-2018, 2020, 2021.
-# Philipp Kiemle <philipp.kiemle@gmail.com>, 2021.
-# Jürgen Benvenuti <gastornis@posteo.org>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2022-05-14 11:46+0000\n"
-"PO-Revision-Date: 2022-06-23 21:45+0200\n"
-"Last-Translator: Jürgen Benvenuti <gastornis@posteo.org>\n"
-"Language-Team: German <gnome-de@gnome.org>\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-09-07 20:18+0200\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Lokalize 20.08.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -48,10 +44,12 @@ msgid "Toggle Bookmark"
 msgstr "Lesezeichen ein-/ausschalten"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#| msgid "Goto Next Bookmark"
 msgid "Go to Next Bookmark"
 msgstr "Zum nächsten Lesezeichen gehen"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#| msgid "Goto Previous Bookmark"
 msgid "Go to Previous Bookmark"
 msgstr "Zum vorherigen Lesezeichen gehen"
 
@@ -191,8 +189,8 @@ msgstr "Es gab ein Problem beim Öffnen der Datei"
 #: plugins/colorschemer/schemer/schemer.py:379
 msgid "You appear to have schemes with the same IDs in different directories\n"
 msgstr ""
-"Es scheint, als hätten Sie Schemata mit der gleichen Kennung in "
-"verschiedenen Verzeichnissen.\n"
+"Es scheint, als hätten Sie Schemata mit der gleichen Kennung in verschiedenen"
+" Verzeichnissen.\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -227,6 +225,7 @@ msgid "_Foreground"
 msgstr "_Vordergrund"
 
 #: plugins/colorschemer/schemer.ui:341
+#| msgid "_Clear "
 msgid "_Clear"
 msgstr "_Löschen"
 
@@ -273,6 +272,10 @@ msgstr "Leerzeichen darstellen"
 msgid "Draw spaces and tabs"
 msgstr "Leerzeichen und Einzüge anzeigen"
 
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+msgid "Show _White Space"
+msgstr "Leerzei_chen anzeigen"
+
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
@@ -307,6 +310,7 @@ msgid "Draw Spaces and Tabs"
 msgstr "Leerzeichen und Einzüge anzeigen"
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#| msgid "Show _White Space"
 msgid "Show White Space"
 msgstr "Leerzeichen anzeigen"
 
@@ -335,6 +339,8 @@ msgid "_Find"
 msgstr "_Suchen"
 
 #: plugins/findinfiles/dialog.ui:72
+#| msgctxt "label on the left of the GtkEntry containing text to search"
+#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
 msgstr "S_uchen:"
@@ -372,6 +378,7 @@ msgid "Find in Files…"
 msgstr "In Dateien suchen …"
 
 #: plugins/findinfiles/result-panel.vala:127
+#| msgid "Git"
 msgid "hit"
 msgid_plural "hits"
 msgstr[0] "Treffer"
@@ -408,8 +415,7 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Geänderte Zeilen seit letztem Commit hervorheben"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
+msgid "Join lines/ Split lines"
 msgstr "Zeilen zusammenfügen/umbrechen"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
@@ -417,6 +423,10 @@ msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr ""
 "Mehrere Zeilen mittels Strg+J und Strg+Umschalt+J zusammenfügen oder "
 "umbrechen"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Zeilen zusammenfügen/umbrechen"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -542,7 +552,7 @@ msgid "Saved Sessions"
 msgstr "Gespeicherte Sitzungen"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
 msgstr "Intelligente Leerzeichen"
 
@@ -552,7 +562,7 @@ msgstr ""
 "Ausrücken ermöglichen, wie wenn Sie Einzüge während der Verwendung von "
 "Leerzeichen einsetzen"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "Vergessen Sie, dass Sie keine Einzüge benutzen."
 
@@ -585,7 +595,7 @@ msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
 msgid "Whether to silence terminal bell"
-msgstr "Legt fest, ob die Terminal-Glocke stumm geschaltet werden soll"
+msgstr "Terminalglocke stummschalten?"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
 msgid ""
@@ -626,7 +636,7 @@ msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
 msgid "Whether to scroll to the bottom when a key is pressed"
-msgstr "Legt fest, ob bei Tastendruck ans Ende gerollt werden soll"
+msgstr "Bei Tastendruck ans Ende rollen?"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
@@ -636,7 +646,7 @@ msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr "Legt fest, ob bei neuer Ausgabe ans Ende gerollt werden soll"
+msgstr "Bei neuer Ausgabe ans Ende rollen?"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
 msgid ""
@@ -687,9 +697,7 @@ msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
-msgstr ""
-"Legt fest, ob die Farben des Themas für das Terminal-Widget verwendet werden "
-"sollen"
+msgstr "Themenfarben fürs Terminal-Widget verwenden?"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
@@ -702,7 +710,7 @@ msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
-msgstr "Legt fest, ob die Eingabemarke blinken soll"
+msgstr "Blinkenden Cursor erlauben?"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
@@ -726,7 +734,7 @@ msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
-msgstr "Legt fest, ob die Systemschrift verwendet werden soll"
+msgstr "Systemschrift verwenden?"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
@@ -799,10 +807,10 @@ msgstr "Ort der Ausgabe der Übersetzung"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
 "Legt fest, ob die Ausgabe der Übersetzung in das Dokumentenfenster eingefügt "
-"wird, ansonsten in die Übersetzungskonsole."
+"wird, ansonsten in das Ausgabefenster der Übersetzung."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -815,7 +823,7 @@ msgstr "'eng|deu'"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
-msgstr "Genutztes Sprachpaar"
+msgstr "Sprachpaar"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
@@ -825,29 +833,24 @@ msgstr ""
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "Apertium server end point"
-msgstr "Endpunkt des Apertium-Servers"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "API key for remote web service"
 msgstr "API-Schlüssel für entfernten Webdienst"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Zu verwendender entfernter Webdienst"
 
-#: plugins/translate/translate/__init__.py:88
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Übersetzungen bereitgestellt von {0}"
 
-#: plugins/translate/translate/__init__.py:91
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Übersetzungskonsole"
 
-#: plugins/translate/translate/__init__.py:166
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Ausgewählten Text übersetzen [{0}]"
@@ -858,11 +861,11 @@ msgstr "API-Schlüssel"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Sie müssen einen API-Schlüssel auf <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a> anfordern"
+"Sie müssen einen freien API-Schlüssel auf <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a> anfordern"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -930,12 +933,6 @@ msgstr "Wortvervollständigung"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Wortvervollständigung mit Hilfe des Vervollständigungs-Frameworks"
-
-#~ msgid "Show _White Space"
-#~ msgstr "Leerzei_chen anzeigen"
-
-#~ msgid "Join lines/ Split lines"
-#~ msgstr "Zeilen zusammenfügen/umbrechen"
 
 #~ msgid "Empty Document"
 #~ msgstr "Leeres Dokument"

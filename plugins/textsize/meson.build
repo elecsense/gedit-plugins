@@ -26,6 +26,7 @@ textsize_plugin = custom_target(
 )
 
 textsize_metainfo = i18n.merge_file(
+  'gedit-textsize.metainfo.xml',
   input: 'gedit-textsize.metainfo.xml.in',
   output: 'gedit-textsize.metainfo.xml',
   po_dir: join_paths(srcdir, 'po'),

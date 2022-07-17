@@ -62,7 +62,7 @@ class Yandex(Service):
         return 'en|es'
 
     def get_api_hint(self):
-        return _("You need to obtain an API key at <a href='https://yandex.com/dev/translate/'>https://yandex.com/dev/translate/</a>")
+        return _("You need to obtain an API key at <a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>")
 
     def has_api_key(self):
         return True

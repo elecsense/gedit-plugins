@@ -4,7 +4,7 @@
       <default>true</default>
       <summary>Where translation output is shown</summary>
       <description>
-        If true, output of the translation is inserted in the document window if not in the Translate console.
+        If true, output of the translation is inserted in the document window if not in the Output Translate Window.
       </description>
     </key>
    <key name="language-pair" type="s">

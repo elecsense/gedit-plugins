@@ -1,19 +1,19 @@
 # Italian translation of gedit-plugins
-# Copyright (C) 1998-2010, 2011, 2013, 2015, 2017, 2018, 2019, 2020, 2021, 2022 Free Software Foundation, Inc.
-# Copyrighe (C) 2012 The gedit-plugins Copyright Holders
+# Copyright (C) 1998-2010, 2011, 2013, 2015, 2017, 2018, 2019, 2020 Free Software Foundation, Inc.
+# Copyright (C) 2012 The gedit-plugins Copyright Holders
 # This file is distributed under the same license as the gedit-plugins package.
 # Paolo Maggi <maggi@athena.polito.it> 2002
 # Giuseppe <quiquoqua@pn.itnet.it>, 1998.
 # Alessio Frusciante <algol@firenze.linux.it>, 2002.
 # Roberto Rosselli Del Turco <rosselli@ling.unipi.it>, 2003-2005.
-# Milo Casagrande <milo@milo.name>, 2006-2012, 2013, 2015, 2017, 2018, 2019, 2020, 2021, 2022.
+# Milo Casagrande <milo@milo.name>, 2006-2012, 2013, 2015, 2017, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2022-03-16 09:57+0100\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-09-10 11:19+0200\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -257,13 +257,16 @@ msgstr "Traccia gli spazi"
 msgid "Draw spaces and tabs"
 msgstr "Traccia gli spazi e le tabulazioni"
 
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+msgid "Show _White Space"
+msgstr "Mostra spazi _bianchi"
+
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Tracciare gli spazi"
 
-# (ndt) opzione quando si seleziona la dimensione
-# della tabulazione
+# (NdT) opzione
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
 msgid "Draw tabs"
 msgstr "Tracciare le tabulazioni"
@@ -394,8 +397,7 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Evidenzia le righe modificate dall'ultimo commit"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
+msgid "Join lines/ Split lines"
 msgstr "Unisce/Spezza righe"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
@@ -403,6 +405,10 @@ msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr ""
 "Unisce o spezza più righe utilizzando le combinazioni di tasti Ctrl+J e Ctrl"
 "+Maiusc+J"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Unisce/Spezza righe"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -531,7 +537,7 @@ msgid "Saved Sessions"
 msgstr "Sessioni salvate"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
 msgstr "Spazi intelligenti"
 
@@ -541,7 +547,7 @@ msgstr ""
 "Consente di togliere il rientro dal testo con le tabulazioni anche quando si "
 "usano gli spazi"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "Dimentica che non sono uso le tabulazioni."
 
@@ -787,7 +793,7 @@ msgstr "Dove mostrare la traduzione"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
 "Se VERO, la traduzione viene inserita nella finestra del documento "
 "altrimenti nella finestra di traduzione."
@@ -811,29 +817,24 @@ msgstr "Coppia di lingue usate per tradurre da una all'altra"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "Apertium server end point"
-msgstr "Percorso server Apertium"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "API key for remote web service"
 msgstr "Chiave API del servizio web remoto"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Servizio web remoto da usare"
 
-#: plugins/translate/translate/__init__.py:88
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traduzione fornite da {0}"
 
-#: plugins/translate/translate/__init__.py:91
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Console di traduzione"
 
-#: plugins/translate/translate/__init__.py:166
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Traduci testo selezionato [{0}]"
@@ -844,11 +845,11 @@ msgstr "Chiave API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"È necessario ottenere una chiave API presso <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"È necessario ottenere una chiave API presso <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"

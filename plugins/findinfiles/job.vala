@@ -66,10 +66,11 @@ class FindJob {
 
     int worker () {
         while (true) {
-            const int ONE_SEC = 1000000;
-            var tv = ONE_SEC / 2;
+            // Wait 0.5 seconds
+            var tv = TimeVal ();
+            tv.add (1000000 / 2);
 
-            var path = scan_queue.timeout_pop (tv);
+            var path = scan_queue.timed_pop (ref tv);
 
             // Check for interruption
             if (cancellable.is_cancelled ())

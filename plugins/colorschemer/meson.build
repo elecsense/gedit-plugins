@@ -39,6 +39,7 @@ colorschemer_plugin = custom_target(
 )
 
 colorschemer_metainfo = i18n.merge_file(
+  'gedit-colorschemer.metainfo.xml',
   input: 'gedit-colorschemer.metainfo.xml.in',
   output: 'gedit-colorschemer.metainfo.xml',
   po_dir: join_paths(srcdir, 'po'),

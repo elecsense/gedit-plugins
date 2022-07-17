@@ -6,21 +6,22 @@
 # Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2008.
 # wanderlust <wanderlust@ukr.net>, 2009.
 # Mykola Tkach <Stuartlittle1970@gmail.com>, 2013.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2021-04-17 11:58+0000\n"
-"PO-Revision-Date: 2021-04-17 21:48+0300\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-06 09:26+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.11.70\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -248,7 +249,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Інтерпретатор командного рядка для розширення можливостей редагування"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Візуалізація пробілів"
 
@@ -256,51 +256,13 @@ msgstr "Візуалізація пробілів"
 msgid "Draw spaces and tabs"
 msgstr "Візуалізація пробілів і табуляцій"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Візуалізація пробілів"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Візуалізація табуляцій"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Візуалізація розривів рядків"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Візуалізація нерозривних пробілів"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Візуалізація початкових пробілів"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Візуалізація пробілів у тексті"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Візуалізація кінцевих пробілів"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Візуалізація пробілів і табуляцій"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Показувати пробіли"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr ""
-"Якщо має значення «true», програма показуватиме пробіли певними символами."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Тип пробілів, які має бути візуалізовано."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -777,10 +739,10 @@ msgstr "Де буде показано виведений переклад"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Translate console."
+"in the Output Translate Window."
 msgstr ""
 "Якщо має значення «true», виведений переклад буде вставлено до вікна "
-"документа, якщо немає консолі перекладу."
+"документа, якщо немає вікна виведення перекладу."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -834,13 +796,15 @@ msgstr "Ключ до програмного інтерфейсу"
 
 #: plugins/translate/translate/services/yandex.py:65
 #| msgid ""
-#| "You need to obtain an API key at <a href='https://tech.yandex.com/"
+#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
 #| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain an API key at <a href='https://yandex.com/dev/"
-"translate/'>https://yandex.com/dev/translate/</a>"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Вам слід отримати ключ до програмного інтерфейсу на <a href='https://yandex.com/dev/translate/'>https://yandex.com/dev/translate/</a>"
+"Вам слід отримати ключ до програмного інтерфейсу на <a "
+"href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/"
+"</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -913,6 +877,35 @@ msgstr "Доповнення слів на основі бібліотеки а�
 
 #~ msgid "Show _White Space"
 #~ msgstr "Показувати пр_обіли"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Візуалізація табуляцій"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Візуалізація розривів рядків"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Візуалізація нерозривних пробілів"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Візуалізація початкових пробілів"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Візуалізація пробілів у тексті"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Візуалізація кінцевих пробілів"
+
+#~| msgid "Show _White Space"
+#~ msgid "Show White Space"
+#~ msgstr "Показувати пробіли"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr ""
+#~ "Якщо має значення «true», програма показуватиме пробіли певними символами."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Тип пробілів, які має бути візуалізовано."
 
 #~ msgid "_In "
 #~ msgstr "_У "
