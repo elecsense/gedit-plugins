@@ -62,7 +62,6 @@ findinfiles_plugin = custom_target(
 )
 
 findinfiles_metainfo = i18n.merge_file(
-  'gedit-findinfiles.metainfo.xml',
   input: 'gedit-findinfiles.metainfo.xml.in',
   output: 'gedit-findinfiles.metainfo.xml',
   po_dir: join_paths(srcdir, 'po'),

@@ -98,18 +98,6 @@ class CharmapPlugin(GObject.Object, Gedit.WindowActivatable):
         uc = chartable.get_active_character()
         text = "%s %s" % (uc, Gucharmap.get_unicode_name(uc))
 
-        a = Gucharmap.get_nameslist_equals(uc)
-        if a:
-            text += "   = %s" % a[0]
-            for i in range(len (a) - 1):
-                text += "; %s" % a[i + 1]
-
-        a = Gucharmap.get_nameslist_stars(uc)
-        if a:
-            text += "   \342\200\242 %s" % a[0]
-            for i in range(len (a) - 1):
-                text += "; %s" % a[i + 1]
-
         self.on_table_status_message(chartable, text)
 
     def on_table_focus_out_event(self, chartable, event):

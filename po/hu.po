@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-11-05 19:52+0000\n"
-"PO-Revision-Date: 2021-02-14 01:45+0100\n"
+"POT-Creation-Date: 2021-04-17 11:58+0000\n"
+"PO-Revision-Date: 2021-09-10 22:12+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -253,20 +253,63 @@ msgid "Command line interface for advanced editing"
 msgstr "Parancssoros felület speciális szerkesztéshez"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
-msgstr "Szóközök rajzolása"
+msgstr "Szóközök megjelenítése"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
 msgid "Draw spaces and tabs"
-msgstr "Szóközök és tabok rajzolása"
+msgstr "Szóközök és tabulátorok megjelenítése"
 
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
-msgstr "Szóközök rajzolása"
+msgstr "Szóközök megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+#| msgid "Draw Spaces"
+msgid "Draw tabs"
+msgstr "Tabulátorok megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Új sorok megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+#| msgid "Draw spaces"
+msgid "Draw non-breaking spaces"
+msgstr "Nem törő szóközök megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+#| msgid "Draw spaces"
+msgid "Draw leading spaces"
+msgstr "Kezdő szóközök megjelenítése"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+#| msgid "Draw spaces and tabs"
+msgid "Draw spaces in text"
+msgstr "Szóközök megjelenítése a szövegben"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+#| msgid "Draw spaces"
+msgid "Draw trailing spaces"
+msgstr "Záró szóközök megjelenítése"
 
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
-msgstr "Szóközök és tabulátorok kirajzolása"
+msgstr "Szóközök és tabulátorok megjelenítése"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Üres helyek megjelenítése"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Ha IGAZ, akkor a megjelenítés engedélyezve lesz."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "A megjelenítendő szóközök típusa."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -738,10 +781,10 @@ msgstr "Hol jelenjen meg a fordítás kimenete"
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"in the Translate console."
 msgstr ""
 "Ha igaz, akkor a fordítás kimenete a dokumentum ablakába lesz beszúrva, ha "
-"nincs a kimenet fordítási ablakban."
+"nincs a fordítási konzolban."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
@@ -795,14 +838,14 @@ msgstr "API kulcs"
 
 #: plugins/translate/translate/services/yandex.py:65
 #| msgid ""
-#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
+#| "You need to obtain an API key at <a href='https://tech.yandex.com/"
 #| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain an API key at <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
+"You need to obtain an API key at <a href='https://yandex.com/dev/"
+"translate/'>https://yandex.com/dev/translate/</a>"
 msgstr ""
-"Be kell szereznie egy API kulcsot a <a href='https://tech.yandex."
-"com/translate/'>https://tech.yandex.com/translate/</a> címről"
+"Be kell szereznie egy API kulcsot a <a href='https://yandex.com/dev/translate/"
+"'>https://yandex.com/dev/translate/</a> címről."
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -870,66 +913,3 @@ msgstr "Szókiegészítés"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "A szókiegészítés használata a kiegészítő keretrendszer használatával"
-
-#~ msgid "Show _White Space"
-#~ msgstr "Üres _helyek megjelenítése"
-
-#~ msgid "Draw tabs"
-#~ msgstr "Tabok rajzolása"
-
-#~ msgid "Draw new lines"
-#~ msgstr "Új sorok rajzolása"
-
-#~ msgid "Draw non-breaking spaces"
-#~ msgstr "Nem törhető szóközök rajzolása"
-
-#~ msgid "Draw leading spaces"
-#~ msgstr "Kezdő szóközök rajzolása"
-
-#~ msgid "Draw spaces in text"
-#~ msgstr "Szóközök rajzolása a szövegben"
-
-#~ msgid "Draw trailing spaces"
-#~ msgstr "Befejező szóközök rajzolása"
-
-#~| msgid "Show _White Space"
-#~ msgid "Show White Space"
-#~ msgstr "Üres helyek megjelenítése"
-
-#~ msgid "If TRUE drawing will be enabled."
-#~ msgstr "Ha igazra van állítva, akkor a rajzolás engedélyezve lesz."
-
-#~ msgid "The type of spaces to be drawn."
-#~ msgstr "A megrajzolandó szóközök típusa."
-
-#~ msgid "Join lines/ Split lines"
-#~ msgstr "Sorok egyesítése / szétvágása"
-
-#~ msgid "_In "
-#~ msgstr "_Itt "
-
-#~ msgid "Whether to allow bold text"
-#~ msgstr "Félkövér betűk engedélyezése"
-
-#~ msgid "If true, allow applications in the terminal to make text boldface."
-#~ msgstr ""
-#~ "Ha be van állítva, az alkalmazások a terminálban használhatnak félkövér "
-#~ "szöveget."
-
-#~ msgid "Zeitgeist Data provider"
-#~ msgstr "Zeitgeist adatszolgáltató"
-
-#~ msgid ""
-#~ "Records user activity and giving easy access to recently-used and "
-#~ "frequently-used files"
-#~ msgstr ""
-#~ "Rögzíti a felhasználói tevékenységet, és könnyű hozzáférést nyújt a "
-#~ "legutóbb használt és a leggyakrabban használt fájlokhoz"
-
-#~ msgid "Zeitgeist dataprovider"
-#~ msgstr "Zeitgeist adatszolgáltató"
-
-#~ msgid "Logs access and leave event for documents used with gedit"
-#~ msgstr ""
-#~ "Hozzáférés naplózása, és esemény hagyása a geditben használt "
-#~ "dokumentumokhoz"

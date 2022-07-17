@@ -35,7 +35,6 @@ commander_plugin = custom_target(
 )
 
 commander_metainfo = i18n.merge_file(
-  'gedit-commander.metainfo.xml',
   input: 'gedit-commander.metainfo.xml.in',
   output: 'gedit-commander.metainfo.xml',
   po_dir: join_paths(srcdir, 'po'),

@@ -6,13 +6,13 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2006, 2007, 2009, 2010, 2011.
 # Milagros Alessandra Infante Montero <maim92@gmail.com>, 2013.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2020.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.help.master\n"
-"POT-Creation-Date: 2020-05-26 15:03+0000\n"
-"PO-Revision-Date: 2020-02-18 16:02+0100\n"
+"POT-Creation-Date: 2021-11-06 10:58+0000\n"
+"PO-Revision-Date: 2021-11-16 16:21+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 3.34.0\n"
+"X-Generator: Gtranslator 41.0\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -512,7 +512,7 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/commander.page:40
 msgid "The last key in the above key combination is a comma."
-msgstr "La última tecla de la combinación de teclas indicada es una coma."
+msgstr "La última tecla del atajo del teclado indicado es una coma."
 
 #. (itstool) path: td/p
 #: C/commander.page:46
@@ -651,60 +651,15 @@ msgid "Press <gui style=\"button\">Preferences</gui> to set its options."
 msgstr ""
 "Pulse <gui style=\"button\">Preferencias</gui> para configurar sus opciones."
 
-#. (itstool) path: list/title
-#: C/draw-spaces.page:42
-msgid ""
-"By default, the <app>Draw Spaces</app> plugin will mark the following types "
-"of whitespace in a file:"
-msgstr ""
-"De manera predeterminada, el complemento <app>Dibujar espacios</app> marcará "
-"los siguientes tipos de espacios en blanco en un archivo:"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:44
-msgid "Spaces"
-msgstr "Espacios"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:45
-msgid "Tabs"
-msgstr "Pestañas"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:46
-msgid "Leading spaces"
-msgstr "Espacios iniciales"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:47
-msgid "Spaces in text"
-msgstr "Espacios en el texto"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:48
-msgid "Trailing spaces"
-msgstr "Espacios sobrantes"
-
-#. (itstool) path: list/title
-#: C/draw-spaces.page:52
-msgid "You can also set the plugin to mark:"
-msgstr "También puede configurar el complemento para marcar:"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:53
-msgid "New lines"
-msgstr "Líneas nuevas"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:54
-msgid "Non-breaking spaces"
-msgstr "Espacios de no ruptura"
-
 #. (itstool) path: note/p
-#: C/draw-spaces.page:58
+#: C/draw-spaces.page:42
+#, fuzzy
+#| msgid ""
+#| "Though you will be able to see the dots when you work on a file, the dots "
+#| "will not be visible when you print a file to paper."
 msgid ""
-"Though you will be able to see the dots when you work on a file, the dots "
-"will not be visible when you print a file to paper."
+"Though you will be able to see the markers when you work on a file, the "
+"markers will not be visible when you print a file to paper."
 msgstr ""
 "Aunque podrá ver los puntos cuando trabaje en un archivo, estos puntos no "
 "serán visibles cuando imprima el archivo en papel."
@@ -1366,32 +1321,79 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/translate.page:42
+#, fuzzy
+#| msgid ""
+#| "In case you use the Yandex translation engine, you need an API key. You "
+#| "can obtain a free key at <link href=\"https://tech.yandex.com/translate/"
+#| "\">Yandex web site</link>."
 msgid ""
 "In case you use the Yandex translation engine, you need an API key. You can "
-"obtain a free key at <link href=\"https://tech.yandex.com/translate/"
-"\">Yandex web site</link>."
+"obtain a key at <link href=\"https://yandex.com/dev/translate/\">Yandex web "
+"site</link>."
 msgstr ""
 "Si usa el motor de traducción Yandex necesitará una clave de la API. Puede "
 "obtenerla gratuitamente en la <link href=\"https://tech.yandex.com/translate/"
 "\">página web de Yandex</link>."
 
+#. (itstool) path: note/p
+#: C/translate.page:46
+#, fuzzy
+#| msgid ""
+#| "To adjust the number of recently-used files that gedit displays, you will "
+#| "need to use the <app>dconf-editor</app> application."
+msgid ""
+"You can also customize the address of the Apertium server, you will need to "
+"use the <app>dconf-editor</app> application."
+msgstr ""
+"Para ajustar el número de archivos usados recientemente que muestra gedit, "
+"debe usar la aplicación <app>dconf-editor</app>."
+
+#. (itstool) path: item/p
+#: C/translate.page:48
+#, fuzzy
+#| msgid ""
+#| "Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> "
+#| "<gui>gnome</gui><gui>gedit</gui><gui>preferences</gui><gui>ui</gui> "
+#| "<gui>max-recents</gui></guiseq>."
+msgid ""
+"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+msgstr ""
+"Ejecute <app>dconf-editor</app> y seleccione <guiseq><gui>org</"
+"gui><gui>gnome</gui><gui>gedit</gui><gui>preferences</gui><gui>ui</gui> "
+"<gui>max-recents</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/translate.page:51
+#, fuzzy
+#| msgid ""
+#| "Double-click on the number next to <gui>max-recents</gui> and change the "
+#| "number to your desired value."
+msgid ""
+"Double-click on the URL next to <gui>apertium-server</gui> and change the "
+"URL to your desired value."
+msgstr ""
+"Pulse dos veces en el número junto a <gui>max-recents</gui> y cambie el "
+"número al valor que quiera."
+
 #. (itstool) path: section/title
-#: C/translate.page:49
+#: C/translate.page:59
 msgid "Using the Translate plugin"
 msgstr "Usar el complemento Traducir"
 
 #. (itstool) path: steps/title
-#: C/translate.page:52
+#: C/translate.page:62
 msgid "To translate a text:"
 msgstr "Para traducir un texto:"
 
 #. (itstool) path: item/p
-#: C/translate.page:54
+#: C/translate.page:64
 msgid "Select the part of text that you would like to translate."
 msgstr "Seleccione la parte del texto texto que quiere traducir."
 
 #. (itstool) path: item/p
-#: C/translate.page:57
+#: C/translate.page:67
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
@@ -1400,7 +1402,7 @@ msgstr ""
 "contextual o traducirlo."
 
 #. (itstool) path: item/p
-#: C/translate.page:58
+#: C/translate.page:68
 msgid ""
 "The translation appears in the document or in the bottom panel, depending on "
 "your configuration."
@@ -1460,6 +1462,37 @@ msgstr ""
 "Para insertar una palabra sugerida, pulse dos veces en la lista emergente o "
 "pulse <keyseq><key>Alt</key><key>Num</key></keyseq>, donde <key>Num</key> es "
 "el número mostrado junto a la palabra que quiere."
+
+#~ msgid ""
+#~ "By default, the <app>Draw Spaces</app> plugin will mark the following "
+#~ "types of whitespace in a file:"
+#~ msgstr ""
+#~ "De manera predeterminada, el complemento <app>Dibujar espacios</app> "
+#~ "marcará los siguientes tipos de espacios en blanco en un archivo:"
+
+#~ msgid "Spaces"
+#~ msgstr "Espacios"
+
+#~ msgid "Tabs"
+#~ msgstr "Pestañas"
+
+#~ msgid "Leading spaces"
+#~ msgstr "Espacios iniciales"
+
+#~ msgid "Spaces in text"
+#~ msgstr "Espacios en el texto"
+
+#~ msgid "Trailing spaces"
+#~ msgstr "Espacios sobrantes"
+
+#~ msgid "You can also set the plugin to mark:"
+#~ msgstr "También puede configurar el complemento para marcar:"
+
+#~ msgid "New lines"
+#~ msgstr "Líneas nuevas"
+
+#~ msgid "Non-breaking spaces"
+#~ msgstr "Espacios de no ruptura"
 
 #~ msgid "Select the <gui>Character Map</gui> tab in the side panel."
 #~ msgstr ""
@@ -2469,29 +2502,6 @@ msgstr ""
 
 #~ msgid "Select the desired file, and it will open in a new tab."
 #~ msgstr "Seleccione el archivo que quiera y se abrirá en una pestaña nueva."
-
-#~ msgid ""
-#~ "To adjust the number of recently-used files that gedit displays, you will "
-#~ "need to use the <app>dconf-editor</app> application."
-#~ msgstr ""
-#~ "Para ajustar el número de archivos usados recientemente que muestra "
-#~ "gedit, debe usar la aplicación <app>dconf-editor</app>."
-
-#~ msgid ""
-#~ "Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> "
-#~ "<gui>gnome</gui><gui>gedit</gui><gui>preferences</gui><gui>ui</gui> "
-#~ "<gui>max-recents</gui></guiseq>."
-#~ msgstr ""
-#~ "Ejecute <app>dconf-editor</app> y seleccione <guiseq><gui>org</"
-#~ "gui><gui>gnome</gui><gui>gedit</gui><gui>preferences</gui><gui>ui</gui> "
-#~ "<gui>max-recents</gui></guiseq>."
-
-#~ msgid ""
-#~ "Double-click on the number next to <gui>max-recents</gui> and change the "
-#~ "number to your desired value."
-#~ msgstr ""
-#~ "Pulse dos veces en el número junto a <gui>max-recents</gui> y cambie el "
-#~ "número al valor que quiera."
 
 #~ msgid "Configure and use gedit Plugins"
 #~ msgstr "Configurar y usar los complementos de gedit"
@@ -3985,8 +3995,8 @@ msgstr ""
 #~ "Press the <key>Ctrl</key> and use your mouse or touchpad's <key>scroll</"
 #~ "key> feature to move up or down through the text."
 #~ msgstr ""
-#~ "Pulse <key>Ctrl</key> y use el <key>deslizador</key> de su ratón o "
-#~ "«touchpad» para moverse hacia arriba o hacia abajo a través del texto."
+#~ "Pulse <key>Ctrl</key> y use el <key>deslizador</key> de su ratón o panel "
+#~ "táctil para moverse hacia arriba o hacia abajo a través del texto."
 
 #~ msgid ""
 #~ "To close the <gui>search window</gui>, press either <key>Esc</key> or "

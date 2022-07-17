@@ -7,6 +7,15 @@ libdrawspaces_deps = [
   gedit_dep,
 ]
 
+libdrawspaces_res = gnome.compile_resources(
+  'gedit-drawspaces-resources',
+  'gedit-drawspaces.gresource.xml',
+)
+
+libdrawspaces_sources += [
+  libdrawspaces_res.get(0),
+]
+
 libdrawspaces_sha = shared_module(
   'drawspaces',
   sources: libdrawspaces_sources,
@@ -47,7 +56,6 @@ install_data(
 )
 
 drawspaces_metainfo = i18n.merge_file(
-  'gedit-drawspaces.metainfo.xml',
   input: 'gedit-drawspaces.metainfo.xml.in',
   output: 'gedit-drawspaces.metainfo.xml',
   po_dir: join_paths(srcdir, 'po'),
