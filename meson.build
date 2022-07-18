@@ -56,7 +56,7 @@ all_plugins = {
   'joinlines': {'language': 'python'},
   'multiedit': {'language': 'python'},
   'sessionsaver': {'language': 'python'},
-  'smartspaces': {'language': 'python'},
+  'smartspaces': {'language': 'c'},
   'synctex': {'language': 'python'},
   'terminal': {'language': 'python'},
   'textsize': {'language': 'python'},
