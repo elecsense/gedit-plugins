@@ -52,7 +52,6 @@ all_plugins = {
   'colorschemer': {'language': 'python'},
   'commander': {'language': 'python'},
   'drawspaces': {'language': 'c'},
-  'findinfiles': {'language': 'vala'},
   'git': {'language': 'python'},
   'joinlines': {'language': 'python'},
   'multiedit': {'language': 'python'},
