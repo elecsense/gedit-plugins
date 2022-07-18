@@ -4,7 +4,6 @@ gedit_help_sources = [
   'character-map.page',
   'code-comment.page',
   'color-picker.page',
-  'commander.page',
   'draw-spaces.page',
   'git.page',
   'join-split-lines.page',
