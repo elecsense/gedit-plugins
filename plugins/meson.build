@@ -25,11 +25,6 @@ configure_file(
   )
 )
 
-vapi_dir = join_paths(
-  srcdir,
-  'plugins',
-)
-
 foreach plugin_name : enabled_plugins
   subdir(plugin_name)
 endforeach

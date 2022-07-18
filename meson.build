@@ -1,5 +1,5 @@
 project(
-  'gedit-plugins', 'c', # vala is added below if needed, with add_languages().
+  'gedit-plugins', 'c',
   version: '43.alpha',
   meson_version: '>= 0.50'
 )
@@ -78,10 +78,6 @@ endforeach
 
 if 'python' in extra_languages
   python3 = python.find_installation('python3')
-endif
-
-if 'vala' in extra_languages
-  add_languages('vala', required: true)
 endif
 
 subdir('po')
