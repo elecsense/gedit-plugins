@@ -14,7 +14,6 @@ gedit_help_sources = [
   'synctex.page',
   'terminal.page',
   'text-size.page',
-  'translate.page',
   'word-completion.page',
 ]
 
