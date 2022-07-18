@@ -50,7 +50,6 @@ all_plugins = {
   'codecomment': {'language': 'python'},
   'colorpicker': {'language': 'python'},
   'colorschemer': {'language': 'python'},
-  'commander': {'language': 'python'},
   'drawspaces': {'language': 'c'},
   'git': {'language': 'python'},
   'joinlines': {'language': 'python'},
