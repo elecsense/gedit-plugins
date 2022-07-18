@@ -26,12 +26,6 @@ plugins/drawspaces/drawspaces.plugin.desktop.in.in
 plugins/drawspaces/gedit-drawspaces-app-activatable.c
 plugins/drawspaces/gedit-drawspaces.metainfo.xml.in
 plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml
-plugins/findinfiles/dialog.ui
-plugins/findinfiles/dialog.vala
-plugins/findinfiles/findinfiles.plugin.desktop.in.in
-plugins/findinfiles/gedit-findinfiles.metainfo.xml.in
-plugins/findinfiles/plugin.vala
-plugins/findinfiles/result-panel.vala
 plugins/git/gedit-git.metainfo.xml.in
 plugins/git/git.plugin.desktop.in.in
 plugins/joinlines/gedit-joinlines.metainfo.xml.in

@@ -8,10 +8,6 @@ plugins/colorpicker/colorpicker.plugin.desktop.in
 plugins/colorschemer/colorschemer.plugin.desktop.in
 plugins/commander/commander.plugin.desktop.in
 plugins/drawspaces/drawspaces.plugin.desktop.in
-plugins/findinfiles/dialog.c
-plugins/findinfiles/findinfiles.plugin.desktop.in
-plugins/findinfiles/plugin.c
-plugins/findinfiles/result-panel.c
 plugins/git/git.plugin.desktop.in
 plugins/joinlines/joinlines.plugin.desktop.in
 plugins/multiedit/multiedit.plugin.desktop.in
