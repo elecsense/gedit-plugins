@@ -61,7 +61,6 @@ all_plugins = {
   'synctex': {'language': 'python'},
   'terminal': {'language': 'python'},
   'textsize': {'language': 'python'},
-  'translate': {'language': 'python'},
   'wordcompletion': {'language': 'c'},
 }
 
