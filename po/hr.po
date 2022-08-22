@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: gedit-plugins 0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
 "POT-Creation-Date: 2022-07-29 05:07+0000\n"
-"PO-Revision-Date: 2022-08-22 13:29+0200\n"
+"PO-Revision-Date: 2022-08-22 13:31+0200\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -561,7 +561,7 @@ msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
-"Ako je odabrano, ne stvaraj zvuk kada aplikacija pošalje izlazni slijed za "
+"Ako je istina, ne stvaraj zvuk kada aplikacija pošalje izlazni slijed za "
 "terminalovo zvono."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
@@ -599,7 +599,7 @@ msgstr "Treba li pomicati prema dnu ako je tipka pritisnuta"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
-msgstr "Ako je odabrano, pritisak tipke prebacuje traku pomicanja na dno."
+msgstr "Ako je istina, pritisak tipke prebacuje traku pomicanja na dno."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
 msgid "Whether to scroll to the bottom when there’s new output"
@@ -609,7 +609,7 @@ msgstr "Treba li pomicati prema dnu ako je dostupan novi izlaz"
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
-"Ako je odabrano, novi izlaz u terminalu će prebaciti traku pomicanja na dno."
+"Ako je istina, novi izlaz u terminalu će prebaciti traku pomicanja na dno."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
 msgid "Default color of text in the terminal"
@@ -658,7 +658,7 @@ msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"Ako je odabrano, shema boje teme korištena za okvir unosa teksta će se "
+"Ako je istina, shema boje teme korištena za okvir unosa teksta će se "
 "koristiti u terminalu, umjesto boja omogućenih od strane korisnika."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
@@ -695,8 +695,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Ako je odabrano, terminal će koristiti standardna slova radne površine ako "
-"je monospace (ili najsličnija slova)."
+"Ako je istina, terminal će koristiti standardna slova radne površine ako je "
+"monospace (ili najsličnija slova)."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
