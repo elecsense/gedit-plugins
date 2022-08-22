@@ -5,17 +5,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins 0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-09-20 17:48+0200\n"
+"POT-Creation-Date: 2022-07-18 05:15+0000\n"
+"PO-Revision-Date: 2022-08-22 13:35+0200\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -223,22 +223,7 @@ msgstr "Autor"
 msgid "Sample"
 msgstr "Primjerak"
 
-#: plugins/commander/commander/appactivatable.py:56
-msgid "Commander Mode"
-msgstr "Način naredbenog redka"
-
-#: plugins/commander/commander.plugin.desktop.in.in:6
-#: plugins/commander/gedit-commander.metainfo.xml.in:6
-msgid "Commander"
-msgstr "Naredbeni redak"
-
-#: plugins/commander/commander.plugin.desktop.in.in:7
-#: plugins/commander/gedit-commander.metainfo.xml.in:7
-msgid "Command line interface for advanced editing"
-msgstr "Sučelje naredbenog redka"
-
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Umetni razmak"
 
@@ -246,127 +231,13 @@ msgstr "Umetni razmak"
 msgid "Draw spaces and tabs"
 msgstr "Umetni razmak i tabulatore"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Prikaži _prazan redak"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Umetni razmak"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Umetni tabulator"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Umetni novi redak"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Umetni neprekidajući razmak"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Umetni slijedeći razmak"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Umetni razmak u tekst"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Umetni prateći razmak"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Umetni razmak i Tab"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Umetni prazan razmak"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Ako je ISTINA, umetanje će biti omogućeno."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Vrsta razmaka koja će biti umetnuta."
-
-#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
-#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
-#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
-msgid "Find in Files"
-msgstr "Potraži u datotekama"
-
-#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
-#: plugins/findinfiles/result-panel.vala:63
-msgid "_Close"
-msgstr "_Zatvori"
-
-#: plugins/findinfiles/dialog.ui:39
-msgctxt "label of the find button"
-msgid "_Find"
-msgstr "_Pretraži"
-
-#: plugins/findinfiles/dialog.ui:72
-msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind:"
-msgstr "P_otraži:"
-
-#: plugins/findinfiles/dialog.ui:99
-msgid "_In:"
-msgstr "_U:"
-
-#: plugins/findinfiles/dialog.ui:115
-msgid "Select a _folder"
-msgstr "Odaberi _mapu"
-
-#: plugins/findinfiles/dialog.ui:130
-msgid "_Match case"
-msgstr "_Uspoređuj mala i velika slova"
-
-#: plugins/findinfiles/dialog.ui:146
-msgid "Match _entire word only"
-msgstr "Podud_araj samo cijele riječi"
-
-#: plugins/findinfiles/dialog.ui:162
-msgid "Re_gular expression"
-msgstr "_Običan izraz"
-
-#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
-msgid "Find text in all files of a folder."
-msgstr "Pretraži tekst u svim datotekama i mapama."
-
-#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
-msgid "Find text in all files of a folder"
-msgstr "Pretraži tekst u svim datotekama i mapama"
-
-#: plugins/findinfiles/plugin.vala:159
-msgid "Find in Files…"
-msgstr "Pretraži u datotekama…"
-
-#: plugins/findinfiles/result-panel.vala:127
-msgid "hit"
-msgid_plural "hits"
-msgstr[0] "pogodak"
-msgstr[1] "pogodaka"
-msgstr[2] "pogodaka"
-
-#: plugins/findinfiles/result-panel.vala:196
-msgid "No results found"
-msgstr "Nema pronađenih rezultata"
-
-#: plugins/findinfiles/result-panel.vala:207
-msgid "File"
-msgstr "Datoteka"
-
-#. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:218
-msgid "Stop the search"
-msgstr "Zaustavi pretragu"
 
 #: plugins/git/gedit-git.metainfo.xml.in:6
 #: plugins/git/git.plugin.desktop.in.in:6
@@ -386,18 +257,15 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Istakni redke koji su promijenjeni od zadnje primjene"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Spoji/Razdvoji redke"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr ""
-"Spaja ili razdvaja višestruke redke pomoću prečaca tipkovnice Ctrl+J i Ctrl"
-"+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Spoji/Razdvoji redke"
+"Spaja ili razdvaja višestruke redke pomoću prečaca tipkovnice Ctrl+J i "
+"Ctrl+Shift+J"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -520,7 +388,7 @@ msgid "Saved Sessions"
 msgstr "Spremljene sesije"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Pametni razmaci"
 
@@ -529,7 +397,7 @@ msgid "Allow to unindent like if you were using tabs while you’re using spaces
 msgstr ""
 "Dopusti uklanjanje uvlake kao da koristite tabulatore dok koristite razmake"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Zaboravite da ne koristite tabulatore."
 
@@ -568,7 +436,7 @@ msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
-"Ako je odabrano, ne stvaraj zvuk kada aplikacija pošalje izlazni slijed za "
+"Ako je istina, ne stvaraj zvuk kada aplikacija pošalje izlazni slijed za "
 "terminalovo zvono."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
@@ -606,7 +474,7 @@ msgstr "Treba li pomicati prema dnu ako je tipka pritisnuta"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
-msgstr "Ako je odabrano, pritisak tipke prebacuje traku pomicanja na dno."
+msgstr "Ako je istina, pritisak tipke prebacuje traku pomicanja na dno."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
 msgid "Whether to scroll to the bottom when there’s new output"
@@ -616,7 +484,7 @@ msgstr "Treba li pomicati prema dnu ako je dostupan novi izlaz"
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
-"Ako je odabrano, novi izlaz u terminalu će prebaciti traku pomicanja na dno."
+"Ako je istina, novi izlaz u terminalu će prebaciti traku pomicanja na dno."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
 msgid "Default color of text in the terminal"
@@ -665,7 +533,7 @@ msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"Ako je odabrano, shema boje teme korištena za okvir unosa teksta će se "
+"Ako je istina, shema boje teme korištena za okvir unosa teksta će se "
 "koristiti u terminalu, umjesto boja omogućenih od strane korisnika."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
@@ -702,8 +570,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Ako je odabrano, terminal će koristiti standardna slova radne površine ako "
-"je monospace (ili najsličnija slova)."
+"Ako je istina, terminal će koristiti standardna slova radne površine ako je "
+"monospace (ili najsličnija slova)."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
@@ -749,101 +617,6 @@ msgstr "_Veći tekst"
 #: plugins/textsize/textsize.plugin.desktop.in.in:6
 msgid "Text Size"
 msgstr "Veličina teksta"
-
-#: plugins/translate/gedit-translate.metainfo.xml.in:5
-#: plugins/translate/translate.plugin.desktop.in.in:6
-msgid "Translate"
-msgstr "Prijevod"
-
-#: plugins/translate/gedit-translate.metainfo.xml.in:6
-#: plugins/translate/translate.plugin.desktop.in.in:7
-msgid "Translates text into different languages"
-msgstr "Prevodi tekst na razne jezike"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
-msgid "Where translation output is shown"
-msgstr "Gdje je izlaz prijevoda prikazan"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
-msgid ""
-"If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
-msgstr ""
-"Ako je odabrano, izlaz prijevoda je umetnut u prozor dokumenta ako nije u "
-"prozoru izlaza prijevoda."
-
-#. Translators: You can adjust the default pair for users in your locale.
-#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
-#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
-#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
-#. You must keep this format 'xxx|yyy', or things will break!
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
-msgid "'eng|spa'"
-msgstr "'eng|hrv'"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
-msgid "Language pair used"
-msgstr "Korišteni jezični par"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
-msgid "Language pair used to translate from one language to another"
-msgstr "Jezični par koji se koristi za prijevod jednog jezika na drugog"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "API ključ za udaljenu web uslugu"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
-msgid "Remote web service to use"
-msgstr "Udaljena web usluga koja se koristi"
-
-#: plugins/translate/translate/__init__.py:72
-#, python-brace-format
-msgid "Translations powered by {0}"
-msgstr "Prijevodi pogonjeni {0}om"
-
-#: plugins/translate/translate/__init__.py:75
-msgid "Translate Console"
-msgstr "Konzola prijevoda"
-
-#: plugins/translate/translate/__init__.py:157
-#, python-brace-format
-msgid "Translate selected text [{0}]"
-msgstr "Prevedi odabrani tekst [{0}]"
-
-#: plugins/translate/translate/preferences.py:84
-msgid "API Key"
-msgstr "API ključ"
-
-#: plugins/translate/translate/services/yandex.py:65
-msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
-msgstr ""
-"Morate nabaviti besplatan API ključ na <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
-
-#: plugins/translate/translate/ui/preferences.ui:23
-msgid "Translation languages:"
-msgstr "Jezici prijevoda:"
-
-#: plugins/translate/translate/ui/preferences.ui:60
-msgid "Where to output translation:"
-msgstr "Gdje prikazati prijevod:"
-
-#: plugins/translate/translate/ui/preferences.ui:75
-msgid "Same document window"
-msgstr "U prozoru dokumenta"
-
-#: plugins/translate/translate/ui/preferences.ui:90
-msgid "Translate console (bottom panel)"
-msgstr "Konzoli prijevoda (donji panel)"
-
-#: plugins/translate/translate/ui/preferences.ui:157
-msgid "Translation service:"
-msgstr "Usluga prijevoda:"
 
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:18
 msgid "Interactive completion"
@@ -891,6 +664,168 @@ msgstr "Dovršavanje riječi"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Dovršavanje riječi pomoću radnog okruženje dovršavanja"
+
+#~ msgid "Commander Mode"
+#~ msgstr "Način naredbenog redka"
+
+#~ msgid "Commander"
+#~ msgstr "Naredbeni redak"
+
+#~ msgid "Command line interface for advanced editing"
+#~ msgstr "Sučelje naredbenog redka"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Prikaži _prazan redak"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Umetni tabulator"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Umetni novi redak"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Umetni neprekidajući razmak"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Umetni slijedeći razmak"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Umetni razmak u tekst"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Umetni prateći razmak"
+
+#~ msgid "Show White Space"
+#~ msgstr "Umetni prazan razmak"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Ako je ISTINA, umetanje će biti omogućeno."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Vrsta razmaka koja će biti umetnuta."
+
+#~ msgid "Find in Files"
+#~ msgstr "Potraži u datotekama"
+
+#~ msgid "_Close"
+#~ msgstr "_Zatvori"
+
+#~ msgctxt "label of the find button"
+#~ msgid "_Find"
+#~ msgstr "_Pretraži"
+
+#~ msgctxt "label on the left of the GtkEntry containing text to search"
+#~ msgid "F_ind:"
+#~ msgstr "P_otraži:"
+
+#~ msgid "_In:"
+#~ msgstr "_U:"
+
+#~ msgid "Select a _folder"
+#~ msgstr "Odaberi _mapu"
+
+#~ msgid "_Match case"
+#~ msgstr "_Uspoređuj mala i velika slova"
+
+#~ msgid "Match _entire word only"
+#~ msgstr "Podud_araj samo cijele riječi"
+
+#~ msgid "Re_gular expression"
+#~ msgstr "_Običan izraz"
+
+#~ msgid "Find text in all files of a folder."
+#~ msgstr "Pretraži tekst u svim datotekama i mapama."
+
+#~ msgid "Find text in all files of a folder"
+#~ msgstr "Pretraži tekst u svim datotekama i mapama"
+
+#~ msgid "Find in Files…"
+#~ msgstr "Pretraži u datotekama…"
+
+#~ msgid "hit"
+#~ msgid_plural "hits"
+#~ msgstr[0] "pogodak"
+#~ msgstr[1] "pogodaka"
+#~ msgstr[2] "pogodaka"
+
+#~ msgid "No results found"
+#~ msgstr "Nema pronađenih rezultata"
+
+#~ msgid "File"
+#~ msgstr "Datoteka"
+
+#~ msgid "Stop the search"
+#~ msgstr "Zaustavi pretragu"
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Spoji/Razdvoji redke"
+
+#~ msgid "Translate"
+#~ msgstr "Prijevod"
+
+#~ msgid "Translates text into different languages"
+#~ msgstr "Prevodi tekst na razne jezike"
+
+#~ msgid "Where translation output is shown"
+#~ msgstr "Gdje je izlaz prijevoda prikazan"
+
+#~ msgid ""
+#~ "If true, output of the translation is inserted in the document window if "
+#~ "not in the Output Translate Window."
+#~ msgstr ""
+#~ "Ako je odabrano, izlaz prijevoda je umetnut u prozor dokumenta ako nije u "
+#~ "prozoru izlaza prijevoda."
+
+#~ msgid "'eng|spa'"
+#~ msgstr "'eng|hrv'"
+
+#~ msgid "Language pair used"
+#~ msgstr "Korišteni jezični par"
+
+#~ msgid "Language pair used to translate from one language to another"
+#~ msgstr "Jezični par koji se koristi za prijevod jednog jezika na drugog"
+
+#~ msgid "API key for remote web service"
+#~ msgstr "API ključ za udaljenu web uslugu"
+
+#~ msgid "Remote web service to use"
+#~ msgstr "Udaljena web usluga koja se koristi"
+
+#, python-brace-format
+#~ msgid "Translations powered by {0}"
+#~ msgstr "Prijevodi pogonjeni {0}om"
+
+#~ msgid "Translate Console"
+#~ msgstr "Konzola prijevoda"
+
+#, python-brace-format
+#~ msgid "Translate selected text [{0}]"
+#~ msgstr "Prevedi odabrani tekst [{0}]"
+
+#~ msgid "API Key"
+#~ msgstr "API ključ"
+
+#~ msgid ""
+#~ "You need to obtain a free API key at <a href='https://tech.yandex.com/"
+#~ "translate/'>https://tech.yandex.com/translate/</a>"
+#~ msgstr ""
+#~ "Morate nabaviti besplatan API ključ na <a href='https://tech.yandex.com/"
+#~ "translate/'>https://tech.yandex.com/translate/</a>"
+
+#~ msgid "Translation languages:"
+#~ msgstr "Jezici prijevoda:"
+
+#~ msgid "Where to output translation:"
+#~ msgstr "Gdje prikazati prijevod:"
+
+#~ msgid "Same document window"
+#~ msgstr "U prozoru dokumenta"
+
+#~ msgid "Translate console (bottom panel)"
+#~ msgstr "Konzoli prijevoda (donji panel)"
+
+#~ msgid "Translation service:"
+#~ msgstr "Usluga prijevoda:"
 
 #~ msgid "_In "
 #~ msgstr "_U "
