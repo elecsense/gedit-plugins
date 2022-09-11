@@ -14,21 +14,22 @@
 # Wylmer Wang <wantinghard@gmail.com>, 2010, 2013.
 # Aron Xu <aronxu@gnome.org>, 2010.
 # YunQiang Su <wzssyqa@gmail.com>, 2014.
+# lumingzh <lumingzh@qq.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-08-31 15:01-0400\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"POT-Creation-Date: 2022-09-07 15:45+0000\n"
+"PO-Revision-Date: 2022-09-10 18:53+0800\n"
+"Last-Translator: lumingzh <lumingzh@qq.com>\n"
+"Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.1\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Gtranslator 42.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -145,7 +146,7 @@ msgstr "创建和编辑语法高亮使用的色彩方案"
 #: plugins/colorschemer/schemer/schemer.py:271
 #: plugins/colorschemer/schemer/schemer.py:318
 msgid "There was a problem saving the scheme"
-msgstr ""
+msgstr "保存该方案存在问题"
 
 #: plugins/colorschemer/schemer/schemer.py:272
 msgid ""
@@ -154,6 +155,10 @@ msgid ""
 "\n"
 "Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
+"您选择创建新的方案\n"
+"但您使用的名称或标识已经被使用。\n"
+"\n"
+"请确保选择一个尚未使用的名称和标识。\n"
 
 #: plugins/colorschemer/schemer/schemer.py:319
 msgid ""
@@ -162,6 +167,10 @@ msgid ""
 "\n"
 "Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
+"您没有权限覆盖您已选中的方案。\n"
+"将会创建一份副本代替。\n"
+"\n"
+"请确保选择一个尚未使用的名称和标识。\n"
 
 #. there must have been some conflict, since it opened the wrong file
 #: plugins/colorschemer/schemer/schemer.py:378
@@ -170,7 +179,7 @@ msgstr "打开文件时出现问题"
 
 #: plugins/colorschemer/schemer/schemer.py:379
 msgid "You appear to have schemes with the same IDs in different directories\n"
-msgstr ""
+msgstr "您好像在不同目录拥有相同标识的方案\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -228,22 +237,7 @@ msgstr "作者"
 msgid "Sample"
 msgstr "例子"
 
-#: plugins/commander/commander/appactivatable.py:56
-msgid "Commander Mode"
-msgstr "指挥官模式"
-
-#: plugins/commander/commander.plugin.desktop.in.in:6
-#: plugins/commander/gedit-commander.metainfo.xml.in:6
-msgid "Commander"
-msgstr "命令工具"
-
-#: plugins/commander/commander.plugin.desktop.in.in:7
-#: plugins/commander/gedit-commander.metainfo.xml.in:7
-msgid "Command line interface for advanced editing"
-msgstr "高级编辑的命令行接口"
-
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "绘制空白字符"
 
@@ -251,127 +245,13 @@ msgstr "绘制空白字符"
 msgid "Draw spaces and tabs"
 msgstr "绘制空格和制表符"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "显示空白(_W)"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "绘制空格"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "绘制制表符"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "绘制换行符"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "绘制不间断空格"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "绘制前导空白"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "绘制文本中的空白字符"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "绘制尾随空格"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "绘制空格和制表符"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "显示空白"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "如果为 TRUE 将启用绘制。"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "要绘制的空白类型。"
-
-#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
-#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
-#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
-msgid "Find in Files"
-msgstr "在文件中查找"
-
-#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
-#: plugins/findinfiles/result-panel.vala:63
-msgid "_Close"
-msgstr "关闭(_C)"
-
-#: plugins/findinfiles/dialog.ui:39
-msgctxt "label of the find button"
-msgid "_Find"
-msgstr "查找(_F)"
-
-#: plugins/findinfiles/dialog.ui:72
-msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind:"
-msgstr "查找(_I)："
-
-#: plugins/findinfiles/dialog.ui:99
-msgid "_In:"
-msgstr ""
-
-#: plugins/findinfiles/dialog.ui:115
-msgid "Select a _folder"
-msgstr "选择文件夹(_F)"
-
-#: plugins/findinfiles/dialog.ui:130
-msgid "_Match case"
-msgstr "区分大小写(_M)"
-
-#: plugins/findinfiles/dialog.ui:146
-msgid "Match _entire word only"
-msgstr "仅整个单词(_E)"
-
-#: plugins/findinfiles/dialog.ui:162
-msgid "Re_gular expression"
-msgstr "正则表达式(_G)"
-
-#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
-msgid "Find text in all files of a folder."
-msgstr "在文件夹的所有文件中查找文本。"
-
-#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
-msgid "Find text in all files of a folder"
-msgstr "在文件夹的所有文件中查找文本"
-
-#: plugins/findinfiles/plugin.vala:159
-msgid "Find in Files…"
-msgstr "在文件中查找…"
-
-#: plugins/findinfiles/result-panel.vala:127
-#, fuzzy
-#| msgid "Git"
-msgid "hit"
-msgid_plural "hits"
-msgstr[0] "Git"
-
-#: plugins/findinfiles/result-panel.vala:196
-msgid "No results found"
-msgstr "无搜索结果"
-
-#: plugins/findinfiles/result-panel.vala:207
-msgid "File"
-msgstr "文件"
-
-#. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:218
-msgid "Stop the search"
-msgstr "停止搜索"
 
 #: plugins/git/gedit-git.metainfo.xml.in:6
 #: plugins/git/git.plugin.desktop.in.in:6
@@ -389,16 +269,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "高亮最后一次提交后修改的行"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "合并/拆分行"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "通过 Ctrl+J 以及 Ctrl+Shift+J 合并或拆分多行"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "合并/拆分行"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -520,22 +397,17 @@ msgid "Saved Sessions"
 msgstr "已存会话"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "智能空格"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
-#, fuzzy
-#| msgid ""
-#| "Allow to unindent like if you were using tabs while you're using spaces"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
-msgstr "如果您在使用制表符时同时使用空格，允许取消缩排"
+msgstr "如果您曾经使用制表符而现在使用空格则允许取消缩进"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
-#, fuzzy
-#| msgid "Forget you're not using tabulations."
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
-msgstr "忘记使用制表符的年代。"
+msgstr "忘记您并未使用制表符。"
 
 #: plugins/synctex/gedit-synctex.metainfo.xml.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
@@ -568,10 +440,6 @@ msgid "Whether to silence terminal bell"
 msgstr "是否禁止终端响铃"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
-#, fuzzy
-#| msgid ""
-#| "If true, don't make a noise when applications send the escape sequence "
-#| "for the terminal bell."
 msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
@@ -582,11 +450,6 @@ msgid "Number of lines to keep in scrollback"
 msgstr "可回滚的行数"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
-#, fuzzy
-#| msgid ""
-#| "Number of scrollback lines to keep around. You can scroll back in the "
-#| "terminal by this number of lines; lines that don't fit in the scrollback "
-#| "are discarded. If scrollback-unlimited is true, this value is ignored."
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
@@ -617,16 +480,10 @@ msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "如果设为 true，则按键时回滚到底部。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
-#, fuzzy
-#| msgid "Whether to scroll to the bottom when there's new output"
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "有新输出时是否滚动到底部"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
-#, fuzzy
-#| msgid ""
-#| "If true, whenever there's new output the terminal will scroll to the "
-#| "bottom."
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr "如果设为 true，当有新输出时，终端将滚动到底部。"
@@ -636,50 +493,37 @@ msgid "Default color of text in the terminal"
 msgstr "终端中文本的默认颜色"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-#, fuzzy
-#| msgid ""
-#| "Default color of text in the terminal, as a color specification (can be "
-#| "HTML-style hex digits, or a color name such as \"red\")."
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
-"终端文字的默认颜色，为某一颜色规范(可以是 HTML 样式的16进制数字，或某个颜色"
-"名，如“red”)"
+"终端文字的默认颜色，为某一颜色规范（可以是 HTML 样式的 16 进制数字，或某个颜"
+"色名如“red”）。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "终端背景的默认颜色"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
-#, fuzzy
-#| msgid ""
-#| "Default color of terminal background, as a color specification (can be "
-#| "HTML-style hex digits, or a color name such as \"red\")."
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
-"终端背景的默认颜色，可以是某个颜色规范(可以是 HTML 样式的16制数字，或颜色名，"
-"比如“red”)"
+"终端背景的默认颜色，可以是某个颜色规范（可以是 HTML 样式的 16 制数字，或颜色"
+"名如“red”）。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "终端程序调色板"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
-#, fuzzy
-#| msgid ""
-#| "Terminals have a 16-color palette that applications inside the terminal "
-#| "can use. This is that palette, in the form of a colon-separated list of "
-#| "color names. Color names should be in hex format e.g. \"#FF00FF\""
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. “#FF00FF”"
 msgstr ""
-"终端有一个16色的调色板可让终端中程序使用。这就是该调色板，格式是冒号分隔的颜"
-"色名列表。颜色名应当是16进制的格式，如“#FF00FF”"
+"终端有一个 16 色的调色板可让终端中程序使用。这就是该调色板，格式是冒号分隔的"
+"颜色名列表。颜色名应当是 16 进制的格式如“#FF00FF”"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -698,10 +542,6 @@ msgid "Whether to blink the cursor"
 msgstr "是否允许光标闪烁"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
-#, fuzzy
-#| msgid ""
-#| "The possible values are \"system\" to use the global cursor blinking "
-#| "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -713,10 +553,6 @@ msgid "The cursor appearance"
 msgstr "光标形状"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
-#, fuzzy
-#| msgid ""
-#| "The possible values are \"block\" to use a block cursor, \"ibeam\" to use "
-#| "a vertical line cursor, or \"underline\" to use an underline cursor."
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -729,16 +565,12 @@ msgid "Whether to use the system font"
 msgstr "是否使用系统字体"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
-#, fuzzy
-#| msgid ""
-#| "If true, the terminal will use the desktop-global standard font if it's "
-#| "monospace (and the most similar font it can come up with otherwise)."
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"如果设为 true，终端将使用桌面的全局标准字体，如果该字体是等宽字体(否则将使用"
-"最相似的字体)。"
+"如果设为 true，终端将在桌面全局标准字体为等宽字体的情况下使用它（否则将使用最"
+"相似的字体）。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
@@ -785,99 +617,6 @@ msgstr "较大文本(_L)"
 msgid "Text Size"
 msgstr "文本大小"
 
-#: plugins/translate/gedit-translate.metainfo.xml.in:5
-#: plugins/translate/translate.plugin.desktop.in.in:6
-msgid "Translate"
-msgstr "翻译"
-
-#: plugins/translate/gedit-translate.metainfo.xml.in:6
-#: plugins/translate/translate.plugin.desktop.in.in:7
-msgid "Translates text into different languages"
-msgstr "将文本翻译为另一语言"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
-msgid "Where translation output is shown"
-msgstr "翻译输出显示位置"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
-msgid ""
-"If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
-msgstr ""
-
-#. Translators: You can adjust the default pair for users in your locale.
-#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
-#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
-#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
-#. You must keep this format 'xxx|yyy', or things will break!
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
-msgid "'eng|spa'"
-msgstr ""
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
-#, fuzzy
-#| msgid "Language code"
-msgid "Language pair used"
-msgstr "语言代码"
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
-msgid "Language pair used to translate from one language to another"
-msgstr ""
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr ""
-
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
-msgid "Remote web service to use"
-msgstr "要使用的远程网络服务"
-
-#: plugins/translate/translate/__init__.py:72
-#, python-brace-format
-msgid "Translations powered by {0}"
-msgstr "翻译由 {0} 提供"
-
-#: plugins/translate/translate/__init__.py:75
-msgid "Translate Console"
-msgstr ""
-
-#: plugins/translate/translate/__init__.py:157
-#, python-brace-format
-msgid "Translate selected text [{0}]"
-msgstr ""
-
-#: plugins/translate/translate/preferences.py:84
-msgid "API Key"
-msgstr ""
-
-#: plugins/translate/translate/services/yandex.py:65
-msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
-msgstr ""
-
-#: plugins/translate/translate/ui/preferences.ui:23
-msgid "Translation languages:"
-msgstr "翻译语言："
-
-#: plugins/translate/translate/ui/preferences.ui:60
-msgid "Where to output translation:"
-msgstr ""
-
-#: plugins/translate/translate/ui/preferences.ui:75
-msgid "Same document window"
-msgstr ""
-
-#: plugins/translate/translate/ui/preferences.ui:90
-msgid "Translate console (bottom panel)"
-msgstr ""
-
-#: plugins/translate/translate/ui/preferences.ui:157
-msgid "Translation service:"
-msgstr "翻译服务："
-
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:18
 msgid "Interactive completion"
 msgstr "交互式补全"
@@ -922,6 +661,125 @@ msgstr "单词补全"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "使用补全框架的单词补全"
+
+#~ msgid "Commander Mode"
+#~ msgstr "指挥官模式"
+
+#~ msgid "Commander"
+#~ msgstr "命令工具"
+
+#~ msgid "Command line interface for advanced editing"
+#~ msgstr "高级编辑的命令行接口"
+
+#~ msgid "Show _White Space"
+#~ msgstr "显示空白(_W)"
+
+#~ msgid "Draw tabs"
+#~ msgstr "绘制制表符"
+
+#~ msgid "Draw new lines"
+#~ msgstr "绘制换行符"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "绘制不间断空格"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "绘制前导空白"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "绘制文本中的空白字符"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "绘制尾随空格"
+
+#~ msgid "Show White Space"
+#~ msgstr "显示空白"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "如果为 TRUE 将启用绘制。"
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "要绘制的空白类型。"
+
+#~ msgid "Find in Files"
+#~ msgstr "在文件中查找"
+
+#~ msgid "_Close"
+#~ msgstr "关闭(_C)"
+
+#~ msgctxt "label of the find button"
+#~ msgid "_Find"
+#~ msgstr "查找(_F)"
+
+#~ msgctxt "label on the left of the GtkEntry containing text to search"
+#~ msgid "F_ind:"
+#~ msgstr "查找(_I)："
+
+#~ msgid "Select a _folder"
+#~ msgstr "选择文件夹(_F)"
+
+#~ msgid "_Match case"
+#~ msgstr "区分大小写(_M)"
+
+#~ msgid "Match _entire word only"
+#~ msgstr "仅整个单词(_E)"
+
+#~ msgid "Re_gular expression"
+#~ msgstr "正则表达式(_G)"
+
+#~ msgid "Find text in all files of a folder."
+#~ msgstr "在文件夹的所有文件中查找文本。"
+
+#~ msgid "Find text in all files of a folder"
+#~ msgstr "在文件夹的所有文件中查找文本"
+
+#~ msgid "Find in Files…"
+#~ msgstr "在文件中查找…"
+
+#, fuzzy
+#~| msgid "Git"
+#~ msgid "hit"
+#~ msgid_plural "hits"
+#~ msgstr[0] "Git"
+
+#~ msgid "No results found"
+#~ msgstr "无搜索结果"
+
+#~ msgid "File"
+#~ msgstr "文件"
+
+#~ msgid "Stop the search"
+#~ msgstr "停止搜索"
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "合并/拆分行"
+
+#~ msgid "Translate"
+#~ msgstr "翻译"
+
+#~ msgid "Translates text into different languages"
+#~ msgstr "将文本翻译为另一语言"
+
+#~ msgid "Where translation output is shown"
+#~ msgstr "翻译输出显示位置"
+
+#, fuzzy
+#~| msgid "Language code"
+#~ msgid "Language pair used"
+#~ msgstr "语言代码"
+
+#~ msgid "Remote web service to use"
+#~ msgstr "要使用的远程网络服务"
+
+#, python-brace-format
+#~ msgid "Translations powered by {0}"
+#~ msgstr "翻译由 {0} 提供"
+
+#~ msgid "Translation languages:"
+#~ msgstr "翻译语言："
+
+#~ msgid "Translation service:"
+#~ msgstr "翻译服务："
 
 #~ msgid "Empty Document"
 #~ msgstr "空白文档"
