@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="plugin-draw-spaces">
+      id="plugin-draw-tabs">
 
   <info>
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
@@ -16,9 +16,9 @@
     <desc>Show white space between words or portions of code.</desc>
   </info>
 
-  <title>Draw Spaces</title>
+  <title>Draw tabs</title>
 
-  <p>The <app>Draw Spaces</app> plugin is a simple plugin that can mark spaces,
+  <p>The <app>Draw tabs</app> plugin is a simple plugin that can mark spaces,
   tabs, and other types of whitespace with a small, visible marker. By making
   whitespace visible, you can more easily see how whitespace is used in a
   document, and can apply spacing strategies more consistently.</p>
@@ -31,7 +31,7 @@
       <gui style="tab">Plugins</gui></guiseq>.</p>
     </item>
     <item>
-      <p>Select <gui style="menuitem">Draw Spaces</gui> to enable the plugin.</p>
+      <p>Select <gui style="menuitem">Draw tabs</gui> to enable the plugin.</p>
     </item>
     <item>
       <p>Press <gui style="button">Preferences</gui> to set its options.</p>
